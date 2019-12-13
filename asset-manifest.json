@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/citationdb/static/css/main.0b57dec3.chunk.css",
+    "main.css": "/citationdb/static/css/main.4484d0ab.chunk.css",
     "main.js": "/citationdb/static/js/main.2ba078c6.chunk.js",
     "main.js.map": "/citationdb/static/js/main.2ba078c6.chunk.js.map",
     "runtime~main.js": "/citationdb/static/js/runtime~main.cd3f41e9.js",
@@ -9,10 +9,10 @@
     "static/js/2.52478a68.chunk.js": "/citationdb/static/js/2.52478a68.chunk.js",
     "static/js/2.52478a68.chunk.js.map": "/citationdb/static/js/2.52478a68.chunk.js.map",
     "index.html": "/citationdb/index.html",
-    "precache-manifest.9591b81f6bb6823bc858afa7d90f4eb1.js": "/citationdb/precache-manifest.9591b81f6bb6823bc858afa7d90f4eb1.js",
+    "precache-manifest.455bccd004c677b9e53a56b1eca82e32.js": "/citationdb/precache-manifest.455bccd004c677b9e53a56b1eca82e32.js",
     "service-worker.js": "/citationdb/service-worker.js",
     "static/css/2.5ec2c46e.chunk.css.map": "/citationdb/static/css/2.5ec2c46e.chunk.css.map",
-    "static/css/main.0b57dec3.chunk.css.map": "/citationdb/static/css/main.0b57dec3.chunk.css.map",
+    "static/css/main.4484d0ab.chunk.css.map": "/citationdb/static/css/main.4484d0ab.chunk.css.map",
     "static/media/main.scss": "/citationdb/static/media/yalenew-roman-webfont.f2b260ad.woff2"
   }
 }
