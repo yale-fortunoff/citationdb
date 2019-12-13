@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ea78b209f246751aa3026b5eb946dd4",
+    "revision": "7629ded729a95e5a834e61ebea989731",
     "url": "/citationdb/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/citationdb/static/css/2.5ec2c46e.chunk.css"
   },
   {
-    "revision": "dc5336a252f99553b94e",
-    "url": "/citationdb/static/css/main.4484d0ab.chunk.css"
+    "revision": "972fb78b50a687daff00",
+    "url": "/citationdb/static/css/main.2140f69a.chunk.css"
   },
   {
     "revision": "809b13bb26a737b41c7e",
     "url": "/citationdb/static/js/2.52478a68.chunk.js"
   },
   {
-    "revision": "dc5336a252f99553b94e",
+    "revision": "972fb78b50a687daff00",
     "url": "/citationdb/static/js/main.2ba078c6.chunk.js"
   },
   {
