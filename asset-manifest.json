@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/fortunoff-citationdb/static/css/main.669dbf5d.chunk.css",
-    "main.js": "/fortunoff-citationdb/static/js/main.88071825.chunk.js",
-    "main.js.map": "/fortunoff-citationdb/static/js/main.88071825.chunk.js.map",
-    "runtime~main.js": "/fortunoff-citationdb/static/js/runtime~main.54ce4746.js",
-    "runtime~main.js.map": "/fortunoff-citationdb/static/js/runtime~main.54ce4746.js.map",
-    "static/css/2.67b38d6f.chunk.css": "/fortunoff-citationdb/static/css/2.67b38d6f.chunk.css",
-    "static/js/2.c8cce4cc.chunk.js": "/fortunoff-citationdb/static/js/2.c8cce4cc.chunk.js",
-    "static/js/2.c8cce4cc.chunk.js.map": "/fortunoff-citationdb/static/js/2.c8cce4cc.chunk.js.map",
-    "index.html": "/fortunoff-citationdb/index.html",
-    "precache-manifest.19b04466a055b93934694df69fbab657.js": "/fortunoff-citationdb/precache-manifest.19b04466a055b93934694df69fbab657.js",
-    "service-worker.js": "/fortunoff-citationdb/service-worker.js",
-    "static/css/2.67b38d6f.chunk.css.map": "/fortunoff-citationdb/static/css/2.67b38d6f.chunk.css.map",
-    "static/css/main.669dbf5d.chunk.css.map": "/fortunoff-citationdb/static/css/main.669dbf5d.chunk.css.map",
-    "static/media/main.scss": "/fortunoff-citationdb/static/media/yalenew-roman-webfont.f2b260ad.woff2"
+    "main.css": "/citationdb/static/css/main.0b57dec3.chunk.css",
+    "main.js": "/citationdb/static/js/main.2ba078c6.chunk.js",
+    "main.js.map": "/citationdb/static/js/main.2ba078c6.chunk.js.map",
+    "runtime~main.js": "/citationdb/static/js/runtime~main.cd3f41e9.js",
+    "runtime~main.js.map": "/citationdb/static/js/runtime~main.cd3f41e9.js.map",
+    "static/css/2.5ec2c46e.chunk.css": "/citationdb/static/css/2.5ec2c46e.chunk.css",
+    "static/js/2.52478a68.chunk.js": "/citationdb/static/js/2.52478a68.chunk.js",
+    "static/js/2.52478a68.chunk.js.map": "/citationdb/static/js/2.52478a68.chunk.js.map",
+    "index.html": "/citationdb/index.html",
+    "precache-manifest.9591b81f6bb6823bc858afa7d90f4eb1.js": "/citationdb/precache-manifest.9591b81f6bb6823bc858afa7d90f4eb1.js",
+    "service-worker.js": "/citationdb/service-worker.js",
+    "static/css/2.5ec2c46e.chunk.css.map": "/citationdb/static/css/2.5ec2c46e.chunk.css.map",
+    "static/css/main.0b57dec3.chunk.css.map": "/citationdb/static/css/main.0b57dec3.chunk.css.map",
+    "static/media/main.scss": "/citationdb/static/media/yalenew-roman-webfont.f2b260ad.woff2"
   }
 }
