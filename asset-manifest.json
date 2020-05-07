@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/citationdb/static/css/main.2140f69a.chunk.css",
-    "main.js": "/citationdb/static/js/main.32b83030.chunk.js",
-    "main.js.map": "/citationdb/static/js/main.32b83030.chunk.js.map",
+    "main.css": "/citationdb/static/css/main.ef60c69e.chunk.css",
+    "main.js": "/citationdb/static/js/main.4a466fb0.chunk.js",
+    "main.js.map": "/citationdb/static/js/main.4a466fb0.chunk.js.map",
     "runtime~main.js": "/citationdb/static/js/runtime~main.cd3f41e9.js",
     "runtime~main.js.map": "/citationdb/static/js/runtime~main.cd3f41e9.js.map",
     "static/css/2.5ec2c46e.chunk.css": "/citationdb/static/css/2.5ec2c46e.chunk.css",
-    "static/js/2.e33da536.chunk.js": "/citationdb/static/js/2.e33da536.chunk.js",
-    "static/js/2.e33da536.chunk.js.map": "/citationdb/static/js/2.e33da536.chunk.js.map",
+    "static/js/2.4393b1b9.chunk.js": "/citationdb/static/js/2.4393b1b9.chunk.js",
+    "static/js/2.4393b1b9.chunk.js.map": "/citationdb/static/js/2.4393b1b9.chunk.js.map",
     "index.html": "/citationdb/index.html",
-    "precache-manifest.f60caeaaa7bda5a553bc8a5a9060add0.js": "/citationdb/precache-manifest.f60caeaaa7bda5a553bc8a5a9060add0.js",
+    "precache-manifest.27c077cdbcaee26a60cbdebd201fde5c.js": "/citationdb/precache-manifest.27c077cdbcaee26a60cbdebd201fde5c.js",
     "service-worker.js": "/citationdb/service-worker.js",
     "static/css/2.5ec2c46e.chunk.css.map": "/citationdb/static/css/2.5ec2c46e.chunk.css.map",
-    "static/css/main.2140f69a.chunk.css.map": "/citationdb/static/css/main.2140f69a.chunk.css.map",
+    "static/css/main.ef60c69e.chunk.css.map": "/citationdb/static/css/main.ef60c69e.chunk.css.map",
     "static/media/main.scss": "/citationdb/static/media/yalenew-roman-webfont.f2b260ad.woff2"
   }
 }
