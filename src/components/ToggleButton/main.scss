@@ -1,0 +1,58 @@
+@import "../../style/colors";
+
+.toggle-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .label{
+    color: $color-textgray;
+    font-size: 10px
+  }
+}
+
+// .ToggleButton {
+//   margin: 3px;
+//   border-radius: 8px;
+//   background-color: $color-backgroundgray;
+//   padding: 6px;
+//   font-weight: bold;
+//   user-select: none;
+//   cursor: pointer;
+//   transition: background-color 1s;
+//   //border: 1px solid white;
+// }
+
+// .ToggleButton:hover {
+//   // border: 1px solid black;
+//   box-shadow: $drop-shadow;
+// }
+
+.ToggleButton .Button{
+  margin: 0px 10px;
+}
+
+.ToggleButton.off .Button{
+    background-color: $color-white;
+    color: $color-textgray;
+}
+.ToggleButton.on .Button {
+  color: white;
+}
+
+// $background-color: gray;
+// $hover-color: lightskyblue;
+
+// .ToggleButton{
+//     cursor: pointer;
+// }
+
+// .ToggleButton.off:hover,
+// .ToggleButton.on:hover,
+// .ToggleButton:hover{
+//     background-color: $hover-color;
+// }
+
+// .ToggleButton.on {
+//     background-color: $background-color;
+// }

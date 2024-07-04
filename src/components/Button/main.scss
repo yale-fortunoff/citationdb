@@ -1,0 +1,32 @@
+@import "../../style/colors";
+
+.Button {
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px 10px;
+  background-color: #efefef;
+  flex-direction: column;
+  justify-content: center;
+  font-size: small;
+  font-weight: normal;
+  text-align: center;
+  height: 30px;
+  // margin: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.Button,
+a .Button {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.Button:hover,
+a .Button:hover {
+  // border: 1px solid black;
+  box-shadow: $drop-shadow;
+}
+
+

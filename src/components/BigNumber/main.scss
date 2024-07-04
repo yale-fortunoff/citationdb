@@ -1,0 +1,23 @@
+
+.BigNumber {
+    margin-left: 6px;
+  
+    .number {
+      box-sizing: border-box;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      font-size: 20px;
+      border-radius: 8px;
+
+      font-weight: normal;
+    }
+
+    .label {
+      font-size: 12px;
+      font-weight: normal;
+      text-align: center;
+    }
+  }
