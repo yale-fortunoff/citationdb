@@ -4,11 +4,8 @@ import Button from "../Button";
 
 export default function ToggleButton(props: any) {
   return (
-    <div
-      onClick={props.handleClick}
-      className={`ToggleButton ${props.itemType} ${props.status ? "on" : "off"}`}
-    >
-      <Button>{props.label}</Button>
-    </div>
+    <Button onClick={props.handleClick} className={props.status ? "on" : "off"}>
+      {props.label}
+    </Button>
   );
 }

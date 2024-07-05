@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import pluralize from "pluralize";
 
 import {
   getSavedAuthors,
@@ -52,7 +53,10 @@ export default function BreadCrumb(props: any) {
 
   const HomeButton = () => {
     return pathname === "/" ? null : (
-      <Link className="HomeButton" href="/">
+      <Link
+        className="mr-1 box-border flex h-7 flex-col justify-center rounded-lg border-0 bg-[#efefef] px-2.5 py-0 text-center font-bold text-[#6e6e6e] no-underline hover:shadow-yale"
+        href="/"
+      >
         <button className="Button" type="button" onClick={() => alert("TODO")}>
           Home
         </button>
@@ -64,8 +68,8 @@ export default function BreadCrumb(props: any) {
   const saveType = props.saveType || "invalid";
 
   return (
-    <nav className="BreadCrumb">
-      <div className="breadcrumb-left">
+    <nav className="flex min-h-8 justify-between text-sm text-[#6e6e6e]">
+      <div className="flex">
         <HomeButton />
         <SavedItemCounter />
       </div>
