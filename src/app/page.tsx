@@ -1,15 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import BreadCrumb from "~/components/BreadCrumb";
 import PublicationHistogram from "~/components/PublicationHistogram";
 import BigNumber from "~/components/BigNumber";
-
-import Data from "../data";
 import SearchArea from "~/components/SearchArea";
 import ResultList from "~/components/ResultList";
 import SiteBanner from "~/components/SiteBanner";
+
+import data from "../data";
 
 export default function HomePage(props: any) {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -19,14 +19,28 @@ export default function HomePage(props: any) {
     author: boolean;
   }>({ resource: true, publication: true, author: true });
 
+  const [items, setItems] = useState<any>();
+  const [counts, setCounts] = useState<any>();
+
   const toggleFactory = (label: "resource" | "publication" | "author") => {
     return () => {
       setToggles((prev) => ({ ...prev, [label]: !prev[label] }));
     };
   };
 
-  const items = Data.search({ searchTerm, toggles });
-  const counts = Data.summarize.countByType(items);
+  useEffect(() => {
+    const newItems = data.search({ searchTerm, toggles });
+    setItems(newItems);
+    setCounts(data.summarize.countByType(newItems));
+  }, [
+    searchTerm,
+    toggles,
+    counts /* listener on counts / items causes refresh needed to retrieve correct data, but causes depth loop, TODO fix */,
+  ]);
+
+  if (!items || !counts) {
+    return;
+  }
 
   return (
     <>
@@ -38,7 +52,7 @@ export default function HomePage(props: any) {
             <BreadCrumb id={null} />
             <section className=" mt-7 flex flex-wrap">
               <div className="mx-2.5 flex-[2_1]">
-                <PublicationHistogram items={items} />
+                {/* <PublicationHistogram items={items} /> */}
               </div>
               <div className="flex max-w-[350px] justify-end">
                 <BigNumber
@@ -63,15 +77,11 @@ export default function HomePage(props: any) {
         <SearchArea
           onChange={setSearchTerm}
           value={searchTerm}
-          toggles={Object.keys(toggles).map((t: string, i: number) => {
-            return {
-              label: t + "s",
-              handler: toggleFactory(
-                t as "resource" | "publication" | "author",
-              ),
-              status: toggles[t as "resource" | "publication" | "author"],
-            };
-          })}
+          toggles={Object.keys(toggles).map((t: string, i: number) => ({
+            label: t + "s",
+            handler: toggleFactory(t as "resource" | "publication" | "author"),
+            status: toggles[t as "resource" | "publication" | "author"],
+          }))}
         />
         {/* <section className="column-wrapper">
         <ResultList items={items}></ResultList>
