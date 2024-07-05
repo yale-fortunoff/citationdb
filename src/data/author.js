@@ -1,4 +1,3 @@
-
 import BasicAPIEndpoint from "./BasicAPIEndpoint";
 import entity from "./enums";
 
@@ -8,5 +7,9 @@ import entity from "./enums";
  * @type {Data.BasicAPIEndpoint}
  */
 
-const endpoint = new BasicAPIEndpoint({"fetch-data-url":"data/author.json"}, x=>x["name"], x=>entity.author);
+const endpoint = new BasicAPIEndpoint(
+  { "fetch-data-url": "data/author.json" },
+  (x) => x["name"],
+  (x) => entity.author,
+);
 export default endpoint;

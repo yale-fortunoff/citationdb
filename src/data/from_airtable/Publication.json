@@ -1,28 +1,28 @@
 [
   {
-    "id": "40caeb19",
+    "enabled": true,
     "author.id": [
       "strom-margot"
     ],
-    "title": "Stories of Separation: Denying Family and Saving Children",
+    "id": "40caeb19",
     "Footnote": [
       "f-40caeb19-1581",
       "f-40caeb19-1607"
     ],
-    "enabled": true
+    "title": "Stories of Separation: Denying Family and Saving Children"
   },
   {
-    "id": "cea3e7b7",
+    "enabled": true,
     "author.id": [
       "alford-c-fred"
     ],
     "date": 2016,
+    "uri": "http://www.worldcat.org/oclc/1049585270",
     "publisher": "New York Palgrave Macmillan US ",
-    "title": "Trauma, Culture and PTSD ",
+    "id": "cea3e7b7",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1049585270",
     "Footnote": [
       "f-cea3e7b7-87",
       "f-cea3e7b7-88",
@@ -30,89 +30,89 @@
       "f-cea3e7b7-90",
       "f-cea3e7b7-91"
     ],
-    "enabled": true
+    "title": "Trauma, Culture and PTSD "
   },
   {
-    "id": "974317d3",
+    "enabled": true,
     "author.id": [
       "knopp-sonja"
     ],
     "date": 2013,
+    "uri": "https://gsp.yale.edu/about-gsp",
     "publisher": "Genocide Studies Program, MacMillan Center for International and Area Studies (2012-13)",
-    "title": "Working Paper called History Without Memory: Creating a Trauma Narrative from Holocaust Survivor Video Testimony",
+    "id": "974317d3",
     "type": [
       "White paper (Q223729)"
     ],
-    "uri": "https://gsp.yale.edu/about-gsp",
     "Footnote": [
       "f-974317d3-689",
       "f-974317d3-690"
     ],
-    "enabled": true
+    "title": "Working Paper called History Without Memory: Creating a Trauma Narrative from Holocaust Survivor Video Testimony"
   },
   {
-    "id": "ff81c307",
+    "enabled": true,
     "author.id": [
       "museri-mira"
     ],
     "date": 2009,
+    "uri": "https://theiapolis.com/producer-5BFD/audrius-juzenas/message-board/permission-request-1000530.html",
     "publisher": "The International School for Holocaust Studies in Yad Vashem",
-    "title": "Course on Yad Vashem website accessible only to 30 registered students - Movies about Holocaust ",
+    "id": "ff81c307",
     "type": [
       "Course (Q600134)"
     ],
-    "uri": "https://theiapolis.com/producer-5BFD/audrius-juzenas/message-board/permission-request-1000530.html",
     "Footnote": [
       "f-ff81c307-1352"
     ],
-    "enabled": true
+    "title": "Course on Yad Vashem website accessible only to 30 registered students - Movies about Holocaust "
   },
   {
-    "id": "witness-voices-from-holocaust",
     "author.id": [
       "greene-joshua",
       "kumar-shiva"
     ],
     "date": 1999,
+    "uri": "https://joshuamgreene.info/witness-voices-from-the-holocaust/",
     "publisher": "Joshua M. Greene Productions",
-    "title": "Witness: Voices from the Holocaust ",
+    "id": "witness-voices-from-holocaust",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "https://joshuamgreene.info/witness-voices-from-the-holocaust/"
+    "title": "Witness: Voices from the Holocaust "
   },
   {
-    "id": "d5b80b1c",
+    "enabled": true,
     "author.id": [
       "stier-oren-baruch"
     ],
     "date": 2001,
+    "uri": "http://www.worldcat.org/oclc/6946932062",
     "publisher": "chapter in: Remembering for the Future : The Holocaust in an Age of Genocide",
-    "title": "Framing the Witness: The Memorial Role of Holocaust Video Testimonies",
+    "id": "d5b80b1c",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/6946932062",
     "Footnote": [
       "f-d5b80b1c-1561",
       "f-d5b80b1c-1562",
       "f-d5b80b1c-1563",
       "f-d5b80b1c-1564"
     ],
-    "enabled": true
+    "title": "Framing the Witness: The Memorial Role of Holocaust Video Testimonies"
   },
   {
-    "id": "57c48f4f",
+    "enabled": true,
     "author.id": [
       "cormier-caroline"
     ],
     "date": 2018,
+    "uri": "https://doi.org/10.23777/sn.0118/art_ccor01",
     "publisher": "S:I.M.O.N Shoah: intervention, methods, documentatiON",
-    "title": "Putting History in its Place: The Spatial Exclusion of Jews in Berlin, 1933-1939",
+    "id": "57c48f4f",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.23777/sn.0118/art_ccor01",
     "Footnote": [
       "f-57c48f4f-359",
       "f-57c48f4f-360",
@@ -128,74 +128,74 @@
       "f-57c48f4f-370",
       "f-57c48f4f-371"
     ],
-    "enabled": true
+    "title": "Putting History in its Place: The Spatial Exclusion of Jews in Berlin, 1933-1939"
   },
   {
-    "id": "d0b64f10",
+    "enabled": true,
     "author.id": [
       "plotkin-diane"
     ],
     "date": 2003,
+    "uri": "http://www.ukrainianstudies.org/aaus-list/0510/pdf00000.pdf",
     "publisher": "Beyond Camps and Forced Labour, London ",
-    "title": "Emergency Care of the Concentration Camp Survivors ",
+    "Notes": "(probably Emergency Care Administered By The Liberators)",
+    "id": "d0b64f10",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "http://www.ukrainianstudies.org/aaus-list/0510/pdf00000.pdf",
     "Footnote": [
       "f-d0b64f10-1394"
     ],
-    "enabled": true,
-    "Notes": "(probably Emergency Care Administered By The Liberators)"
+    "title": "Emergency Care of the Concentration Camp Survivors "
   },
   {
-    "id": "1f0b33be",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2005,
+    "uri": "https://www.professorkraft.com/bio/vita",
     "publisher": "First International Congress of Qualitative Inquiry, University of Illinois",
-    "title": "Regarding the testimony of others: Ethical boundaries and transgressions",
+    "id": "1f0b33be",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.professorkraft.com/bio/vita",
     "Footnote": [
       "f-1f0b33be-710",
       "f-1f0b33be-711",
       "f-1f0b33be-712"
     ],
-    "enabled": true
+    "title": "Regarding the testimony of others: Ethical boundaries and transgressions"
   },
   {
-    "id": "33145efa",
+    "enabled": true,
     "author.id": [
       "schwarcz-vera"
     ],
     "date": 1999,
+    "uri": "http://www.worldcat.org/oclc/41405586",
     "publisher": "chapter in The Jews of China. Vol. 1, Historical and comparative perspectives",
-    "title": "Who can see a miracle? The Language of Jewish Memory in Shanghai",
+    "id": "33145efa",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/41405586",
     "Footnote": [
       "f-33145efa-1465"
     ],
-    "enabled": true
+    "title": "Who can see a miracle? The Language of Jewish Memory in Shanghai"
   },
   {
-    "id": "fde34820",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 1994,
+    "uri": "https://www.professorkraft.com/bio/vita",
     "publisher": "Psychonomic Society, St. Louis",
-    "title": "Down in the Flood of Remembrance: Holocaust Memory",
+    "id": "fde34820",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.professorkraft.com/bio/vita",
     "Footnote": [
       "f-fde34820-951",
       "f-fde34820-952",
@@ -230,20 +230,21 @@
       "f-fde34820-981",
       "f-fde34820-982"
     ],
-    "enabled": true
+    "title": "Down in the Flood of Remembrance: Holocaust Memory"
   },
   {
-    "id": "deb53257",
+    "enabled": true,
     "author.id": [
       "brcker-eva"
     ],
     "date": 2009,
+    "uri": "https://www.lbihs.at/BrueckerCV.pdf",
     "publisher": "MSRP Conference",
-    "title": "Acting in the face of persecution: Holocaust survivors and crucial moments of their life stories ",
+    "Notes": " outline for a doctoral thesis",
+    "id": "deb53257",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.lbihs.at/BrueckerCV.pdf",
     "Footnote": [
       "f-deb53257-320",
       "f-deb53257-321",
@@ -258,39 +259,38 @@
       "f-deb53257-330",
       "f-deb53257-331"
     ],
-    "enabled": true,
-    "Notes": " outline for a doctoral thesis"
+    "title": "Acting in the face of persecution: Holocaust survivors and crucial moments of their life stories "
   },
   {
-    "id": "2d04aaba",
+    "enabled": true,
     "author.id": [
       "storm-margot"
     ],
+    "uri": "https://www.facinghistory.org/for-educators/educator-resources/library-resources/c",
     "publisher": "Facing History and Ourselves",
-    "title": "Camera of My Family: Four Generations in Germany 1845-1945 - VHS (out of print)",
+    "id": "2d04aaba",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "https://www.facinghistory.org/for-educators/educator-resources/library-resources/c",
     "Footnote": [
       "f-2d04aaba-1568",
       "f-2d04aaba-1589",
       "f-2d04aaba-1590"
     ],
-    "enabled": true
+    "title": "Camera of My Family: Four Generations in Germany 1845-1945 - VHS (out of print)"
   },
   {
-    "id": "1898c196",
+    "enabled": true,
     "author.id": [
       "williams-benn"
     ],
     "date": 2004,
+    "uri": "http://www.bennwilliams.net/most-recent.html",
     "publisher": "Institut d’histoire du temps présent",
-    "title": "Cherish thy neighbor? Dénonciation – délation dans la région lyonnaise, 1944-1953.",
+    "id": "1898c196",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "http://www.bennwilliams.net/most-recent.html",
     "Footnote": [
       "f-1898c196-1658",
       "f-1898c196-1659",
@@ -303,99 +303,99 @@
       "f-1898c196-1666",
       "f-1898c196-1667"
     ],
-    "enabled": true
+    "title": "Cherish thy neighbor? Dénonciation – délation dans la région lyonnaise, 1944-1953."
   },
   {
-    "id": "19276d49",
+    "enabled": true,
     "author.id": [
       "simon-roger"
     ],
     "date": 1997,
+    "uri": "https://www.oise.utoronto.ca/rsimonsymposium/UserFiles/File/info/VITA%20September%202010.pdf",
     "publisher": "Testimony and Historical Memory Invitational Working Conference University of Toronto",
-    "title": "Binding Remembrance, Learning and Hope: Bearing Witness to the Testament of the Vilna Ghetto",
+    "id": "19276d49",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.oise.utoronto.ca/rsimonsymposium/UserFiles/File/info/VITA%20September%202010.pdf",
     "Footnote": [
       "f-19276d49-1506",
       "f-19276d49-1507",
       "f-19276d49-1508",
       "f-19276d49-1509"
     ],
-    "enabled": true
+    "title": "Binding Remembrance, Learning and Hope: Bearing Witness to the Testament of the Vilna Ghetto"
   },
   {
-    "id": "8775daf9",
+    "enabled": true,
     "author.id": [
       "athar-mohad"
     ],
-    "title": "Coming of Age",
+    "id": "8775daf9",
     "Footnote": [
       "f-8775daf9-217"
     ],
-    "enabled": true
+    "title": "Coming of Age"
   },
   {
-    "id": "2cd89676",
+    "enabled": true,
     "author.id": [
       "gold-nili"
     ],
     "date": 2003,
+    "uri": "http://www.worldcat.org/oclc/5542593091",
     "publisher": "Israel studies forum",
-    "title": "Notes on Love and War in the Work and Life of Yehuda Amichai",
+    "id": "2cd89676",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "http://www.worldcat.org/oclc/5542593091",
     "Footnote": [
       "f-2cd89676-619"
     ],
-    "enabled": true
+    "title": "Notes on Love and War in the Work and Life of Yehuda Amichai"
   },
   {
-    "id": "0d961906",
+    "enabled": true,
     "author.id": [
       "holmes-claudia"
     ],
     "date": 2014,
+    "uri": "http://www.worldcat.org/oclc/907406240",
     "publisher": "CreateSpace Independent Publishing Platform",
-    "title": "I Survived Hitler: The Story of Linda R. Fishman",
+    "id": "0d961906",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/907406240",
     "Footnote": [
       "f-0d961906-653"
     ],
-    "enabled": true
+    "title": "I Survived Hitler: The Story of Linda R. Fishman"
   },
   {
-    "id": "sweet-home-sweet",
     "date": 2021,
+    "uri": "https://galiciajewishmuseum.org/en/wystawy/sweet-home-sweet-a-story-of-survival-memory-and-returns/",
     "publisher": "Galicia Jewish Museum",
-    "title": "Sweet Home Sweet: A Story of Survival, Memory, and Returns",
+    "id": "sweet-home-sweet",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://galiciajewishmuseum.org/en/wystawy/sweet-home-sweet-a-story-of-survival-memory-and-returns/",
     "Footnote": [
       "f-sweet-home-sweet-0001",
       "f-sweet-home-sweet-0002"
-    ]
+    ],
+    "title": "Sweet Home Sweet: A Story of Survival, Memory, and Returns"
   },
   {
-    "id": "8f3594e1",
+    "enabled": true,
     "author.id": [
       "langer-lawrence"
     ],
     "date": 1998,
+    "uri": "http://www.worldcat.org/oclc/47010558",
     "publisher": "Preempting the Holocaust",
-    "title": "Gendered Suffering: Women in Holocaust Testimonies",
+    "id": "8f3594e1",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/47010558",
     "Footnote": [
       "f-8f3594e1-1178",
       "f-8f3594e1-1179",
@@ -404,20 +404,20 @@
       "f-8f3594e1-1182",
       "f-8f3594e1-1183"
     ],
-    "enabled": true
+    "title": "Gendered Suffering: Women in Holocaust Testimonies"
   },
   {
-    "id": "307ded74",
+    "enabled": true,
     "author.id": [
       "alford-c-fred"
     ],
     "date": 2009,
+    "uri": "http://www.worldcat.org/oclc/933276817",
     "publisher": "Cambridge University Press",
-    "title": "Testaments of Affliction: The Book of Job, Primo Levi and the Testimony of Holocaust Survivors ",
+    "id": "307ded74",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/933276817",
     "Footnote": [
       "f-307ded74-107",
       "f-307ded74-108",
@@ -445,34 +445,34 @@
       "f-307ded74-130",
       "f-307ded74-131"
     ],
-    "enabled": true
+    "title": "Testaments of Affliction: The Book of Job, Primo Levi and the Testimony of Holocaust Survivors "
   },
   {
-    "id": "36d352b9",
+    "enabled": true,
     "author.id": [
       "skitolsky-lissa"
     ],
     "date": 2010,
+    "uri": "https://www.h-net.org/reviews/showrev.php?id=33146,  https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/6/1855/files/2019/07/LL-XI-Program.pdf",
     "publisher": "Lessons and Legacies XI. Expanding Perspectives on the Holocaust in a Changing World",
-    "title": "The Making of the Muselmann: Genocide as the Production of Unlivable Life",
+    "id": "36d352b9",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.h-net.org/reviews/showrev.php?id=33146,  https://cpb-us-e1.wpmucdn.com/sites.northwestern.edu/dist/6/1855/files/2019/07/LL-XI-Program.pdf",
     "Footnote": [
       "f-36d352b9-1510",
       "f-36d352b9-1511",
       "f-36d352b9-1512",
       "f-36d352b9-1513"
     ],
-    "enabled": true
+    "title": "The Making of the Muselmann: Genocide as the Production of Unlivable Life"
   },
   {
-    "id": "77bbad54",
+    "enabled": true,
     "author.id": [
       "leisawitz-daniel"
     ],
-    "title": "Footage to be shown in a course on the Holocaust in Italian literature/film",
+    "id": "77bbad54",
     "Footnote": [
       "f-77bbad54-1290",
       "f-77bbad54-1291",
@@ -483,55 +483,55 @@
       "f-77bbad54-1296",
       "f-77bbad54-1297"
     ],
-    "enabled": true
+    "title": "Footage to be shown in a course on the Holocaust in Italian literature/film"
   },
   {
-    "id": "07e26c5e",
+    "enabled": true,
     "author.id": [
       "trezke-thomas"
     ],
     "date": 2013,
+    "uri": "http://www.worldcat.org/oclc/1057311350",
     "publisher": "Fordham University Press",
-    "title": "Witnessing Witnessing: On the Reception of Holocaust Survivor Testimony",
+    "id": "07e26c5e",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1057311350",
     "Footnote": [
       "f-07e26c5e-1620",
       "f-07e26c5e-1621",
       "f-07e26c5e-1622"
     ],
-    "enabled": true
+    "title": "Witnessing Witnessing: On the Reception of Holocaust Survivor Testimony"
   },
   {
-    "id": "jewish-child-survivors",
     "author.id": [
       "marzinka-birgit"
     ],
     "date": 2014,
+    "uri": "http://jewishchildsurvivors.org/",
     "publisher": "Agency of Education - History, Politics and Media/Jewish Claims Conference",
-    "title": "Jewish Child Survivors",
+    "id": "jewish-child-survivors",
     "type": [
       "Exhibit (Q11985689)"
     ],
-    "uri": "http://jewishchildsurvivors.org/",
     "Footnote": [
       "f-jewish-child-survivors-0001"
-    ]
+    ],
+    "title": "Jewish Child Survivors"
   },
   {
-    "id": "9ab419ca",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2006,
+    "uri": "http://www.worldcat.org/oclc/108910205",
     "publisher": "Poetics today",
-    "title": "Archival Memory: Representations of the Holocaust in Oral Testimony",
+    "id": "9ab419ca",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/108910205",
     "Footnote": [
       "f-9ab419ca-713",
       "f-9ab419ca-714",
@@ -572,34 +572,33 @@
       "f-9ab419ca-749",
       "f-9ab419ca-750"
     ],
-    "enabled": true
+    "title": "Archival Memory: Representations of the Holocaust in Oral Testimony"
   },
   {
-    "id": "e7d37d35",
+    "enabled": true,
     "author.id": [
       "wlodarski-amy-lynn"
     ],
     "date": 2010,
+    "uri": "http://www.worldcat.org/oclc/884751474",
     "publisher": "Journal of the American Musicological Society",
-    "title": "The Testimonial Aesthetics of Different Trains",
+    "id": "e7d37d35",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "http://www.worldcat.org/oclc/884751474",
     "Footnote": [
       "f-e7d37d35-1687",
       "f-e7d37d35-1688"
     ],
-    "enabled": true
+    "title": "The Testimonial Aesthetics of Different Trains"
   },
   {
-    "id": "music-auschwitz-aid-survival",
     "author.id": [
       "sherr-laurence"
     ],
     "date": 2017,
     "publisher": "Kennesaw State University",
-    "title": "Music at Auschwitz: Aid to Survival or Dehumanizing Degradation?",
+    "id": "music-auschwitz-aid-survival",
     "type": [
       "Course (Q600134)"
     ],
@@ -612,39 +611,40 @@
       "f-music-auschwitz-aid-survival-0006",
       "f-music-auschwitz-aid-survival-0007",
       "f-music-auschwitz-aid-survival-0008"
-    ]
+    ],
+    "title": "Music at Auschwitz: Aid to Survival or Dehumanizing Degradation?"
   },
   {
-    "id": "2d59fb20",
+    "enabled": true,
     "author.id": [
       "fogelman-eva"
     ],
     "date": 2010,
+    "uri": "http://www.worldcat.org/oclc/607986499",
     "publisher": "Sexual violence against Jewish women during the Holocaust",
-    "title": "Sexual Abuse of Jewish Women during and after the Holocaust: A Psychological Perspective",
+    "id": "2d59fb20",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/607986499",
     "Footnote": [
       "f-2d59fb20-608",
       "f-2d59fb20-609",
       "f-2d59fb20-1463"
     ],
-    "enabled": true
+    "title": "Sexual Abuse of Jewish Women during and after the Holocaust: A Psychological Perspective"
   },
   {
-    "id": "9b145f34",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2004,
+    "uri": "https://www.professorkraft.com/bio/vita",
     "publisher": "Social Science History Association",
-    "title": "No kind of peace: Suicide notes of Primo Levi and Jean Améry",
+    "id": "9b145f34",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.professorkraft.com/bio/vita",
     "Footnote": [
       "f-9b145f34-751",
       "f-9b145f34-752",
@@ -656,120 +656,120 @@
       "f-9b145f34-758",
       "f-9b145f34-759"
     ],
-    "enabled": true
+    "title": "No kind of peace: Suicide notes of Primo Levi and Jean Améry"
   },
   {
-    "id": "deaf-people-during",
     "author.id": [
       "durr-patricia"
     ],
     "date": 2013,
+    "uri": "https://www.rit.edu/deafww2/holocaust",
     "publisher": "Rochester Recreation Club for the Deaf",
-    "title": "Deaf People during World War II",
+    "id": "deaf-people-during",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "https://www.rit.edu/deafww2/holocaust",
     "Footnote": [
       "f-deaf-people-during-0001",
       "f-deaf-people-during-0002"
-    ]
+    ],
+    "title": "Deaf People during World War II"
   },
   {
-    "id": "remembering-jews-greece",
     "date": 2019,
+    "uri": "https://www.greekchambermusic.com/remembering-the-jews-of-greece/",
     "publisher": "Greek Chamber Music Project",
-    "title": "Remembering the Jews of Greece: A Musical Journey",
+    "id": "remembering-jews-greece",
     "type": [
       "Audio recording (Q3302947)"
     ],
-    "uri": "https://www.greekchambermusic.com/remembering-the-jews-of-greece/",
     "Footnote": [
       "f-remembering-jews-greece-0001",
       "f-remembering-jews-greece-0002",
       "f-remembering-jews-greece-0003"
-    ]
+    ],
+    "title": "Remembering the Jews of Greece: A Musical Journey"
   },
   {
-    "id": "jewish-families-flehingen",
     "author.id": [
       "schönfeld-wolfgang"
     ],
     "date": 2022,
+    "uri": "https://collections.ushmm.org/search/catalog/bib235037",
     "publisher": "Zaberfeld",
-    "title": "Jewish families from Flehingen",
+    "id": "jewish-families-flehingen",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "https://collections.ushmm.org/search/catalog/bib235037",
     "Footnote": [
       "f-jewish-families-flehingen-0001"
-    ]
+    ],
+    "title": "Jewish families from Flehingen"
   },
   {
-    "id": "713c5a24",
+    "enabled": true,
     "author.id": [
       "laub-dori"
     ],
     "date": 2015,
+    "uri": "https://doi.org/10.1080/00107530.2015.1038209",
     "publisher": "Contemporary psychoanalysis",
-    "title": "Listening to My Mother's Testimony",
+    "id": "713c5a24",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1080/00107530.2015.1038209",
     "Footnote": [
       "f-713c5a24-1288"
     ],
-    "enabled": true
+    "title": "Listening to My Mother's Testimony"
   },
   {
-    "id": "9c495624",
+    "enabled": true,
     "author.id": [
       "baumann-ulrich"
     ],
     "date": 2016,
+    "uri": "https://www.topographie.de/en/exhibitions/special-exhibitions/",
     "publisher": "Topography of Terror Foundation",
-    "title": "Exhibit \"The Holocaust from the Baltic to the Black Sea 1941-1945\"",
+    "id": "9c495624",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://www.topographie.de/en/exhibitions/special-exhibitions/",
     "Footnote": [
       "f-9c495624-261",
       "f-9c495624-262"
     ],
-    "enabled": true
+    "title": "Exhibit \"The Holocaust from the Baltic to the Black Sea 1941-1945\""
   },
   {
-    "id": "bbc3ebf7",
+    "enabled": true,
     "author.id": [
       "hirsch-marianne"
     ],
     "date": 2009,
+    "uri": "http://www.worldcat.org/oclc/823822513",
     "publisher": "University of California Press",
-    "title": "Ghosts of Home: The Afterlife of Czernowitz in Jewish Memory",
+    "id": "bbc3ebf7",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/823822513",
     "Footnote": [
       "f-bbc3ebf7-642"
     ],
-    "enabled": true
+    "title": "Ghosts of Home: The Afterlife of Czernowitz in Jewish Memory"
   },
   {
-    "id": "bd8788dc",
+    "enabled": true,
     "author.id": [
       "almuli-jasa"
     ],
     "date": 2002,
+    "uri": "http://www.worldcat.org/oclc/52755045",
     "publisher": "Beograd : S. Mašić",
-    "title": "The Alive and the Dead: Conversation with Jews",
+    "id": "bd8788dc",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/52755045",
     "Footnote": [
       "f-bd8788dc-197",
       "f-bd8788dc-198",
@@ -785,48 +785,48 @@
       "f-bd8788dc-208",
       "f-bd8788dc-209"
     ],
-    "enabled": true
+    "title": "The Alive and the Dead: Conversation with Jews"
   },
   {
-    "id": "b69a33f8",
+    "enabled": true,
     "author.id": [
       "metz-jeremy"
     ],
-    "title": "Conference presentation",
+    "id": "b69a33f8",
     "Footnote": [
       "f-b69a33f8-1327"
     ],
-    "enabled": true
+    "title": "Conference presentation"
   },
   {
-    "id": "54b6ab6e",
+    "enabled": true,
     "author.id": [
       "shenker-noah"
     ],
     "date": 2017,
+    "uri": "https://networks.h-net.org/node/28655/discussions/389946/conf-visual-history-archive-research-experience-october-26-27-2017",
     "publisher": "The Visual History Archive, Research Experience",
-    "title": "Reframing Holocaust Testimony:  The Spaces within and beyond the Camera’s Frame",
+    "id": "54b6ab6e",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://networks.h-net.org/node/28655/discussions/389946/conf-visual-history-archive-research-experience-october-26-27-2017",
     "Footnote": [
       "f-54b6ab6e-1493"
     ],
-    "enabled": true
+    "title": "Reframing Holocaust Testimony:  The Spaces within and beyond the Camera’s Frame"
   },
   {
-    "id": "ab98c5a6",
+    "enabled": true,
     "author.id": [
       "lutjens-jr-richard"
     ],
     "date": 2017,
+    "uri": "https://doi.org/10.1093/hgs/dcx039",
     "publisher": "Holocaust and genocide studies",
-    "title": "Jews in Hiding in Nazi Berlin, 1941-1945 ",
+    "id": "ab98c5a6",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1093/hgs/dcx039",
     "Footnote": [
       "f-ab98c5a6-1316",
       "f-ab98c5a6-1317",
@@ -834,28 +834,29 @@
       "f-ab98c5a6-1319",
       "f-ab98c5a6-1320"
     ],
-    "enabled": true
+    "title": "Jews in Hiding in Nazi Berlin, 1941-1945 "
   },
   {
-    "id": "1b29fa19",
+    "enabled": true,
     "author.id": [
       "kennedy-patrick"
     ],
-    "title": "Excerpts presented at conference in Pawtucket, RI",
+    "id": "1b29fa19",
     "Footnote": [
       "f-1b29fa19-673",
       "f-1b29fa19-674"
     ],
-    "enabled": true
+    "title": "Excerpts presented at conference in Pawtucket, RI"
   },
   {
-    "id": "f1cab7b5",
+    "enabled": true,
     "author.id": [
       "almuli-jasa"
     ],
     "date": 2003,
     "publisher": "Belgrade",
-    "title": "Jews in Jasenovac",
+    "Notes": "[not found] - similar title as Jews and Serbs in Jasenovac",
+    "id": "f1cab7b5",
     "Footnote": [
       "f-f1cab7b5-192",
       "f-f1cab7b5-193",
@@ -863,15 +864,14 @@
       "f-f1cab7b5-195",
       "f-f1cab7b5-196"
     ],
-    "enabled": true,
-    "Notes": "[not found] - similar title as Jews and Serbs in Jasenovac"
+    "title": "Jews in Jasenovac"
   },
   {
-    "id": "dbd03367",
+    "enabled": true,
     "author.id": [
       "storm-margot"
     ],
-    "title": "Imagining the Unimaginable",
+    "id": "dbd03367",
     "Footnote": [
       "f-dbd03367-1567",
       "f-dbd03367-1569",
@@ -880,20 +880,21 @@
       "f-dbd03367-1578",
       "f-dbd03367-1579"
     ],
-    "enabled": true
+    "title": "Imagining the Unimaginable"
   },
   {
-    "id": "182451d6",
+    "enabled": true,
     "author.id": [
       "horowitz-sarah"
     ],
     "date": 1994,
+    "uri": "http://www.worldcat.org/oclc/30475820",
     "publisher": "Wayne State University Press",
-    "title": "Memory and Testimony of Women Survivors of Nazi Genocide",
+    "Notes": "essay in 'Women of the word : Jewish women and Jewish writing'",
+    "id": "182451d6",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/30475820",
     "Footnote": [
       "f-182451d6-654",
       "f-182451d6-655",
@@ -903,21 +904,20 @@
       "f-182451d6-659",
       "f-182451d6-660"
     ],
-    "enabled": true,
-    "Notes": "essay in 'Women of the word : Jewish women and Jewish writing'"
+    "title": "Memory and Testimony of Women Survivors of Nazi Genocide"
   },
   {
-    "id": "5591100c",
+    "enabled": true,
     "author.id": [
       "baranowski-daniel"
     ],
     "date": 2009,
+    "uri": "http://www.worldcat.org/oclc/650784952",
     "publisher": "Stiftung Denkmal für die Ermordeten Juden Europas",
-    "title": "Ich bin die Stimme der sechs Millionen",
+    "id": "5591100c",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/650784952",
     "Footnote": [
       "f-5591100c-221",
       "f-5591100c-223",
@@ -954,7 +954,7 @@
       "f-5591100c-254",
       "f-5591100c-255"
     ],
-    "enabled": true
+    "title": "Ich bin die Stimme der sechs Millionen"
   },
   {
     "id": "bc0a1794",
@@ -986,77 +986,78 @@
     ]
   },
   {
-    "id": "8638b8bb",
+    "enabled": true,
     "author.id": [
       "laub-dori"
     ],
     "date": 2013,
+    "uri": "https://www.ipa.world/PastCongresses",
     "publisher": "48th IPA Congress in Prague: Facing the Pain ",
-    "title": "Footage at a panel entitled Manifestations of Extreme Traumatization ",
+    "id": "8638b8bb",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.ipa.world/PastCongresses",
     "Footnote": [
       "f-8638b8bb-1287"
     ],
-    "enabled": true
+    "title": "Footage at a panel entitled Manifestations of Extreme Traumatization "
   },
   {
-    "id": "book-media-pitch",
     "author.id": [
       "petrore-ben"
     ],
     "date": 2014,
     "publisher": "Penguin Books",
-    "title": "Email Pitching to the Media for Franci's War ",
+    "id": "book-media-pitch",
     "type": [
       "News article (Q5707594)"
     ],
     "Footnote": [
       "f-book-media-pitch-0001"
-    ]
+    ],
+    "title": "Email Pitching to the Media for Franci's War "
   },
   {
-    "id": "5ab9c8f4",
+    "enabled": true,
     "author.id": [
       "sela-tzur-bina"
     ],
-    "title": "After the War",
+    "id": "5ab9c8f4",
     "Footnote": [
       "f-5ab9c8f4-1471"
     ],
-    "enabled": true
+    "title": "After the War"
   },
   {
-    "id": "ee4d2210",
+    "enabled": true,
     "author.id": [
       "bolkosky-sidney"
     ],
     "date": 1987,
+    "uri": "http://holocaust.umd.umich.edu/lul/",
     "publisher": "Center for the Study of the Child",
-    "title": "High school curriculum for Oakland County Schools - Life Unworthy of Life: A Holocaust Curriculum",
+    "id": "ee4d2210",
     "type": [
       "Curriculum (Q207137)"
     ],
-    "uri": "http://holocaust.umd.umich.edu/lul/",
     "Footnote": [
       "f-ee4d2210-304"
     ],
-    "enabled": true
+    "title": "High school curriculum for Oakland County Schools - Life Unworthy of Life: A Holocaust Curriculum"
   },
   {
-    "id": "5ba5658c",
+    "enabled": true,
     "author.id": [
       "almuli-jasa"
     ],
     "date": 2010,
+    "uri": "https://doi.org/10.1080/0031322X.1994.9970140",
     "publisher": "Patterns of Prejudice ",
-    "title": "Amendment to entry on Serbian Chetniks in EOH ",
+    "Notes": "(probably Letters to the editor)",
+    "id": "5ba5658c",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1080/0031322X.1994.9970140",
     "Footnote": [
       "f-5ba5658c-210",
       "f-5ba5658c-211",
@@ -1065,21 +1066,20 @@
       "f-5ba5658c-214",
       "f-5ba5658c-215"
     ],
-    "enabled": true,
-    "Notes": "(probably Letters to the editor)"
+    "title": "Amendment to entry on Serbian Chetniks in EOH "
   },
   {
-    "id": "b68cf590",
+    "enabled": true,
     "author.id": [
       "wlodarski-amy-lynn"
     ],
     "date": 2014,
+    "uri": "http://www.worldcat.org/oclc/900033787",
     "publisher": "chapter in Dislocated memories : Jews, music, and postwar German culture (Oxford University Press)",
-    "title": "Musical Memories of Terezin in Transnational Perpective",
+    "id": "b68cf590",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/900033787",
     "Footnote": [
       "f-b68cf590-1680",
       "f-b68cf590-1681",
@@ -1089,36 +1089,36 @@
       "f-b68cf590-1685",
       "f-b68cf590-1686"
     ],
-    "enabled": true
+    "title": "Musical Memories of Terezin in Transnational Perpective"
   },
   {
-    "id": "51265255",
+    "enabled": true,
     "author.id": [
       "sommer-robert"
     ],
     "date": 2009,
+    "uri": "http://www.worldcat.org/oclc/489038222",
     "publisher": "Schöningh",
-    "title": "Das KZ-Bordell : sexuelle Zwangsarbeit in nationalsozialistischen Konzentrationslagern",
+    "id": "51265255",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/489038222",
     "Footnote": [
       "f-51265255-1536"
     ],
-    "enabled": true
+    "title": "Das KZ-Bordell : sexuelle Zwangsarbeit in nationalsozialistischen Konzentrationslagern"
   },
   {
-    "id": "be400af4",
+    "enabled": true,
     "author.id": [
       "brcker-eva"
     ],
+    "uri": "https://www.stiftung-denkmal.de/fileadmin/user_upload/projekte/oeffentlichkeitsarbeit/pdf/Presse/2014_07_02_Pressemappe_2014_en.pdf",
     "publisher": "Memorial to the Murdered Jews of Europe",
-    "title": "Memorial to the Murdered Jews of Europe",
+    "id": "be400af4",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://www.stiftung-denkmal.de/fileadmin/user_upload/projekte/oeffentlichkeitsarbeit/pdf/Presse/2014_07_02_Pressemappe_2014_en.pdf",
     "Footnote": [
       "f-be400af4-332",
       "f-be400af4-333",
@@ -1136,134 +1136,134 @@
       "f-be400af4-345",
       "f-be400af4-346"
     ],
-    "enabled": true
+    "title": "Memorial to the Murdered Jews of Europe"
   },
   {
-    "id": "65ad813d",
+    "enabled": true,
     "author.id": [
       "bressler-c-stephen"
     ],
-    "title": "Local TV broadcast of Board of Selectmen's meeting in Brookline, MA",
+    "uri": "https://brooklineinteractive.org/",
+    "id": "65ad813d",
     "type": [
       "Television program (Q15416)"
     ],
-    "uri": "https://brooklineinteractive.org/",
     "Footnote": [
       "f-65ad813d-305"
     ],
-    "enabled": true
+    "title": "Local TV broadcast of Board of Selectmen's meeting in Brookline, MA"
   },
   {
-    "id": "9d3c1e37",
+    "enabled": true,
     "author.id": [
       "paley-karen"
     ],
-    "title": "The Ethics of the Videotaped Holocaust Interview: Asking But Not Wanting to Hear?",
+    "id": "9d3c1e37",
     "Footnote": [
       "f-9d3c1e37-1376",
       "f-9d3c1e37-1377",
       "f-9d3c1e37-1378"
     ],
-    "enabled": true
+    "title": "The Ethics of the Videotaped Holocaust Interview: Asking But Not Wanting to Hear?"
   },
   {
-    "id": "31fee6b8",
+    "enabled": true,
     "author.id": [
       "richman-sophia"
     ],
     "date": 2002,
+    "uri": "http://www.worldcat.org/oclc/605433893",
     "publisher": "Haworth Press",
-    "title": "A Wolf in the Attic: The Legacy of a Hidden Child of the Holocaust",
+    "id": "31fee6b8",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/605433893",
     "Footnote": [
       "f-31fee6b8-1426"
     ],
-    "enabled": true
+    "title": "A Wolf in the Attic: The Legacy of a Hidden Child of the Holocaust"
   },
   {
-    "id": "daring-to-resist",
     "date": 2006,
+    "uri": "https://mjhnyc.org/exhibitions/daring-resist-jewish-defiance-holocaust/",
     "publisher": "Museum of Jewish Heritage - A Living Memorial to the Holocaust",
-    "title": "Daring to Resist: Jewish Defiance in the Holocaust ",
+    "id": "daring-to-resist",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://mjhnyc.org/exhibitions/daring-resist-jewish-defiance-holocaust/",
     "Footnote": [
       "f-daring-to-resist-0001",
       "f-daring-to-resist-0002",
       "f-daring-to-resist-0003",
       "f-daring-to-resist-0004",
       "f-daring-to-resist-0005"
-    ]
+    ],
+    "title": "Daring to Resist: Jewish Defiance in the Holocaust "
   },
   {
-    "id": "1a9c9533",
+    "enabled": true,
     "author.id": [
       "bodenstab-johanna"
     ],
     "date": 2010,
+    "uri": "https://www.thegsa.org/sites/default/files/GSA_program_10.pdf",
     "publisher": "Forced Labor in World War II (2): Comprehension, Compensation, and Comparison (THIRTY-FOURTH ANNUAL CONFERENCE - Kassel University)",
-    "title": "Slave Labor in the Narratives of American Jewish Holocaust Survivors",
+    "id": "1a9c9533",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.thegsa.org/sites/default/files/GSA_program_10.pdf",
     "Footnote": [
       "f-1a9c9533-300"
     ],
-    "enabled": true
+    "title": "Slave Labor in the Narratives of American Jewish Holocaust Survivors"
   },
   {
-    "id": "6cc4afa5",
+    "enabled": true,
     "author.id": [
       "kremer-s-lillian"
     ],
     "date": 1999,
+    "uri": "http://www.worldcat.org/oclc/907607844",
     "publisher": "University of Nebraska Press",
-    "title": "Women's Holocaust writing : memory and imagination",
+    "id": "6cc4afa5",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/907607844",
     "Footnote": [
       "f-6cc4afa5-1160",
       "f-6cc4afa5-1161"
     ],
-    "enabled": true
+    "title": "Women's Holocaust writing : memory and imagination"
   },
   {
-    "id": "a2e87b5d",
+    "enabled": true,
     "author.id": [
       "wlodarski-amy-lynn"
     ],
     "date": 2016,
+    "uri": "http://perspectives.ajsnet.org/sound-issue/listening-contrapuntally-or-what-happened-when-i-went-bach-to-the-archives/",
     "publisher": "AJS Perspectives - Association for Jewish Studies",
-    "title": "Listening Contrapuntually, Or What Happened When I Went Bach to the Archives ",
+    "id": "a2e87b5d",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "http://perspectives.ajsnet.org/sound-issue/listening-contrapuntally-or-what-happened-when-i-went-bach-to-the-archives/",
     "Footnote": [
       "f-a2e87b5d-1677"
     ],
-    "enabled": true
+    "title": "Listening Contrapuntually, Or What Happened When I Went Bach to the Archives "
   },
   {
-    "id": "5bab993d",
+    "enabled": true,
     "author.id": [
       "stier-oren-baruch"
     ],
     "date": 2003,
+    "uri": "http://www.worldcat.org/oclc/473781000",
     "publisher": "UMass Press",
-    "title": "Committed to Memory: Cultural Mediations of the Holocaust",
+    "id": "5bab993d",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/473781000",
     "Footnote": [
       "f-5bab993d-1553",
       "f-5bab993d-1554",
@@ -1274,20 +1274,20 @@
       "f-5bab993d-1559",
       "f-5bab993d-1560"
     ],
-    "enabled": true
+    "title": "Committed to Memory: Cultural Mediations of the Holocaust"
   },
   {
-    "id": "b0a61f2b",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2001,
+    "uri": "https://www.professorkraft.com/bio/vita",
     "publisher": "Annual meeting - American Psychological Association",
-    "title": "Beyond the Aftermath of Atrocity",
+    "id": "b0a61f2b",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.professorkraft.com/bio/vita",
     "Footnote": [
       "f-b0a61f2b-796",
       "f-b0a61f2b-797",
@@ -1313,20 +1313,20 @@
       "f-b0a61f2b-817",
       "f-b0a61f2b-818"
     ],
-    "enabled": true
+    "title": "Beyond the Aftermath of Atrocity"
   },
   {
-    "id": "c5e6975e",
+    "enabled": true,
     "author.id": [
       "snyder-timothy"
     ],
     "date": 2015,
+    "uri": "http://www.worldcat.org/oclc/1050009707",
     "publisher": "Tim Duggan Books",
-    "title": "Black Earth: The Holocaust as History and Warning",
+    "id": "c5e6975e",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1050009707",
     "Footnote": [
       "f-c5e6975e-1514",
       "f-c5e6975e-1515",
@@ -1348,62 +1348,62 @@
       "f-c5e6975e-1531",
       "f-c5e6975e-1532"
     ],
-    "enabled": true
+    "title": "Black Earth: The Holocaust as History and Warning"
   },
   {
-    "id": "7c3213bf",
+    "enabled": true,
     "author.id": [
       "rudof-joanne"
     ],
     "date": 1997,
+    "uri": "http://www.worldcat.org/oclc/771220651",
     "publisher": "Entry in Women's voice: a documentary history of women in America",
-    "title": "Voices of American Women: A Documentary History, 1540 - Present ",
+    "id": "7c3213bf",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/771220651",
     "Footnote": [
       "f-7c3213bf-1445"
     ],
-    "enabled": true
+    "title": "Voices of American Women: A Documentary History, 1540 - Present "
   },
   {
-    "id": "d172f1eb",
+    "enabled": true,
     "author.id": [
       "rudof-joanne"
     ],
-    "publisher": "Fortunoff Video Archive for Holocaust Testimonies",
-    "title": "Video excerpts for edited program",
     "uri": "https://fortunoff.library.yale.edu/",
+    "publisher": "Fortunoff Video Archive for Holocaust Testimonies",
+    "id": "d172f1eb",
     "Footnote": [
       "f-d172f1eb-1461"
     ],
-    "enabled": true
+    "title": "Video excerpts for edited program"
   },
   {
-    "id": "1f497fdb",
+    "enabled": true,
     "author.id": [
       "joskowicz-alexander"
     ],
-    "title": "Classroom use",
+    "id": "1f497fdb",
     "Footnote": [
       "f-1f497fdb-666",
       "f-1f497fdb-1393"
     ],
-    "enabled": true
+    "title": "Classroom use"
   },
   {
-    "id": "1215645",
+    "enabled": true,
     "author.id": [
       "haushofer-lisa"
     ],
     "date": 2007,
+    "uri": "http://www.worldcat.org/oclc/927993146",
     "publisher": "University of London",
-    "title": "Guardians of refugees or guards of health: UNRRA, DPs and healthcare in Germany, 1945-1947 ",
+    "id": "1215645",
     "type": [
       "Dissertation (Q187685)"
     ],
-    "uri": "http://www.worldcat.org/oclc/927993146",
     "Footnote": [
       "f-01215645-634",
       "f-01215645-635",
@@ -1412,38 +1412,38 @@
       "f-01215645-638",
       "f-01215645-639"
     ],
-    "enabled": true
+    "title": "Guardians of refugees or guards of health: UNRRA, DPs and healthcare in Germany, 1945-1947 "
   },
   {
-    "id": "3cc8d109",
+    "enabled": true,
     "author.id": [
       "egger-helen"
     ],
     "date": 1991,
+    "uri": "http://www.worldcat.org/oclc/54173293",
     "publisher": "Yale University ",
-    "title": "The Narrative of Memory: A Close Reading of the Testimonies of Child Survivors of the Holocaust",
+    "id": "3cc8d109",
     "type": [
       "Dissertation (Q187685)"
     ],
-    "uri": "http://www.worldcat.org/oclc/54173293",
     "Footnote": [
       "f-3cc8d109-375",
       "f-3cc8d109-376"
     ],
-    "enabled": true
+    "title": "The Narrative of Memory: A Close Reading of the Testimonies of Child Survivors of the Holocaust"
   },
   {
-    "id": "cf0d5af9",
+    "enabled": true,
     "author.id": [
       "alford-c-fred"
     ],
     "date": 2008,
+    "uri": "https://doi.org/10.1057/pcs.2008.16",
     "publisher": "Psychoanalysis, Culture & Society",
-    "title": "Why Holocaust Testimony is Important, and How Psychoanalytic Interpretation Can Help… But Only to a Point ",
+    "id": "cf0d5af9",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1057/pcs.2008.16",
     "Footnote": [
       "f-cf0d5af9-132",
       "f-cf0d5af9-133",
@@ -1461,20 +1461,20 @@
       "f-cf0d5af9-145",
       "f-cf0d5af9-146"
     ],
-    "enabled": true
+    "title": "Why Holocaust Testimony is Important, and How Psychoanalytic Interpretation Can Help… But Only to a Point "
   },
   {
-    "id": "174a10c9",
+    "enabled": true,
     "author.id": [
       "blech-benjamin"
     ],
     "date": 2004,
+    "uri": "http://www.worldcat.org/oclc/941563242",
     "publisher": "Wiley & Sons",
-    "title": "Eyewitness to Jewish History",
+    "id": "174a10c9",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/941563242",
     "Footnote": [
       "f-174a10c9-268",
       "f-174a10c9-269",
@@ -1486,20 +1486,20 @@
       "f-174a10c9-275",
       "f-174a10c9-276"
     ],
-    "enabled": true
+    "title": "Eyewitness to Jewish History"
   },
   {
-    "id": "92fb59ae",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 1996,
+    "uri": "https://www.professorkraft.com/bio/vita",
     "publisher": "Psychology Beyond the Threshold, Cincinnati",
-    "title": "Holocaust memory",
+    "id": "92fb59ae",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.professorkraft.com/bio/vita",
     "Footnote": [
       "f-92fb59ae-906",
       "f-92fb59ae-907",
@@ -1547,56 +1547,56 @@
       "f-92fb59ae-949",
       "f-92fb59ae-950"
     ],
-    "enabled": true
+    "title": "Holocaust memory"
   },
   {
-    "id": "4bee231a",
+    "enabled": true,
     "author.id": [
       "budnitskiy-alex"
     ],
+    "uri": "https://www.jchb.org/neveragain-program-description/",
     "publisher": "Claims Conference and Marks JCH of Bensonhurst",
-    "title": "Bolshe Nikogda!/Never Again!",
+    "id": "4bee231a",
     "type": [
       "Course (Q600134)"
     ],
-    "uri": "https://www.jchb.org/neveragain-program-description/",
     "Footnote": [
       "f-4bee231a-347"
     ],
-    "enabled": true
+    "title": "Bolshe Nikogda!/Never Again!"
   },
   {
-    "id": "dd59fedf",
+    "enabled": true,
     "author.id": [
       "mintz-mark"
     ],
     "date": 1996,
+    "uri": "http://www.worldcat.org/oclc/37918471",
     "publisher": "Brandeis University",
-    "title": "Eaglets of Moses : a collage of the education of Jewish youth in Poland, 1918-1943",
+    "id": "dd59fedf",
     "type": [
       "Dissertation (Q187685)"
     ],
-    "uri": "http://www.worldcat.org/oclc/37918471",
     "Footnote": [
       "f-dd59fedf-1341",
       "f-dd59fedf-1342",
       "f-dd59fedf-1343",
       "f-dd59fedf-1344"
     ],
-    "enabled": true
+    "title": "Eaglets of Moses : a collage of the education of Jewish youth in Poland, 1918-1943"
   },
   {
-    "id": "d56ab6dd",
+    "enabled": true,
     "author.id": [
       "finkel-evgeny"
     ],
     "date": 2017,
+    "uri": "http://www.worldcat.org/oclc/1020108177",
     "publisher": "Princeton university press",
-    "title": "Ordinary Jews: Choice and Survival during the Holocaust",
+    "id": "d56ab6dd",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1020108177",
     "Footnote": [
       "f-d56ab6dd-377",
       "f-d56ab6dd-378",
@@ -1707,20 +1707,20 @@
       "f-d56ab6dd-483",
       "f-d56ab6dd-484"
     ],
-    "enabled": true
+    "title": "Ordinary Jews: Choice and Survival during the Holocaust"
   },
   {
-    "id": "65a68b23",
+    "enabled": true,
     "author.id": [
       "stark-jared"
     ],
     "date": 2016,
+    "uri": "https://www.hsozkult.de/conferencereport/id/tagungsberichte-6829",
     "publisher": "Bearing Witness More Than Once. How Institutions, Media and Time Shape Shoah Survivors’ Testimonies",
-    "title": "Questioning Authority: The Holocaust Testimony of Jolly Zeleny",
+    "id": "65a68b23",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.hsozkult.de/conferencereport/id/tagungsberichte-6829",
     "Footnote": [
       "f-65a68b23-1537",
       "f-65a68b23-1538",
@@ -1729,47 +1729,47 @@
       "f-65a68b23-1541",
       "f-65a68b23-1542"
     ],
-    "enabled": true
+    "title": "Questioning Authority: The Holocaust Testimony of Jolly Zeleny"
   },
   {
-    "id": "b814cc74",
+    "enabled": true,
     "author.id": [
       "muhich-barbara"
     ],
     "date": 2005,
+    "uri": "http://www.worldcat.org/oclc/156796943",
     "publisher": "WQED ",
-    "title": "Holocaust educational packet, \"From Pittsburgh to Poland: Lessons of the Holocaust\"",
+    "id": "b814cc74",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "http://www.worldcat.org/oclc/156796943",
     "Footnote": [
       "f-b814cc74-1351"
     ],
-    "enabled": true
+    "title": "Holocaust educational packet, \"From Pittsburgh to Poland: Lessons of the Holocaust\""
   },
   {
-    "id": "180d7767",
+    "enabled": true,
     "author.id": [
       "howard-karen"
     ],
-    "title": "Remembering the Future",
+    "id": "180d7767",
     "Footnote": [
       "f-180d7767-661",
       "f-180d7767-662",
       "f-180d7767-663",
       "f-180d7767-664"
     ],
-    "enabled": true
+    "title": "Remembering the Future"
   },
   {
-    "id": "8cde4732",
+    "enabled": true,
     "author.id": [
       "rodenhurst-nigel"
     ],
     "date": 2011,
     "publisher": "Aberystwyth University",
-    "title": "Dis/simulation: Hiding and disguising in Jewish-American fiction",
+    "id": "8cde4732",
     "type": [
       "Dissertation (Q187685)"
     ],
@@ -1780,14 +1780,14 @@
       "f-8cde4732-1431",
       "f-8cde4732-1432"
     ],
-    "enabled": true
+    "title": "Dis/simulation: Hiding and disguising in Jewish-American fiction"
   },
   {
-    "id": "e6cfcf7b",
+    "enabled": true,
     "author.id": [
       "miller-judith"
     ],
-    "title": "Part of a print exposé on the Fortunoff Video Archives",
+    "id": "e6cfcf7b",
     "Footnote": [
       "f-e6cfcf7b-1328",
       "f-e6cfcf7b-1329",
@@ -1796,104 +1796,104 @@
       "f-e6cfcf7b-1332",
       "f-e6cfcf7b-1333"
     ],
-    "enabled": true
+    "title": "Part of a print exposé on the Fortunoff Video Archives"
   },
   {
-    "id": "facing-history-ourselves",
     "date": 2014,
+    "uri": "https://thgc.texas.gov/calendar/event/teaching-holocaust-and-human-behavior",
     "publisher": "Texas Holocaust and Genocide Commission",
-    "title": "Facing History and Ourselves: An Introduction to the Holocaust and Human\nBehavior Online Educator Workshop",
+    "id": "facing-history-ourselves",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://thgc.texas.gov/calendar/event/teaching-holocaust-and-human-behavior",
     "Footnote": [
       "f-facing-history-ourselves-0001"
-    ]
+    ],
+    "title": "Facing History and Ourselves: An Introduction to the Holocaust and Human\nBehavior Online Educator Workshop"
   },
   {
-    "id": "abe6a263",
+    "enabled": true,
     "author.id": [
       "roskies-david"
     ],
     "date": 1991,
+    "uri": "https://www.commentarymagazine.com/articles/holocaust-testimonies-by-lawrence-l-langer/",
     "publisher": "Commentary ",
-    "title": "Review of L. Langer, Holocaust Testimonies ",
+    "id": "abe6a263",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://www.commentarymagazine.com/articles/holocaust-testimonies-by-lawrence-l-langer/",
     "Footnote": [
       "f-abe6a263-1433"
     ],
-    "enabled": true
+    "title": "Review of L. Langer, Holocaust Testimonies "
   },
   {
-    "id": "d7e4e53d",
+    "enabled": true,
     "author.id": [
       "baer-ulrich"
     ],
     "date": 2002,
+    "uri": "http://www.worldcat.org/oclc/1041598869",
     "publisher": "MIT Press",
-    "title": "Spectral Evidence: The Photography of Trauma",
+    "id": "d7e4e53d",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1041598869",
     "Footnote": [
       "f-d7e4e53d-219",
       "f-d7e4e53d-220"
     ],
-    "enabled": true
+    "title": "Spectral Evidence: The Photography of Trauma"
   },
   {
-    "id": "7d97a39b",
+    "enabled": true,
     "author.id": [
       "von-harder-burkhard"
     ],
     "date": 2012,
+    "uri": "https://abcoop.tumblr.com/ABCED",
     "publisher": "Artists' Books Cooperative",
-    "title": "Unspecified use",
+    "Notes": " (It might be the book called: SCARRED Every Mile of the Death Strip)",
+    "id": "7d97a39b",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "https://abcoop.tumblr.com/ABCED",
     "Footnote": [
       "f-7d97a39b-1625",
       "f-7d97a39b-1626"
     ],
-    "enabled": true,
-    "Notes": " (It might be the book called: SCARRED Every Mile of the Death Strip)"
+    "title": "Unspecified use"
   },
   {
-    "id": "2f8e0f9f",
+    "enabled": true,
     "author.id": [
       "schiffin-deborah"
     ],
     "date": 2002,
+    "uri": "https://doi.org/10.1017/S0047404502020250",
     "publisher": "Language in Society ",
-    "title": "Mother and Friends in a Holocaust Life Story",
+    "id": "2f8e0f9f",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1017/S0047404502020250",
     "Footnote": [
       "f-2f8e0f9f-1464"
     ],
-    "enabled": true
+    "title": "Mother and Friends in a Holocaust Life Story"
   },
   {
-    "id": "7841ad5a",
+    "enabled": true,
     "author.id": [
       "strom-margot"
     ],
     "date": 1989,
+    "uri": "http://www.worldcat.org/oclc/970936126",
     "publisher": "Facing History and Ourselves National Foundation",
-    "title": "Elements of time ",
+    "id": "7841ad5a",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/970936126",
     "Footnote": [
       "f-7841ad5a-1592",
       "f-7841ad5a-1593",
@@ -1912,126 +1912,126 @@
       "f-7841ad5a-1606",
       "f-7841ad5a-1612"
     ],
-    "enabled": true
+    "title": "Elements of time "
   },
   {
-    "id": "542f617f",
+    "enabled": true,
     "author.id": [
       "alford-c-fred"
     ],
     "date": 2011,
+    "uri": "http://www.psychosocial-studies-association.org/wp-content/uploads/2017/01/fredalfordistheholocausttraumatic.pdf",
     "publisher": "Journal of Psycho-Social Studies",
-    "title": "Is the Holocaust Traumatic?",
+    "id": "542f617f",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "http://www.psychosocial-studies-association.org/wp-content/uploads/2017/01/fredalfordistheholocausttraumatic.pdf",
     "Footnote": [
       "f-542f617f-103",
       "f-542f617f-104",
       "f-542f617f-105",
       "f-542f617f-106"
     ],
-    "enabled": true
+    "title": "Is the Holocaust Traumatic?"
   },
   {
-    "id": "fe6ea05a",
+    "enabled": true,
     "author.id": [
       "rudof-joanne"
     ],
+    "uri": "https://www.jfec.com/the-jewish-leader-1?fbclid=IwAR1xMpiM-P0-CwtG1cuIByxMStt1GN7iH_LFO-M0ZBSRfFRCfwksfqEQTNE",
     "publisher": "Jewish leader ",
-    "title": "3 articles in the New London Jewish Leader",
+    "id": "fe6ea05a",
     "type": [
       "News article (Q5707594)"
     ],
-    "uri": "https://www.jfec.com/the-jewish-leader-1?fbclid=IwAR1xMpiM-P0-CwtG1cuIByxMStt1GN7iH_LFO-M0ZBSRfFRCfwksfqEQTNE",
     "Footnote": [
       "f-fe6ea05a-1435",
       "f-fe6ea05a-1436",
       "f-fe6ea05a-1437"
     ],
-    "enabled": true
+    "title": "3 articles in the New London Jewish Leader"
   },
   {
-    "id": "0427e08d",
+    "enabled": true,
     "author.id": [
       "strom-margot"
     ],
+    "uri": "https://www.facinghistory.org/for-educators/educator-resources/library-resources/c",
     "publisher": "Facing History and Ourselves",
-    "title": "Childhood Experiences of German Jews - DVD ",
+    "id": "0427e08d",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "https://www.facinghistory.org/for-educators/educator-resources/library-resources/c",
     "Footnote": [
       "f-0427e08d-1591"
     ],
-    "enabled": true
+    "title": "Childhood Experiences of German Jews - DVD "
   },
   {
-    "id": "60867951",
+    "enabled": true,
     "author.id": [
       "wlodarski-amy-lynn"
     ],
     "date": 2015,
+    "uri": "http://www.worldcat.org/oclc/948740035",
     "publisher": "Cambridge University Press",
-    "title": "Musical Witness and Holocaust Representation",
+    "id": "60867951",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/948740035",
     "Footnote": [
       "f-60867951-1678",
       "f-60867951-1679"
     ],
-    "enabled": true
+    "title": "Musical Witness and Holocaust Representation"
   },
   {
-    "id": "exhibition-jewish-heritage",
     "date": 2021,
+    "uri": "https://www.synagogasenec.sk/en/",
     "publisher": "Jewish Cultural Institute",
-    "title": "Exhibition of Jewish Heritage of the Bratislava Region in the Senec synagogue",
+    "id": "exhibition-jewish-heritage",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://www.synagogasenec.sk/en/",
     "Footnote": [
       "f-exhibition-jewish-heritage-0001",
       "f-exhibition-jewish-heritage-0002",
       "f-exhibition-jewish-heritage-0003",
       "f-exhibition-jewish-heritage-0004",
       "f-exhibition-jewish-heritage-0005"
-    ]
+    ],
+    "title": "Exhibition of Jewish Heritage of the Bratislava Region in the Senec synagogue"
   },
   {
-    "id": "f6e6969b",
+    "enabled": true,
     "author.id": [
       "barlow-susan"
     ],
+    "uri": "example of the publication: http://www.manchesterhistory.org/Couriernov08.pdf?fbclid=IwAR39szyCqHw-Db-dg-1t2YwZYPTd-nys1hKoe7-ZBDPNXb1w7kk0JpLWtYA",
     "publisher": "The Courier published by Manchester Historical Society ",
-    "title": "\"Our Local Heritage\"",
+    "Notes": " three-installment column in a Manchester, CT local paper ",
+    "id": "f6e6969b",
     "type": [
       "News article (Q5707594)"
     ],
-    "uri": "example of the publication: http://www.manchesterhistory.org/Couriernov08.pdf?fbclid=IwAR39szyCqHw-Db-dg-1t2YwZYPTd-nys1hKoe7-ZBDPNXb1w7kk0JpLWtYA",
     "Footnote": [
       "f-f6e6969b-256"
     ],
-    "enabled": true,
-    "Notes": " three-installment column in a Manchester, CT local paper "
+    "title": "\"Our Local Heritage\""
   },
   {
-    "id": "756da694",
+    "enabled": true,
     "author.id": [
       "rudof-joanne"
     ],
     "date": 1995,
+    "uri": "https://fortunoff.library.yale.edu/",
     "publisher": "Fortunoff Video Archive for Holocaust Testimonies",
-    "title": "History of Displaced Persons Camps: Research and Video Testimonies",
+    "id": "756da694",
     "type": [
       "Exhibit (Q11985689)"
     ],
-    "uri": "https://fortunoff.library.yale.edu/",
     "Footnote": [
       "f-756da694-1456",
       "f-756da694-1457",
@@ -2039,20 +2039,20 @@
       "f-756da694-1459",
       "f-756da694-1460"
     ],
-    "enabled": true
+    "title": "History of Displaced Persons Camps: Research and Video Testimonies"
   },
   {
-    "id": "667a26bd",
+    "enabled": true,
     "author.id": [
       "hitchcock-william"
     ],
     "date": 2008,
+    "uri": "http://www.worldcat.org/oclc/968194236",
     "publisher": "Free Press",
-    "title": "The Bitter Road to Freedom: A New History of the Liberation of Europe, 1945 ",
+    "id": "667a26bd",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/968194236",
     "Footnote": [
       "f-667a26bd-643",
       "f-667a26bd-644",
@@ -2065,77 +2065,78 @@
       "f-667a26bd-651",
       "f-667a26bd-652"
     ],
-    "enabled": true
+    "title": "The Bitter Road to Freedom: A New History of the Liberation of Europe, 1945 "
   },
   {
-    "id": "b97b0d38",
+    "enabled": true,
     "author.id": [
       "hirsch-david"
     ],
-    "title": "History and Memory",
+    "id": "b97b0d38",
     "Footnote": [
       "f-b97b0d38-641"
     ],
-    "enabled": true
+    "title": "History and Memory"
   },
   {
-    "id": "0428ee36",
+    "enabled": true,
     "author.id": [
       "young-james"
     ],
     "date": 1988,
+    "uri": "http://www.worldcat.org/oclc/948857207",
     "publisher": "Indiana University Press",
-    "title": "Writing and Rewriting the Holocaust: Interpreting Holocaust Narrative",
+    "id": "0428ee36",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/948857207",
     "Footnote": [
       "f-0428ee36-1689"
     ],
-    "enabled": true
+    "title": "Writing and Rewriting the Holocaust: Interpreting Holocaust Narrative"
   },
   {
-    "id": "lily-reiser",
     "date": 2020,
+    "uri": "https://www.pamatnik-terezin.cz/files/2b74yw9o/vz_ter_19_cz.pdf",
     "publisher": "Památník Terezín",
-    "title": "Lily Reiser",
+    "id": "lily-reiser",
     "type": [
       "Exhibit (Q11985689)"
     ],
-    "uri": "https://www.pamatnik-terezin.cz/files/2b74yw9o/vz_ter_19_cz.pdf",
     "Footnote": [
       "f-lily-reiser-0001"
-    ]
+    ],
+    "title": "Lily Reiser"
   },
   {
-    "id": "9bf2fbe8",
+    "enabled": true,
     "author.id": [
       "kipfer-birgit"
     ],
+    "uri": "http://www.kz-gedenkstaette-hailfingen-tailfingen.de/, https://www.gedenkstaetten-uebersicht.de/en/europe/cl/deutschland/inst/kz-gedenkstaette-hailfingen-ta/",
     "publisher": "Tailfinger Town Hall",
-    "title": "Research project on Hailfingen/Tailfingen concentration camp and accompanying visual exhibit in the town hall",
+    "id": "9bf2fbe8",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "http://www.kz-gedenkstaette-hailfingen-tailfingen.de/, https://www.gedenkstaetten-uebersicht.de/en/europe/cl/deutschland/inst/kz-gedenkstaette-hailfingen-ta/",
     "Footnote": [
       "f-9bf2fbe8-675"
     ],
-    "enabled": true
+    "title": "Research project on Hailfingen/Tailfingen concentration camp and accompanying visual exhibit in the town hall"
   },
   {
-    "id": "7d6c1e63",
+    "enabled": true,
     "author.id": [
       "almuli-jasa"
     ],
     "date": 2009,
+    "uri": "http://www.worldcat.org/oclc/705561883",
     "publisher": "Beograd : Službeni Glasnik",
-    "title": "Jews and Serbs in Jasenovac ",
+    "Notes": "(Jevreji i Srbi u Jasenovcu)",
+    "id": "7d6c1e63",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/705561883",
     "Footnote": [
       "f-7d6c1e63-170",
       "f-7d6c1e63-171",
@@ -2143,38 +2144,37 @@
       "f-7d6c1e63-173",
       "f-7d6c1e63-174"
     ],
-    "enabled": true,
-    "Notes": "(Jevreji i Srbi u Jasenovcu)"
+    "title": "Jews and Serbs in Jasenovac "
   },
   {
-    "id": "4e6e596f",
+    "enabled": true,
     "author.id": [
       "almuli-jasa"
     ],
     "date": 2003,
     "publisher": "Belgrade",
-    "title": "Oni su preziveli / They Survived",
+    "Notes": " [not found] - similar title as They stayed alive",
+    "id": "4e6e596f",
     "Footnote": [
       "f-4e6e596f-188",
       "f-4e6e596f-189",
       "f-4e6e596f-190",
       "f-4e6e596f-191"
     ],
-    "enabled": true,
-    "Notes": " [not found] - similar title as They stayed alive"
+    "title": "Oni su preziveli / They Survived"
   },
   {
-    "id": "d16e1535",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2002,
+    "uri": "https://www.professorkraft.com/bio/vita",
     "publisher": "Annual meeting - American Psychological Association",
-    "title": "Ghastly Tales: Narratives of atrocity",
+    "id": "d16e1535",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.professorkraft.com/bio/vita",
     "Footnote": [
       "f-d16e1535-776",
       "f-d16e1535-777",
@@ -2197,20 +2197,20 @@
       "f-d16e1535-794",
       "f-d16e1535-795"
     ],
-    "enabled": true
+    "title": "Ghastly Tales: Narratives of atrocity"
   },
   {
-    "id": "cf119e6f",
+    "enabled": true,
     "author.id": [
       "langer-lawrence"
     ],
     "date": 1986,
+    "uri": "http://www.worldcat.org/oclc/1014161752",
     "publisher": "part of chapter 1 at Orim, A Jewish Journal at Yale, 1, No 2",
-    "title": "Holocaust Testimonies and Their Audience ",
+    "id": "cf119e6f",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1014161752",
     "Footnote": [
       "f-cf119e6f-1185",
       "f-cf119e6f-1186",
@@ -2221,49 +2221,49 @@
       "f-cf119e6f-1191",
       "f-cf119e6f-1192"
     ],
-    "enabled": true
+    "title": "Holocaust Testimonies and Their Audience "
   },
   {
-    "id": "ffc3bc11",
+    "enabled": true,
     "author.id": [
       "zeiberg-sharon"
     ],
-    "title": "Teaching about the Holocaust",
+    "id": "ffc3bc11",
     "Footnote": [
       "f-ffc3bc11-1690",
       "f-ffc3bc11-1691"
     ],
-    "enabled": true
+    "title": "Teaching about the Holocaust"
   },
   {
-    "id": "bae07563",
+    "enabled": true,
     "author.id": [
       "adams-samuel"
     ],
     "date": 2016,
+    "uri": "https://www.youtube.com/watch?v=DWFeYyOGfck, https://www.chicagotribune.com/entertainment/ct-musicnow-review-ent-1123-20161122-column.html",
     "publisher": "Chicago Symphony Orchestra, Harris Theatre ",
-    "title": "November 21, 2016 MusicNOW Steve Reich tribute",
+    "id": "bae07563",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "https://www.youtube.com/watch?v=DWFeYyOGfck, https://www.chicagotribune.com/entertainment/ct-musicnow-review-ent-1123-20161122-column.html",
     "Footnote": [
       "f-bae07563-86"
     ],
-    "enabled": true
+    "title": "November 21, 2016 MusicNOW Steve Reich tribute"
   },
   {
-    "id": "7f744cdc",
+    "enabled": true,
     "author.id": [
       "rudof-joanne"
     ],
     "date": 2006,
+    "uri": "http://www.worldcat.org/oclc/1005111788",
     "publisher": "Fortunoff Video Archive for Holocaust Testimonies",
-    "title": "Witness: Voices from the Yugoslav Holocaust",
+    "id": "7f744cdc",
     "type": [
       "Oral history (Q558929)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1005111788",
     "Footnote": [
       "f-7f744cdc-1446",
       "f-7f744cdc-1447",
@@ -2276,20 +2276,20 @@
       "f-7f744cdc-1454",
       "f-7f744cdc-1455"
     ],
-    "enabled": true
+    "title": "Witness: Voices from the Yugoslav Holocaust"
   },
   {
-    "id": "c4d367dc",
+    "enabled": true,
     "author.id": [
       "greene-joshua"
     ],
     "date": 1999,
+    "uri": "http://www.worldcat.org/oclc/1088442529",
     "publisher": "Joshua M. Greene Productions",
-    "title": "Holocaust Testimonies",
+    "id": "c4d367dc",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1088442529",
     "Footnote": [
       "f-c4d367dc-620",
       "f-c4d367dc-621",
@@ -2298,101 +2298,100 @@
       "f-c4d367dc-624",
       "f-c4d367dc-1692"
     ],
-    "enabled": true
+    "title": "Holocaust Testimonies"
   },
   {
-    "id": "58609a4c",
+    "enabled": true,
     "author.id": [
       "shenker-noah"
     ],
     "date": 2006,
+    "uri": "https://www.ahoinfo.org/about/conference-archives, https://www.ahoinfo.org/images/Archives/2006_Winter_Seminar.pdf",
     "publisher": "AHO Winter Seminar ",
-    "title": "Embodied Testimony: The Ethical, Political, and Pedagogical potentiality of media archives documenting survivors of the Holocaust ",
+    "id": "58609a4c",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.ahoinfo.org/about/conference-archives, https://www.ahoinfo.org/images/Archives/2006_Winter_Seminar.pdf",
     "Footnote": [
       "f-58609a4c-1492"
     ],
-    "enabled": true
+    "title": "Embodied Testimony: The Ethical, Political, and Pedagogical potentiality of media archives documenting survivors of the Holocaust "
   },
   {
-    "id": "beyond-camps-kralova",
     "author.id": [
       "kralova-katerina"
     ],
     "date": 2020,
-    "title": "Beyond Camps and Forced Labour ",
+    "id": "beyond-camps-kralova",
     "type": [
       "Book (Q571)"
     ],
     "Footnote": [
       "f-beyond-camps-kralova-1"
-    ]
+    ],
+    "title": "Beyond Camps and Forced Labour "
   },
   {
-    "id": "14b854a1",
+    "enabled": true,
     "author.id": [
       "stark-jared"
     ],
     "date": 2001,
+    "uri": "https://doi.org/10.1353/yale.2001.0014",
     "publisher": "The Yale Journal of Criticism",
-    "title": "Suicide after Auschwitz",
+    "id": "14b854a1",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1353/yale.2001.0014",
     "Footnote": [
       "f-14b854a1-1543"
     ],
-    "enabled": true
+    "title": "Suicide after Auschwitz"
   },
   {
-    "id": "85f2c076",
+    "enabled": true,
     "author.id": [
       "durr-patricia"
     ],
     "date": 2006,
+    "uri": "https://scholarworks.rit.edu/article/; http://www.worldcat.org/oclc/703990726",
     "publisher": "Deaf History International Newsletter",
-    "title": "Deaf People and World War II",
+    "id": "85f2c076",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://scholarworks.rit.edu/article/; http://www.worldcat.org/oclc/703990726",
     "Footnote": [
       "f-85f2c076-372",
       "f-85f2c076-373",
       "f-85f2c076-374"
     ],
-    "enabled": true
+    "title": "Deaf People and World War II"
   },
   {
-    "id": "ecf3a2e0",
+    "enabled": true,
     "author.id": [
       "wachsmann-nikolaus"
     ],
     "date": 2004,
+    "uri": "https://krieger.jhu.edu/history/wp-content/uploads/sites/32/2017/09/cv-Shepard-2017.pdf",
     "publisher": "Répressions et violences coloniales (Institut d’histoire du temps present)",
-    "title": "“La ‘promotion exceptionnelle’: une politique d’affirmative action’ à la française?”",
+    "id": "ecf3a2e0",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://krieger.jhu.edu/history/wp-content/uploads/sites/32/2017/09/cv-Shepard-2017.pdf",
     "Footnote": [
       "f-ecf3a2e0-1627",
       "f-ecf3a2e0-1628"
     ],
-    "enabled": true
+    "title": "“La ‘promotion exceptionnelle’: une politique d’affirmative action’ à la française?”"
   },
   {
-    "id": "watching-mother's-testimony",
     "author.id": [
       "laub-dori"
     ],
     "date": 2013,
     "publisher": "Wounds of History Conference",
-    "title": "On Watching my Mother's Testimony: Reflections on the Continuity and Discontinuity of Joint Experience",
+    "id": "watching-mother's-testimony",
     "type": [
       "Conference presentation (Q604733)"
     ],
@@ -2402,20 +2401,21 @@
       "f-watching-mother's-testimony-0003",
       "f-watching-mother's-testimony-0004",
       "f-watching-mother's-testimony-0005"
-    ]
+    ],
+    "title": "On Watching my Mother's Testimony: Reflections on the Continuity and Discontinuity of Joint Experience"
   },
   {
-    "id": "eee4516d",
+    "enabled": true,
     "author.id": [
       "levine-allan"
     ],
     "date": 2008,
+    "uri": "http://www.worldcat.org/oclc/227032044",
     "publisher": "The Lyons Press",
-    "title": "Fugitives of the Forest: The Heroic Story of Jewish Resistance and Survival during the Second World War",
+    "id": "eee4516d",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/227032044",
     "Footnote": [
       "f-eee4516d-1298",
       "f-eee4516d-1299",
@@ -2424,55 +2424,55 @@
       "f-eee4516d-1302",
       "f-eee4516d-1303"
     ],
-    "enabled": true
+    "title": "Fugitives of the Forest: The Heroic Story of Jewish Resistance and Survival during the Second World War"
   },
   {
-    "id": "d8887b93",
+    "enabled": true,
     "author.id": [
       "jaiser-constanze"
     ],
     "date": 2009,
+    "uri": "http://www.worldcat.org/oclc/650784952",
     "publisher": "\"Ich bin die Stimme der sechs Millionen\" : das Videoarchiv im Ort der Information",
-    "title": "Biographisches Erzählen - Lebendinge Erinnerung",
+    "id": "d8887b93",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/650784952",
     "Footnote": [
       "f-d8887b93-665"
     ],
-    "enabled": true
+    "title": "Biographisches Erzählen - Lebendinge Erinnerung"
   },
   {
-    "id": "9c293119",
+    "enabled": true,
     "author.id": [
       "langer-lawrence"
     ],
     "date": 2004,
+    "uri": "https://swco-ir.tdl.org/handle/10605/289205",
     "publisher": "Samuel Bak art exhibit in the gallery of the Texas Tech University Library",
-    "title": "Lecture at Texas Tech University, Lubbock, TX - \"Landscapes of Jewish Experience\" ",
+    "id": "9c293119",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://swco-ir.tdl.org/handle/10605/289205",
     "Footnote": [
       "f-9c293119-1176",
       "f-9c293119-1177"
     ],
-    "enabled": true
+    "title": "Lecture at Texas Tech University, Lubbock, TX - \"Landscapes of Jewish Experience\" "
   },
   {
-    "id": "cbcbe41a",
+    "enabled": true,
     "author.id": [
       "alford-c-fred"
     ],
     "date": 2015,
+    "uri": "http://www.worldcat.org/oclc/994799745",
     "publisher": "Cambridge University Press",
-    "title": "Trauma and Forgiveness: Consequences and Communities",
+    "id": "cbcbe41a",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/994799745",
     "Footnote": [
       "f-cbcbe41a-92",
       "f-cbcbe41a-93",
@@ -2486,19 +2486,19 @@
       "f-cbcbe41a-101",
       "f-cbcbe41a-102"
     ],
-    "enabled": true
+    "title": "Trauma and Forgiveness: Consequences and Communities"
   },
   {
-    "id": "58ff7015",
+    "enabled": true,
     "author.id": [
       "rudof-joanne"
     ],
+    "uri": "https://www.socialstudies.org/publications/socialeducation?fbclid=IwAR3vaN3PRNS2wLZrnkt0WkwmxblvVm0j1mCm1IYnit5SzkFvwC7TXNnYlZI",
     "publisher": "National council for social studies ",
-    "title": "Six short articles for \"Sidebars,\" in Social Education: The Official Journal of the National Council for Social Studies",
+    "id": "58ff7015",
     "type": [
       "News article (Q5707594)"
     ],
-    "uri": "https://www.socialstudies.org/publications/socialeducation?fbclid=IwAR3vaN3PRNS2wLZrnkt0WkwmxblvVm0j1mCm1IYnit5SzkFvwC7TXNnYlZI",
     "Footnote": [
       "f-58ff7015-1438",
       "f-58ff7015-1439",
@@ -2508,87 +2508,87 @@
       "f-58ff7015-1443",
       "f-58ff7015-1444"
     ],
-    "enabled": true
+    "title": "Six short articles for \"Sidebars,\" in Social Education: The Official Journal of the National Council for Social Studies"
   },
   {
-    "id": "80666810",
+    "enabled": true,
     "author.id": [
       "laub-dori"
     ],
     "date": 2010,
+    "uri": "https://msrp.univie.ac.at/project-information/conference-contributions/",
     "publisher": "Between Past and Future: Oral History, Memory and Meaning - Prague, Czech Republic ",
-    "title": "panel: Surviving and Remembering Mauthausen",
+    "Notes": "no apparent connection to Dori Laub",
+    "id": "80666810",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://msrp.univie.ac.at/project-information/conference-contributions/",
     "Footnote": [
       "f-80666810-1279",
       "f-80666810-1280",
       "f-between-past-future-0001"
     ],
-    "enabled": true,
-    "Notes": "no apparent connection to Dori Laub"
+    "title": "panel: Surviving and Remembering Mauthausen"
   },
   {
-    "id": "affective-experiences-women",
     "author.id": [
       "cooper-tiarra"
     ],
-    "title": "The Affective Experiences of Women Forcibly Sterilized under the Nazi Regime, 1933-1945",
+    "id": "affective-experiences-women",
     "type": [
       "Conference presentation (Q604733)"
     ],
     "Footnote": [
       "f-affective-experiences-women-0001"
-    ]
+    ],
+    "title": "The Affective Experiences of Women Forcibly Sterilized under the Nazi Regime, 1933-1945"
   },
   {
-    "id": "a9069a58",
+    "enabled": true,
     "author.id": [
       "langer-lawrence"
     ],
     "date": 1989,
+    "uri": "http://www.worldcat.org/oclc/20811592",
     "publisher": "Facing History and Ourselves: Elements of time ",
-    "title": "Interpreting Oral and Written Holocaust Texts",
+    "id": "a9069a58",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/20811592",
     "Footnote": [
       "f-a9069a58-1197",
       "f-a9069a58-1198"
     ],
-    "enabled": true
+    "title": "Interpreting Oral and Written Holocaust Texts"
   },
   {
-    "id": "d79fc931",
+    "enabled": true,
     "author.id": [
       "gross-jan"
     ],
     "date": 2006,
+    "uri": "http://www.worldcat.org/oclc/781155062",
     "publisher": "Random House",
-    "title": "Fear, Anti-Semitism in Poland after Auschwitz: An Essay in Historical Interpretation ",
+    "id": "d79fc931",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/781155062",
     "Footnote": [
       "f-d79fc931-625",
       "f-d79fc931-626",
       "f-d79fc931-627"
     ],
-    "enabled": true
+    "title": "Fear, Anti-Semitism in Poland after Auschwitz: An Essay in Historical Interpretation "
   },
   {
-    "id": "c45d60fd",
+    "enabled": true,
     "author.id": [
       "petit-marianne"
     ],
     "date": 2006,
-    "publisher": "Conseil général des Pyrénées-Orientales",
-    "title": "Internal research to plan for the future Musée du Camp de Rivesaltes, loaned to the Département des Pyrénées-Orientales",
     "uri": "https://www.histoire-immigration.fr/projets/memorial-du-camp-de-rivesaltes",
+    "publisher": "Conseil général des Pyrénées-Orientales",
+    "id": "c45d60fd",
     "Footnote": [
       "f-c45d60fd-1379",
       "f-c45d60fd-1380",
@@ -2605,59 +2605,59 @@
       "f-c45d60fd-1391",
       "f-c45d60fd-1392"
     ],
-    "enabled": true
+    "title": "Internal research to plan for the future Musée du Camp de Rivesaltes, loaned to the Département des Pyrénées-Orientales"
   },
   {
-    "id": "344454fa",
+    "enabled": true,
     "author.id": [
       "laub-dori"
     ],
     "date": 2010,
+    "uri": "http://www.worldcat.org/oclc/727649479",
     "publisher": "Hitler's Slaves : Life Stories of Forced Labourers in Nazi-Occupied Europe",
-    "title": "Twenty-five Years Later: Revisiting Testimonies of Holocaust Survivors",
+    "id": "344454fa",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/727649479",
     "Footnote": [
       "f-344454fa-1277",
       "f-344454fa-1278",
       "f-344454fa-1284",
       "f-344454fa-1285"
     ],
-    "enabled": true
+    "title": "Twenty-five Years Later: Revisiting Testimonies of Holocaust Survivors"
   },
   {
-    "id": "5a241772",
+    "enabled": true,
     "author.id": [
       "wiedeman-christine"
     ],
     "date": 2014,
+    "uri": "http://www.worldcat.org/oclc/1126276930",
     "publisher": "Joshua M. Greene, Vision Video",
-    "title": "Memory After Belsen",
+    "id": "5a241772",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1126276930",
     "Footnote": [
       "f-5a241772-1644",
       "f-5a241772-1645",
       "f-5a241772-1646"
     ],
-    "enabled": true
+    "title": "Memory After Belsen"
   },
   {
-    "id": "8e10333e",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2004,
+    "uri": "http://www.worldcat.org/oclc/934179561",
     "publisher": "chapter in Memory and emotion ",
-    "title": "Emotional memory in survivors of the Holocaust: A qualitative study of oral testimony",
+    "id": "8e10333e",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/934179561",
     "Footnote": [
       "f-8e10333e-846",
       "f-8e10333e-847",
@@ -2689,30 +2689,29 @@
       "f-8e10333e-873",
       "f-8e10333e-874"
     ],
-    "enabled": true
+    "title": "Emotional memory in survivors of the Holocaust: A qualitative study of oral testimony"
   },
   {
-    "id": "ac69a8ff",
+    "enabled": true,
     "author.id": [
       "gold-nili"
     ],
     "date": 2008,
+    "uri": "http://www.worldcat.org/oclc/769688869",
     "publisher": "University Press of New England",
-    "title": "Yehuda Amichai: The Making of Israel's National Poet",
+    "id": "ac69a8ff",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/769688869",
     "Footnote": [
       "f-ac69a8ff-618"
     ],
-    "enabled": true
+    "title": "Yehuda Amichai: The Making of Israel's National Poet"
   },
   {
-    "id": "holocaust-testimonies",
     "date": 1996,
     "publisher": "Rainbow Programming Holdings, Inc. ",
-    "title": "Holocaust Testimonies",
+    "id": "holocaust-testimonies",
     "type": [
       "Television program (Q15416)"
     ],
@@ -2722,31 +2721,32 @@
       "f-holocaust-testimonies-0003",
       "f-holocaust-testimonies-0004",
       "f-holocaust testimonies-0005"
-    ]
+    ],
+    "title": "Holocaust Testimonies"
   },
   {
-    "id": "7adaced0",
+    "enabled": true,
     "author.id": [
       "programmkino-wuerzburg-eg"
     ],
     "date": 2017,
+    "uri": "https://www.central-bb.de/media/programs/April_kl.pdf",
     "publisher": "Central im Bürgerbräu",
-    "title": "Holocaust Testimony Yaehuda Amichai",
+    "id": "7adaced0",
     "type": [
       "Oral history (Q558929)"
     ],
-    "uri": "https://www.central-bb.de/media/programs/April_kl.pdf",
     "Footnote": [
       "f-7adaced0-1417"
     ],
-    "enabled": true
+    "title": "Holocaust Testimony Yaehuda Amichai"
   },
   {
-    "id": "d7439bee",
+    "enabled": true,
     "author.id": [
       "miller-lisa"
     ],
-    "title": "RAW",
+    "id": "d7439bee",
     "Footnote": [
       "f-d7439bee-1334",
       "f-d7439bee-1335",
@@ -2754,76 +2754,76 @@
       "f-d7439bee-1337",
       "f-d7439bee-1338"
     ],
-    "enabled": true
+    "title": "RAW"
   },
   {
-    "id": "a5da44dd",
+    "enabled": true,
     "author.id": [
       "rubenstein-rachel"
     ],
-    "title": "Afraid to Scream: The Sexualization of Violence in the Narratives of Child Holocaust Survivors, article in Urim v'Tumim",
+    "uri": "http://www.worldcat.org/oclc/32414421",
+    "id": "a5da44dd",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "http://www.worldcat.org/oclc/32414421",
     "Footnote": [
       "f-a5da44dd-1434"
     ],
-    "enabled": true
+    "title": "Afraid to Scream: The Sexualization of Violence in the Narratives of Child Holocaust Survivors, article in Urim v'Tumim"
   },
   {
-    "id": "d6cf11a1",
+    "enabled": true,
     "author.id": [
       "conathan-lisa"
     ],
     "date": 2011,
+    "uri": "https://beinecke.library.yale.edu/article/new-exhibition",
     "publisher": "The Beinecke Library",
-    "title": "Exile as Destiny: Czeslaw Milosz and America",
+    "id": "d6cf11a1",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://beinecke.library.yale.edu/article/new-exhibition",
     "Footnote": [
       "f-d6cf11a1-358"
     ],
-    "enabled": true
+    "title": "Exile as Destiny: Czeslaw Milosz and America"
   },
   {
-    "id": "d9ac974b",
+    "enabled": true,
     "author.id": [
       "bieber-jeff"
     ],
     "date": 1998,
+    "uri": "http://www.worldcat.org/oclc/1042343104",
     "publisher": "USC Shoah Foundation",
-    "title": "Jacques Fein Oral History",
+    "id": "d9ac974b",
     "type": [
       "Oral history (Q558929)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1042343104",
     "Footnote": [
       "f-d9ac974b-267"
     ],
-    "enabled": true
+    "title": "Jacques Fein Oral History"
   },
   {
-    "id": "the-listener",
     "author.id": [
       "livne-micha"
     ],
     "date": 2022,
-    "title": "The Listener",
+    "uri": "https://fortunoff.library.yale.edu/film/the-listener/",
+    "id": "the-listener",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "https://fortunoff.library.yale.edu/film/the-listener/"
+    "title": "The Listener"
   },
   {
-    "id": "c2220c09",
+    "enabled": true,
     "author.id": [
       "okeefe-catherine"
     ],
-    "title": "Facing History website exhibition",
     "uri": "https://www.facinghistory.org/",
+    "id": "c2220c09",
     "Footnote": [
       "f-c2220c09-1361",
       "f-c2220c09-1362",
@@ -2840,103 +2840,103 @@
       "f-c2220c09-1373",
       "f-c2220c09-1374"
     ],
-    "enabled": true
+    "title": "Facing History website exhibition"
   },
   {
-    "id": "45c0aaad",
+    "enabled": true,
     "author.id": [
       "wiedeman-christine"
     ],
     "date": 2014,
+    "uri": "https://vimeo.com/168014139",
     "publisher": "Dora Films ",
-    "title": "The Name of the 86",
+    "id": "45c0aaad",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "https://vimeo.com/168014139",
     "Footnote": [
       "f-45c0aaad-1643"
     ],
-    "enabled": true
+    "title": "The Name of the 86"
   },
   {
-    "id": "erich-levi",
     "author.id": [
       "diem-eva"
     ],
     "date": 2022,
+    "uri": "https://www.gegen-vergessen.de/startseite/",
     "publisher": "Gegen Vergessen - fuer Demokratie e. V.",
-    "title": "Erich Levi",
+    "id": "erich-levi",
     "type": [
       "Website (Q35127)"
     ],
-    "uri": "https://www.gegen-vergessen.de/startseite/",
     "Footnote": [
       "f-erich-levi-0001"
-    ]
+    ],
+    "title": "Erich Levi"
   },
   {
-    "id": "536c2c2d",
+    "enabled": true,
     "author.id": [
       "barsky-ivy"
     ],
     "date": 2007,
+    "uri": "http://www.worldcat.org/oclc/845357700",
     "publisher": "Museum of Jewish Heritage",
-    "title": "Daring to Resist: Jewish Defiance in the Holocaust",
+    "id": "536c2c2d",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/845357700",
     "Footnote": [
       "f-536c2c2d-257",
       "f-536c2c2d-258",
       "f-536c2c2d-1349"
     ],
-    "enabled": true
+    "title": "Daring to Resist: Jewish Defiance in the Holocaust"
   },
   {
-    "id": "c7d434b1",
+    "enabled": true,
     "author.id": [
       "kacandes-irene"
     ],
     "date": 1994,
+    "uri": "http://www.worldcat.org/oclc/29521552",
     "publisher": "Insiders and outsiders : Jewish and Gentile culture in Germany and Austria",
-    "title": "You Who Live Safe in Your Warm Houses: Your Role in the Production of Holocaust Testimony",
+    "id": "c7d434b1",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/29521552",
     "Footnote": [
       "f-c7d434b1-669",
       "f-c7d434b1-670"
     ],
-    "enabled": true
+    "title": "You Who Live Safe in Your Warm Houses: Your Role in the Production of Holocaust Testimony"
   },
   {
-    "id": "parcours-de-combattants",
     "author.id": [
       "el-moaddem-nassira"
     ],
     "date": 2022,
+    "uri": "https://www.radiofrance.fr/franceinter/podcasts/parcours-de-combattants",
     "publisher": "Radio France",
-    "title": "Parcours de Combattants",
+    "id": "parcours-de-combattants",
     "type": [
       "Radio program (Q1555508)"
     ],
-    "uri": "https://www.radiofrance.fr/franceinter/podcasts/parcours-de-combattants"
+    "title": "Parcours de Combattants"
   },
   {
-    "id": "d3d714fd",
+    "enabled": true,
     "author.id": [
       "schwarcz-vera"
     ],
     "date": 1998,
+    "uri": "http://www.worldcat.org/oclc/895515742",
     "publisher": "Yale University Press",
-    "title": "Bridge across broken time: Chinese and Jewish cultural memory",
+    "id": "d3d714fd",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/895515742",
     "Footnote": [
       "f-d3d714fd-1466",
       "f-d3d714fd-1467",
@@ -2944,35 +2944,36 @@
       "f-d3d714fd-1469",
       "f-d3d714fd-1470"
     ],
-    "enabled": true
+    "title": "Bridge across broken time: Chinese and Jewish cultural memory"
   },
   {
-    "id": "fbfe87f8",
+    "enabled": true,
     "author.id": [
       "hiemesch-wiebke"
     ],
     "date": 2017,
+    "uri": "http://www.worldcat.org/oclc/1022766742",
     "publisher": "Köln : Böhlau Verlag",
-    "title": "Kinder im Konzentrationslager Ravensbrück",
+    "id": "fbfe87f8",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1022766742",
     "Footnote": [
       "f-fbfe87f8-640"
     ],
-    "enabled": true
+    "title": "Kinder im Konzentrationslager Ravensbrück"
   },
   {
-    "id": "697ceec3",
+    "enabled": true,
     "author.id": [
       "neal-rebecca"
     ],
-    "title": "Women in National Socialist Europe: Reflections of Moral Responsibility ",
+    "uri": "http://www.worldcat.org/oclc/43055190",
+    "Notes": "German women and the Holocaust???",
+    "id": "697ceec3",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/43055190",
     "Footnote": [
       "f-697ceec3-1354",
       "f-697ceec3-1355",
@@ -2982,35 +2983,34 @@
       "f-697ceec3-1359",
       "f-697ceec3-1360"
     ],
-    "enabled": true,
-    "Notes": "German women and the Holocaust???"
+    "title": "Women in National Socialist Europe: Reflections of Moral Responsibility "
   },
   {
-    "id": "505f79a6",
+    "enabled": true,
     "author.id": [
       "simon-roger"
     ],
     "date": 2005,
+    "uri": "http://www.worldcat.org/oclc/7323612543",
     "publisher": "Palgrave Macmillan",
-    "title": "The Touch of the Past: Remembrance, Learning and Ethics ",
+    "id": "505f79a6",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/7323612543",
     "Footnote": [
       "f-505f79a6-1502",
       "f-505f79a6-1503",
       "f-505f79a6-1504",
       "f-505f79a6-1505"
     ],
-    "enabled": true
+    "title": "The Touch of the Past: Remembrance, Learning and Ethics "
   },
   {
-    "id": "cdf13e09",
+    "enabled": true,
     "author.id": [
       "sugano-maiko"
     ],
-    "title": "Master's thesis on the struggle for survival of Jewish women in Ravensbruck as compared to those of Sinti and Roma",
+    "id": "cdf13e09",
     "type": [
       "Dissertation (Q187685)"
     ],
@@ -3023,20 +3023,20 @@
       "f-cdf13e09-1618",
       "f-cdf13e09-1619"
     ],
-    "enabled": true
+    "title": "Master's thesis on the struggle for survival of Jewish women in Ravensbruck as compared to those of Sinti and Roma"
   },
   {
-    "id": "a73f81fa",
+    "enabled": true,
     "author.id": [
       "finkel-evgeny"
     ],
     "date": 2012,
+    "uri": "http://www.worldcat.org/oclc/800385314",
     "publisher": "University of Wisconsin--Madison",
-    "title": "Victims Politics: Jewish Behavior During the Holocaust",
+    "id": "a73f81fa",
     "type": [
       "Dissertation (Q187685)"
     ],
-    "uri": "http://www.worldcat.org/oclc/800385314",
     "Footnote": [
       "f-a73f81fa-486",
       "f-a73f81fa-487",
@@ -3147,31 +3147,31 @@
       "f-a73f81fa-592",
       "f-a73f81fa-593"
     ],
-    "enabled": true
+    "title": "Victims Politics: Jewish Behavior During the Holocaust"
   },
   {
-    "id": "narratives-jewish-community",
     "author.id": [
       "kakaroudi-theodora"
     ],
     "date": 2022,
-    "title": "Narratives of the Jewish community of Thessaloniki and digitality in the EFL\nclassroom",
+    "id": "narratives-jewish-community",
     "type": [
       "Dissertation (Q187685)"
-    ]
+    ],
+    "title": "Narratives of the Jewish community of Thessaloniki and digitality in the EFL\nclassroom"
   },
   {
-    "id": "945d4445",
+    "enabled": true,
     "author.id": [
       "williams-benn"
     ],
     "date": 2001,
+    "uri": "http://www.worldcat.org/oclc/5547514438",
     "publisher": "Historical Social Research / Historische Sozialforschung",
-    "title": "Letters of Denunciation in the Lyon region, 1940-1944",
+    "id": "945d4445",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "http://www.worldcat.org/oclc/5547514438",
     "Footnote": [
       "f-945d4445-1668",
       "f-945d4445-1669",
@@ -3183,188 +3183,188 @@
       "f-945d4445-1675",
       "f-945d4445-1676"
     ],
-    "enabled": true
+    "title": "Letters of Denunciation in the Lyon region, 1940-1944"
   },
   {
-    "id": "testimonies-for-future",
     "author.id": [
       "erinnern.at"
     ],
     "date": 2018,
+    "uri": "https://www.erinnern.at/ueber-uns/about-_erinnern.at_",
     "publisher": "Austria's Agency for Education and Internationalization",
-    "title": "Zeugnisse fur die Zukunft/Testimonies for the Future",
+    "id": "testimonies-for-future",
     "type": [
       "Exhibit (Q11985689)"
     ],
-    "uri": "https://www.erinnern.at/ueber-uns/about-_erinnern.at_",
     "Footnote": [
       "f-testimonies-for-future-0001",
       "f-testimonies-for-future-0002",
       "f-testimonies-for-future-0003",
       "f-testimonies-for-future-0004"
-    ]
+    ],
+    "title": "Zeugnisse fur die Zukunft/Testimonies for the Future"
   },
   {
-    "id": "70ef8a28",
+    "enabled": true,
     "author.id": [
       "laub-dori"
     ],
-    "title": "The Impact of the Holocaust on Survivors and their Families",
+    "Notes": "not a specific title",
+    "id": "70ef8a28",
     "Footnote": [
       "f-70ef8a28-1286"
     ],
-    "enabled": true,
-    "Notes": "not a specific title"
+    "title": "The Impact of the Holocaust on Survivors and their Families"
   },
   {
-    "id": "a2060730",
+    "enabled": true,
     "author.id": [
       "mueller-melanie"
     ],
     "date": 2007,
+    "uri": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories",
     "publisher": "American Institute of Physics",
-    "title": "American Institute of Physics Oral Histories",
+    "id": "a2060730",
     "type": [
       "Website (Q35127)"
     ],
-    "uri": "https://www.aip.org/history-programs/niels-bohr-library/oral-histories",
     "Footnote": [
       "f-a2060730-1350"
     ],
-    "enabled": true
+    "title": "American Institute of Physics Oral Histories"
   },
   {
-    "id": "d8989ca7",
+    "enabled": true,
     "author.id": [
       "bodenstab-johanna"
     ],
     "date": 2008,
+    "uri": "https://doi.org/10.1080/07351692409349111",
     "publisher": "Psychoanalytic Inquiry",
-    "title": "Under Siege: A Mother-Daughter Relationship Survives the Holocaust",
+    "id": "d8989ca7",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1080/07351692409349111",
     "Footnote": [
       "f-d8989ca7-301",
       "f-d8989ca7-302",
       "f-d8989ca7-303"
     ],
-    "enabled": true
+    "title": "Under Siege: A Mother-Daughter Relationship Survives the Holocaust"
   },
   {
-    "id": "7bb10560",
+    "enabled": true,
     "author.id": [
       "ringelheim-joan"
     ],
     "date": 2000,
+    "uri": "http://www.worldcat.org/oclc/53334864",
     "publisher": "United States Holocaust Memorial Museum",
-    "title": "Voices from Auschwitz",
+    "id": "7bb10560",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/53334864",
     "Footnote": [
       "f-7bb10560-1427"
     ],
-    "enabled": true
+    "title": "Voices from Auschwitz"
   },
   {
-    "id": "5b1131c4",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2014,
+    "uri": "http://www.worldcat.org/oclc/1091719740",
     "publisher": "NYU Press",
-    "title": "Violent Accounts ",
+    "id": "5b1131c4",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1091719740",
     "Footnote": [
       "f-5b1131c4-692"
     ],
-    "enabled": true
+    "title": "Violent Accounts "
   },
   {
-    "id": "643a2f7c",
+    "enabled": true,
     "author.id": [
       "baranowski-daniel"
     ],
     "date": 2014,
+    "uri": "http://www.worldcat.org/oclc/885413587",
     "publisher": "Sprechen trotz allem : Das Videoarchiv der Stiftung Denkmal für die ermordeten Juden Europas (published by Stiftung Denkmal für die ermordeten Juden Europas)",
-    "title": "Presentation by the Foundation Memorial to the Murdered Jews of Europe at the conference 'Bildungsarbeit mit videographierten Zeitzeugerninterviews von Verfolgten un Opfern des nationalsozialistischen Regimes - pädagogische Konzepte, Zugänge und Methoden'",
+    "id": "643a2f7c",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/885413587",
     "Footnote": [
       "f-643a2f7c-222"
     ],
-    "enabled": true
+    "title": "Presentation by the Foundation Memorial to the Murdered Jews of Europe at the conference 'Bildungsarbeit mit videographierten Zeitzeugerninterviews von Verfolgten un Opfern des nationalsozialistischen Regimes - pädagogische Konzepte, Zugänge und Methoden'"
   },
   {
-    "id": "survivors-vilna",
     "author.id": [
       "patt, avinoam"
     ],
     "date": 2017,
+    "uri": "https://www.hartford.edu/academics/schools-colleges/arts-sciences/academics/departments-and-centers/greenberg-center-for-judaic-studies/museum-of-Jewish-civilization.aspx",
     "publisher": "University of Hartford",
-    "title": "Survivors From Vilna",
+    "id": "survivors-vilna",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://www.hartford.edu/academics/schools-colleges/arts-sciences/academics/departments-and-centers/greenberg-center-for-judaic-studies/museum-of-Jewish-civilization.aspx",
     "Footnote": [
       "f-survivors-vilna-0001"
-    ]
+    ],
+    "title": "Survivors From Vilna"
   },
   {
-    "id": "stories-holocaust-local-memory",
     "author.id": [
       "wilkinson-sarah"
     ],
     "date": 2021,
+    "uri": "https://omekas.library.uvic.ca/s/memory/page/home",
     "publisher": "University of Victoria",
-    "title": "Stories of the Holocaust: Local Memory and Transmission",
+    "id": "stories-holocaust-local-memory",
     "type": [
       "Course (Q600134)"
     ],
-    "uri": "https://omekas.library.uvic.ca/s/memory/page/home",
     "Footnote": [
       "f-stories-holocaust-local-memory-0001",
       "f-stories-holocaust-local-memory-0002"
-    ]
+    ],
+    "title": "Stories of the Holocaust: Local Memory and Transmission"
   },
   {
-    "id": "ff3ca1b8",
+    "enabled": true,
     "author.id": [
       "ruedenberg-lucia"
     ],
     "date": 1994,
+    "uri": "http://www.worldcat.org/oclc/37244733",
     "publisher": "New York University",
-    "title": "Remember Six Million: civic commemoration of the Holocaust in New York City",
+    "id": "ff3ca1b8",
     "type": [
       "Dissertation (Q187685)"
     ],
-    "uri": "http://www.worldcat.org/oclc/37244733",
     "Footnote": [
       "f-ff3ca1b8-1462"
     ],
-    "enabled": true
+    "title": "Remember Six Million: civic commemoration of the Holocaust in New York City"
   },
   {
-    "id": "c1fa5603",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 1996,
+    "uri": "https://www.professorkraft.com/bio/vita",
     "publisher": "Psychonomic Society, Chicago",
-    "title": "Memory in Young Children Who Survived the Holocaust",
+    "id": "c1fa5603",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.professorkraft.com/bio/vita",
     "Footnote": [
       "f-c1fa5603-875",
       "f-c1fa5603-876",
@@ -3398,72 +3398,72 @@
       "f-c1fa5603-904",
       "f-c1fa5603-905"
     ],
-    "enabled": true
+    "title": "Memory in Young Children Who Survived the Holocaust"
   },
   {
-    "id": "e6338207",
+    "enabled": true,
     "author.id": [
       "stark-jared"
     ],
     "date": 1999,
+    "uri": "http://www.worldcat.org/oclc/906817287",
     "publisher": "University of Nebraska Press",
-    "title": "No Common Place: The Holocaust Testimony of Aline Bacall-Zwirn",
+    "id": "e6338207",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/906817287",
     "Footnote": [
       "f-e6338207-1544"
     ],
-    "enabled": true
+    "title": "No Common Place: The Holocaust Testimony of Aline Bacall-Zwirn"
   },
   {
-    "id": "9f2238b7",
+    "enabled": true,
     "author.id": [
       "avrahami-monia"
     ],
     "date": 2018,
+    "uri": "http://www.shaareytikvah.org/face-to-face/educational-booklet/",
     "publisher": "Shaarey Tikvah",
-    "title": "Testimonies of Survivors as a Means of Learning about the Holocaust",
+    "Notes": " (probably Face to Face - A Holocaust Education Program)",
+    "id": "9f2238b7",
     "type": [
       "Course (Q600134)"
     ],
-    "uri": "http://www.shaareytikvah.org/face-to-face/educational-booklet/",
     "Footnote": [
       "f-9f2238b7-218"
     ],
-    "enabled": true,
-    "Notes": " (probably Face to Face - A Holocaust Education Program)"
+    "title": "Testimonies of Survivors as a Means of Learning about the Holocaust"
   },
   {
-    "id": "a7874f8e",
+    "enabled": true,
     "author.id": [
       "myers-david"
     ],
     "date": 1998,
+    "uri": "http://www.worldcat.org/oclc/851594352",
     "publisher": "Worth Publishers",
-    "title": "Psychology, 5th ed. ",
+    "id": "a7874f8e",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/851594352",
     "Footnote": [
       "f-a7874f8e-1353"
     ],
-    "enabled": true
+    "title": "Psychology, 5th ed. "
   },
   {
-    "id": "2a140322",
+    "enabled": true,
     "author.id": [
       "kriebel-leslie"
     ],
     "date": 2019,
+    "uri": "https://vigdis.hi.is/wp-content/uploads/2018/11/final-2019-gls-conference-program-1.pdf",
     "publisher": "2019 Annual Meeting of the Gypsy Lore Society and Conference on Romani Studies",
-    "title": "Forms of Discrimination and Persecution Leading to Genocide",
+    "id": "2a140322",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://vigdis.hi.is/wp-content/uploads/2018/11/final-2019-gls-conference-program-1.pdf",
     "Footnote": [
       "f-2a140322-1162",
       "f-2a140322-1163",
@@ -3480,38 +3480,38 @@
       "f-2a140322-1174",
       "f-2a140322-1175"
     ],
-    "enabled": true
+    "title": "Forms of Discrimination and Persecution Leading to Genocide"
   },
   {
-    "id": "e99933a7",
+    "enabled": true,
     "author.id": [
       "millet-kitty"
     ],
     "date": 1996,
+    "uri": "http://www.worldcat.org/oclc/1014023652",
     "publisher": "University of Minnesota",
-    "title": "To Survive Outside the Law: The Testimonial Communities of Holocaust Survivors",
+    "id": "e99933a7",
     "type": [
       "Dissertation (Q187685)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1014023652",
     "Footnote": [
       "f-e99933a7-1339",
       "f-e99933a7-1340"
     ],
-    "enabled": true
+    "title": "To Survive Outside the Law: The Testimonial Communities of Holocaust Survivors"
   },
   {
-    "id": "7db5a573",
+    "enabled": true,
     "author.id": [
       "browning-christopher"
     ],
     "date": 2000,
+    "uri": "http://www.worldcat.org/oclc/726825208",
     "publisher": "Cambridge University Press",
-    "title": "Nazi Policy, Jewish Labor, German Killers ",
+    "id": "7db5a573",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/726825208",
     "Footnote": [
       "f-7db5a573-306",
       "f-7db5a573-307",
@@ -3520,40 +3520,40 @@
       "f-7db5a573-310",
       "f-7db5a573-311"
     ],
-    "enabled": true
+    "title": "Nazi Policy, Jewish Labor, German Killers "
   },
   {
-    "id": "e91f4164",
+    "enabled": true,
     "author.id": [
       "mnch-walter"
     ],
     "date": 2010,
+    "uri": "https://www.buchenwald.de/en/1452/",
     "publisher": "Buchenwald and Mittelbau-Dora ",
-    "title": "Exhibition and website, Gedenkstätte Buchenwald",
+    "id": "e91f4164",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://www.buchenwald.de/en/1452/",
     "Footnote": [
       "f-e91f4164-1345",
       "f-e91f4164-1346",
       "f-e91f4164-1347",
       "f-e91f4164-1348"
     ],
-    "enabled": true
+    "title": "Exhibition and website, Gedenkstätte Buchenwald"
   },
   {
-    "id": "429a8872",
+    "enabled": true,
     "author.id": [
       "bodenstab-johanna"
     ],
     "date": 2015,
+    "uri": "http://www.worldcat.org/oclc/1002224439",
     "publisher": "Vanderhoeck & Ruprecht",
-    "title": "Dramen der Verlorenheit: Mutter-Tochter-Beziehungen in der Shoah",
+    "id": "429a8872",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1002224439",
     "Footnote": [
       "f-429a8872-283",
       "f-429a8872-284",
@@ -3570,50 +3570,50 @@
       "f-429a8872-295",
       "f-429a8872-296"
     ],
-    "enabled": true
+    "title": "Dramen der Verlorenheit: Mutter-Tochter-Beziehungen in der Shoah"
   },
   {
-    "id": "55ea536d",
+    "enabled": true,
     "author.id": [
       "laub-dori"
     ],
     "date": 2009,
+    "uri": "https://doi.org/10.2979/his.2009.21.1.127",
     "publisher": "History and Memory",
-    "title": "On Holocaust Testimony and Its ‘Reception’ within Its Own Frame, as a Process in Its Own Right",
+    "id": "55ea536d",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.2979/his.2009.21.1.127",
     "Footnote": [
       "f-55ea536d-1281",
       "f-55ea536d-1282",
       "f-55ea536d-1283"
     ],
-    "enabled": true
+    "title": "On Holocaust Testimony and Its ‘Reception’ within Its Own Frame, as a Process in Its Own Right"
   },
   {
-    "id": "8683bc17",
+    "enabled": true,
     "author.id": [
       "laor-nathaniel"
     ],
     "date": 1989,
+    "uri": "https://doi.org/10.1080/00797308.1989.11822649",
     "publisher": "The Psychoanalytic study of the child",
-    "title": "Psychoanalytic Neutrality Toward Religious Experience",
+    "id": "8683bc17",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1080/00797308.1989.11822649",
     "Footnote": [
       "f-8683bc17-1275"
     ],
-    "enabled": true
+    "title": "Psychoanalytic Neutrality Toward Religious Experience"
   },
   {
-    "id": "0f8844d9",
+    "enabled": true,
     "author.id": [
       "lurie-daniel"
     ],
-    "title": "Master's and senior thesis at Brandeis University",
+    "id": "0f8844d9",
     "Footnote": [
       "f-0f8844d9-1304",
       "f-0f8844d9-1305",
@@ -3628,20 +3628,20 @@
       "f-0f8844d9-1314",
       "f-0f8844d9-1315"
     ],
-    "enabled": true
+    "title": "Master's and senior thesis at Brandeis University"
   },
   {
-    "id": "80f70f30",
+    "enabled": true,
     "author.id": [
       "gerber-mitchel"
     ],
     "date": 2003,
+    "uri": "https://oakland.edu/Assets/upload/docs/AIS/Syllabi/Gerber_Proposal.pdf",
     "publisher": "Southeast Missouri State University ",
-    "title": "The Utility of Videotaped Testimonies in the Study of the Holocaust: A Unique Interdisciplinary Mode to Study Genocide",
+    "id": "80f70f30",
     "type": [
       "Syllabus (Q935222)"
     ],
-    "uri": "https://oakland.edu/Assets/upload/docs/AIS/Syllabi/Gerber_Proposal.pdf",
     "Footnote": [
       "f-80f70f30-612",
       "f-80f70f30-613",
@@ -3650,16 +3650,15 @@
       "f-80f70f30-616",
       "f-80f70f30-617"
     ],
-    "enabled": true
+    "title": "The Utility of Videotaped Testimonies in the Study of the Holocaust: A Unique Interdisciplinary Mode to Study Genocide"
   },
   {
-    "id": "tomshov-mazowiecki",
     "author.id": [
       "laor-davidi",
       "zilberstein-avremi"
     ],
     "publisher": "Davidi Laor",
-    "title": "טומשוב מזובייצקי-סיפורה של קהילה שהייתה",
+    "id": "tomshov-mazowiecki",
     "type": [
       "Documentary film (Q93204)"
     ],
@@ -3680,60 +3679,60 @@
       "f-tomshov-mazowiecki-0014",
       "f-tomshov-mazowiecki-0015",
       "f-tomshov-mazowiecki-0016"
-    ]
+    ],
+    "title": "טומשוב מזובייצקי-סיפורה של קהילה שהייתה"
   },
   {
-    "id": "flight-ussr",
     "date": 2022,
     "publisher": "Winikur Productions on behalf of the Museum of Jewish Heritage",
-    "title": "Flight to USSR",
+    "id": "flight-ussr",
     "type": [
       "Documentary film (Q93204)"
     ],
     "Footnote": [
       "f-flight-ussr-0001",
       "f-flight-ussr-0002"
-    ]
+    ],
+    "title": "Flight to USSR"
   },
   {
-    "id": "4d148850",
+    "enabled": true,
     "author.id": [
       "laub-dori"
     ],
     "date": 1993,
+    "uri": "http://www.worldcat.org/oclc/769835861",
     "publisher": "International journal of psychoanalysis",
-    "title": "Knowing and not knowing massive psychic trauma : forms of traumatic memory",
+    "id": "4d148850",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "http://www.worldcat.org/oclc/769835861",
     "Footnote": [
       "f-4d148850-1276"
     ],
-    "enabled": true
+    "title": "Knowing and not knowing massive psychic trauma : forms of traumatic memory"
   },
   {
-    "id": "91300663",
+    "enabled": true,
     "author.id": [
       "brcker-eva"
     ],
     "date": 2008,
+    "uri": "http://www.worldcat.org/oclc/276806990",
     "publisher": "Alltag, Erfahrung, Eigensinn : historisch-anthropologische Erkundungen",
-    "title": "Personalisierung oder Geschichte aus Perspektive der \"Vielen Einzelnen.\" Das \"Offene Archiv\" für Videointerviews mit Überlebenden des Holocaust beim Denkmal für die ermordeten Juden Europas, Berlin ",
+    "id": "91300663",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/276806990",
     "Footnote": [
       "f-91300663-318"
     ],
-    "enabled": true
+    "title": "Personalisierung oder Geschichte aus Perspektive der \"Vielen Einzelnen.\" Das \"Offene Archiv\" für Videointerviews mit Überlebenden des Holocaust beim Denkmal für die ermordeten Juden Europas, Berlin "
   },
   {
-    "id": "bildungsarbeit-mit-videographierten",
     "date": 2010,
     "publisher": "Foundation Memorial to the Murdered Jews of Europe",
-    "title": "Presentation by the Foundation Memorial to the Murdered Jews of Europe at the conference 'Bildungsarbeit mit videographierten Zeitzeugerninterviews von Verfolgten un Opfern des nationalsozialistischen Regimes - pädagogische Konzepte, Zugänge und Methoden'",
+    "id": "bildungsarbeit-mit-videographierten",
     "type": [
       "Conference presentation (Q604733)"
     ],
@@ -3741,66 +3740,67 @@
       "f-bildungsarbeit-mit-videographierten-0001",
       "f-bildungsarbeit-mit-videographierten-0002",
       "f-bildungsarbeit-mit-videographierten-0003"
-    ]
+    ],
+    "title": "Presentation by the Foundation Memorial to the Murdered Jews of Europe at the conference 'Bildungsarbeit mit videographierten Zeitzeugerninterviews von Verfolgten un Opfern des nationalsozialistischen Regimes - pädagogische Konzepte, Zugänge und Methoden'"
   },
   {
-    "id": "e77c7e8b",
+    "enabled": true,
     "author.id": [
       "bodenstab-johanna"
     ],
     "date": 2010,
     "publisher": "Yale Whitney Humanities Center ",
-    "title": "Presentation at Gardiner Seminar at Yale Whitney Humanities Center",
+    "id": "e77c7e8b",
     "type": [
       "Conference presentation (Q604733)"
     ],
     "Footnote": [
       "f-e77c7e8b-297"
     ],
-    "enabled": true
+    "title": "Presentation at Gardiner Seminar at Yale Whitney Humanities Center"
   },
   {
-    "id": "bdf620f7",
+    "enabled": true,
     "author.id": [
       "berkowitz-peter"
     ],
     "date": 1976,
+    "uri": "https://www.facinghistory.org/",
     "publisher": "2019 Facing History and Ourselves",
-    "title": "Facing History and Ourselves",
+    "id": "bdf620f7",
     "type": [
       "Website (Q35127)"
     ],
-    "uri": "https://www.facinghistory.org/",
     "Footnote": [
       "f-bdf620f7-266"
     ],
-    "enabled": true
+    "title": "Facing History and Ourselves"
   },
   {
-    "id": "6528735e",
     "author.id": [
       "kraft-robert"
     ],
     "date": 2002,
+    "uri": "http://www.worldcat.org/oclc/454952804",
     "publisher": "Praeger",
-    "title": "Memory Perceived: Recalling the Holocaust",
+    "id": "6528735e",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/454952804"
+    "title": "Memory Perceived: Recalling the Holocaust"
   },
   {
-    "id": "85ff34a7",
+    "enabled": true,
     "author.id": [
       "shenker-noah"
     ],
     "date": 2010,
+    "uri": "http://www.worldcat.org/oclc/237880702",
     "publisher": "chapter in Documentary testimonies : global archives of suffering (published by Routledge)",
-    "title": "Embodied Memory: The Institutional Mediation of Survivor Testimony in the United States Holocaust Memorial Museum ",
+    "id": "85ff34a7",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/237880702",
     "Footnote": [
       "f-85ff34a7-1474",
       "f-85ff34a7-1475",
@@ -3821,20 +3821,20 @@
       "f-85ff34a7-1490",
       "f-85ff34a7-1491"
     ],
-    "enabled": true
+    "title": "Embodied Memory: The Institutional Mediation of Survivor Testimony in the United States Holocaust Memorial Museum "
   },
   {
-    "id": "55e640cc",
+    "enabled": true,
     "author.id": [
       "raim-edith"
     ],
     "date": 1992,
+    "uri": "http://www.worldcat.org/oclc/935459537",
     "publisher": "University of Munich ",
-    "title": "Die Dachauer KZ-Aussenkommandos Kaufering und Mühldorf Rüstungsbauten und Zwangsarbeit im letzten Kriegsjahr 1944-45",
+    "id": "55e640cc",
     "type": [
       "Dissertation (Q187685)"
     ],
-    "uri": "http://www.worldcat.org/oclc/935459537",
     "Footnote": [
       "f-55e640cc-1418",
       "f-55e640cc-1419",
@@ -3842,53 +3842,53 @@
       "f-55e640cc-1421",
       "f-55e640cc-1422"
     ],
-    "enabled": true
+    "title": "Die Dachauer KZ-Aussenkommandos Kaufering und Mühldorf Rüstungsbauten und Zwangsarbeit im letzten Kriegsjahr 1944-45"
   },
   {
-    "id": "2a3801e5",
+    "enabled": true,
     "author.id": [
       "bodenstab-johanna"
     ],
     "date": 2009,
+    "uri": "https://gsp.yale.edu/about-gsp",
     "publisher": "Genocide, Modernity and Resistance (for Genocide Studies Program at Yale)",
-    "title": "Arrival at Auschwitz: Diverging Narrative Perspectives in the Joint Testimony of a Mother and a Daughter",
+    "id": "2a3801e5",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://gsp.yale.edu/about-gsp",
     "Footnote": [
       "f-2a3801e5-298"
     ],
-    "enabled": true
+    "title": "Arrival at Auschwitz: Diverging Narrative Perspectives in the Joint Testimony of a Mother and a Daughter"
   },
   {
-    "id": "history-nazi-concentration-camps",
     "author.id": [
       "wachsmann-nikolaus"
     ],
     "date": 2016,
+    "uri": "http://www.camps.bbk.ac.uk/",
     "publisher": "Birkbeck College ",
-    "title": "A history of the Nazi concentration camps",
+    "id": "history-nazi-concentration-camps",
     "type": [
       "Website (Q35127)"
     ],
-    "uri": "http://www.camps.bbk.ac.uk/",
     "Footnote": [
       "f-history-nazis-concentration-camps-0001"
-    ]
+    ],
+    "title": "A history of the Nazi concentration camps"
   },
   {
-    "id": "3a7bbfef",
+    "enabled": true,
     "author.id": [
       "klunker-heinz"
     ],
     "date": 2008,
+    "uri": "https://www.deutschlandfunk.de/gedaechtnis-der-shoah.691.de.html?dram:article_id=51965",
     "publisher": "Deutschlandfunk ",
-    "title": "Exhibition on the Fortunoff Archive for DeutschlandRadio",
+    "id": "3a7bbfef",
     "type": [
       "Radio program (Q1555508)"
     ],
-    "uri": "https://www.deutschlandfunk.de/gedaechtnis-der-shoah.691.de.html?dram:article_id=51965",
     "Footnote": [
       "f-3a7bbfef-676",
       "f-3a7bbfef-677",
@@ -3897,20 +3897,20 @@
       "f-3a7bbfef-680",
       "f-3a7bbfef-681"
     ],
-    "enabled": true
+    "title": "Exhibition on the Fortunoff Archive for DeutschlandRadio"
   },
   {
-    "id": "fb2b3b8d",
+    "enabled": true,
     "author.id": [
       "browning-christopher"
     ],
     "date": 2010,
+    "uri": "http://www.worldcat.org/oclc/861529293",
     "publisher": "WW Norton",
-    "title": "Remembering Survival",
+    "id": "fb2b3b8d",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/861529293",
     "Footnote": [
       "f-fb2b3b8d-312",
       "f-fb2b3b8d-313",
@@ -3919,14 +3919,14 @@
       "f-fb2b3b8d-316",
       "f-fb2b3b8d-317"
     ],
-    "enabled": true
+    "title": "Remembering Survival"
   },
   {
-    "id": "782ab333",
+    "enabled": true,
     "author.id": [
       "malinow-rachel"
     ],
-    "title": "Use for class presentation",
+    "id": "782ab333",
     "Footnote": [
       "f-782ab333-1321",
       "f-782ab333-1322",
@@ -3934,117 +3934,117 @@
       "f-782ab333-1324",
       "f-782ab333-1325"
     ],
-    "enabled": true
+    "title": "Use for class presentation"
   },
   {
-    "id": "Fedewa1",
+    "enabled": true,
     "author.id": [
       "Fedewa-L"
     ],
     "date": 2024,
     "publisher": "Metropol Verlag",
-    "title": "\"'The main thing is to get into the Reich': Jewish Women and Adolescents\n‘Passing’ as Non-Jewish Civilian Laborers in German Transit Camps in the General Government.\"",
+    "Notes": "In: Hana Green, Daan de Leeuw, Théophile Leroy, Pawel Michna, and Ella Falldorf (eds.). 26th Workshop on the History and Memory of National Socialist Camps and Killing Sites: Bodies and Border.",
+    "id": "Fedewa1",
     "type": [
       "Academic journal article (Q18918145)"
     ],
     "Footnote": [
       "fedewar"
     ],
-    "enabled": true,
-    "Notes": "In: Hana Green, Daan de Leeuw, Théophile Leroy, Pawel Michna, and Ella Falldorf (eds.). 26th Workshop on the History and Memory of National Socialist Camps and Killing Sites: Bodies and Border."
+    "title": "\"'The main thing is to get into the Reich': Jewish Women and Adolescents\n‘Passing’ as Non-Jewish Civilian Laborers in German Transit Camps in the General Government.\""
   },
   {
     "id": "HVT-2893"
   },
   {
-    "id": "c0fed7b9",
+    "enabled": true,
     "author.id": [
       "fritch-mckenzie"
     ],
-    "title": "The Time We Forgot Humanity Shattered Rights and Neglected Responsibilities",
+    "id": "c0fed7b9",
     "Footnote": [
       "f-c0fed7b9-610",
       "f-c0fed7b9-611"
     ],
-    "enabled": true
+    "title": "The Time We Forgot Humanity Shattered Rights and Neglected Responsibilities"
   },
   {
-    "id": "6e80def8",
+    "enabled": true,
     "author.id": [
       "kacandes-irene"
     ],
     "date": 1993,
+    "uri": "https://www.mgsa.org/Initiatives/symposia.html",
     "publisher": "Greeks and others: the nation, the region, the diaspora ",
-    "title": "Eyeing the Greeks as Other - conference talk at the Modern Greek Studies Association conference in Berkeley, CA ",
+    "id": "6e80def8",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.mgsa.org/Initiatives/symposia.html",
     "Footnote": [
       "f-6e80def8-671",
       "f-6e80def8-672"
     ],
-    "enabled": true
+    "title": "Eyeing the Greeks as Other - conference talk at the Modern Greek Studies Association conference in Berkeley, CA "
   },
   {
-    "id": "5759e9cb",
+    "enabled": true,
     "author.id": [
       "althausen-deborah"
     ],
     "date": 2013,
+    "uri": "http://www.worldcat.org/oclc/867193555",
     "publisher": "Saarbrücken AV Akademikerverlag",
-    "title": "Mehrsprachigkeit und Emotion: Eine qualitative Analyse / Multilingualism and Emotion: A Qualitative Analysis ",
+    "id": "5759e9cb",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/867193555",
     "Footnote": [
       "f-5759e9cb-216"
     ],
-    "enabled": true
+    "title": "Mehrsprachigkeit und Emotion: Eine qualitative Analyse / Multilingualism and Emotion: A Qualitative Analysis "
   },
   {
-    "id": "beba-epstein-extraordinary-life",
     "date": 2021,
+    "uri": "https://www.yivo.org/Beba-2021",
     "publisher": "YIVO Institute for Jewish Research ",
-    "title": "Beba Epstein: The Extraordinary Life of an Ordinary Girl",
+    "id": "beba-epstein-extraordinary-life",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://www.yivo.org/Beba-2021",
     "Footnote": [
       "f-beba-epstein-extraordinary-life-0001"
-    ]
+    ],
+    "title": "Beba Epstein: The Extraordinary Life of an Ordinary Girl"
   },
   {
-    "id": "finding-mental-balance",
     "author.id": [
       "bailey-tomecek-christy"
     ],
     "date": 2021,
+    "uri": "https://litwinbooks.com/books/lis-interrupted/",
     "publisher": "Litwin Books",
-    "title": "Finding Mental Balance at the Fortunoff Archive",
+    "Notes": "Chapter in LIS Interrupted: Intersections of Mental Illness and Library Work",
+    "id": "finding-mental-balance",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "https://litwinbooks.com/books/lis-interrupted/",
     "Footnote": [
       "f-finding-mental-balance-0001"
     ],
-    "Notes": "Chapter in LIS Interrupted: Intersections of Mental Illness and Library Work"
+    "title": "Finding Mental Balance at the Fortunoff Archive"
   },
   {
-    "id": "4bf3db26",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2002,
+    "uri": "http://www.worldcat.org/oclc/454952804",
     "publisher": "Praeger Publishers",
-    "title": "Memory Perceived: Recalling the Holocaust",
+    "id": "4bf3db26",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/454952804",
     "Footnote": [
       "f-4bf3db26-1054",
       "f-4bf3db26-1055",
@@ -4155,55 +4155,55 @@
       "f-4bf3db26-984",
       "f-4bf3db26-983"
     ],
-    "enabled": true
+    "title": "Memory Perceived: Recalling the Holocaust"
   },
   {
-    "id": "63af67ec",
+    "enabled": true,
     "author.id": [
       "lee-vivian"
     ],
     "date": 2003,
+    "uri": "http://www.worldcat.org/oclc/1039769962",
     "publisher": "Moriah Films",
-    "title": "Unlikely Heroes",
+    "id": "63af67ec",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1039769962",
     "Footnote": [
       "f-63af67ec-1289"
     ],
-    "enabled": true
+    "title": "Unlikely Heroes"
   },
   {
-    "id": "43af3408",
+    "enabled": true,
     "author.id": [
       "snyder-timothy"
     ],
     "date": 2012,
+    "uri": "http://www.worldcat.org/oclc/1036598383",
     "publisher": "Basic Books",
-    "title": "Bloodlands: Europe between Hitler and Stalin",
+    "id": "43af3408",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1036598383",
     "Footnote": [
       "f-43af3408-1533",
       "f-43af3408-1534"
     ],
-    "enabled": true
+    "title": "Bloodlands: Europe between Hitler and Stalin"
   },
   {
-    "id": "e6797972",
+    "enabled": true,
     "author.id": [
       "langer-lawrence"
     ],
     "date": 1991,
+    "uri": "http://hdl.handle.net/10079/bibid/3173985",
     "publisher": "Yale University Press",
-    "title": "Holocaust Testimonies: The Ruins of Memory",
+    "id": "e6797972",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://hdl.handle.net/10079/bibid/3173985",
     "Footnote": [
       "f-e6797972-0",
       "f-e6797972-1",
@@ -4367,40 +4367,40 @@
       "f-e6797972-1272",
       "f-e6797972-1273"
     ],
-    "enabled": true
+    "title": "Holocaust Testimonies: The Ruins of Memory"
   },
   {
-    "id": "3ea34442",
+    "enabled": true,
     "author.id": [
       "shephard-ben"
     ],
     "date": 2005,
+    "uri": "http://www.worldcat.org/oclc/234195237",
     "publisher": "Jonathan Cape/Schocken Books",
-    "title": "After Daybreak: The Liberation of Belsen, 1945 ",
+    "id": "3ea34442",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/234195237",
     "Footnote": [
       "f-3ea34442-1494",
       "f-3ea34442-1495",
       "f-3ea34442-1496",
       "f-3ea34442-1497"
     ],
-    "enabled": true
+    "title": "After Daybreak: The Liberation of Belsen, 1945 "
   },
   {
-    "id": "ef5d531e",
+    "enabled": true,
     "author.id": [
       "ziyadeh-nadia"
     ],
     "date": 1993,
+    "uri": "http://www.worldcat.org/oclc/1007232349",
     "publisher": "Hopkins school ",
-    "title": "Videotape for senior project at Hopkins School, New Haven, CT",
+    "id": "ef5d531e",
     "type": [
       "Project (Q170584)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1007232349",
     "Footnote": [
       "f-ef5d531e-1693",
       "f-ef5d531e-1694",
@@ -4411,20 +4411,20 @@
       "f-ef5d531e-1699",
       "f-ef5d531e-1700"
     ],
-    "enabled": true
+    "title": "Videotape for senior project at Hopkins School, New Haven, CT"
   },
   {
-    "id": "69499a4c",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2006,
+    "uri": "https://doi.org/10.1215/03335372-2005-006",
     "publisher": "Poetics today",
-    "title": "Representations of the Holocaust in Oral Testimony",
+    "id": "69499a4c",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1215/03335372-2005-006",
     "Footnote": [
       "f-69499a4c-693",
       "f-69499a4c-694",
@@ -4444,20 +4444,20 @@
       "f-69499a4c-708",
       "f-69499a4c-709"
     ],
-    "enabled": true
+    "title": "Representations of the Holocaust in Oral Testimony"
   },
   {
-    "id": "90cb6d73",
+    "enabled": true,
     "author.id": [
       "haushofer-lisa"
     ],
     "date": 2012,
+    "uri": "http://www.worldcat.org/oclc/903692624",
     "publisher": "Witten/Herdecke University",
-    "title": "Healthcare in the Spirit of Internationalism? The United Nations Relief and Rehabilitation Administration in Germany, 1944-1947 ",
+    "id": "90cb6d73",
     "type": [
       "Dissertation (Q187685)"
     ],
-    "uri": "http://www.worldcat.org/oclc/903692624",
     "Footnote": [
       "f-90cb6d73-628",
       "f-90cb6d73-629",
@@ -4466,19 +4466,19 @@
       "f-90cb6d73-632",
       "f-90cb6d73-633"
     ],
-    "enabled": true
+    "title": "Healthcare in the Spirit of Internationalism? The United Nations Relief and Rehabilitation Administration in Germany, 1944-1947 "
   },
   {
-    "id": "26e960d0",
+    "enabled": true,
     "author.id": [
       "storm-margot"
     ],
+    "uri": "https://www.facinghistory.org/for-educators/educator-resources/library-resources/c",
     "publisher": "Facing History and Ourselves",
-    "title": "Challenge of Memory - DVD ",
+    "id": "26e960d0",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "https://www.facinghistory.org/for-educators/educator-resources/library-resources/c",
     "Footnote": [
       "f-26e960d0-1572",
       "f-26e960d0-1573",
@@ -4487,35 +4487,35 @@
       "f-26e960d0-1576",
       "f-26e960d0-1577"
     ],
-    "enabled": true
+    "title": "Challenge of Memory - DVD "
   },
   {
-    "id": "cd2df853",
+    "enabled": true,
     "author.id": [
       "bodenstab-johanna"
     ],
     "date": 2009,
-    "title": "Presentations at Kassel University and at the Sigmund-Freud-Institut",
+    "id": "cd2df853",
     "type": [
       "Conference presentation (Q604733)"
     ],
     "Footnote": [
       "f-cd2df853-299"
     ],
-    "enabled": true
+    "title": "Presentations at Kassel University and at the Sigmund-Freud-Institut"
   },
   {
-    "id": "74808811",
+    "enabled": true,
     "author.id": [
       "pollard-miranda"
     ],
     "date": 2005,
+    "uri": "http://www.worldcat.org/oclc/799370938",
     "publisher": "Chapter in Vichy, resistance, liberation : new perspectives on wartime France",
-    "title": "Grammatical Notes: Surviving, and Memories of Jewish Life in Nice, 1939-1943 ",
+    "id": "74808811",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/799370938",
     "Footnote": [
       "f-74808811-1395",
       "f-74808811-1396",
@@ -4527,37 +4527,37 @@
       "f-74808811-1402",
       "f-74808811-1403"
     ],
-    "enabled": true
+    "title": "Grammatical Notes: Surviving, and Memories of Jewish Life in Nice, 1939-1943 "
   },
   {
-    "id": "42607bbd",
+    "enabled": true,
     "author.id": [
       "vlack-alex"
     ],
     "date": 2012,
+    "uri": "https://www.jewish-museum.ru/en/about-the-museum/permanent-exhibition/",
     "publisher": "Permanent Exhibit ",
-    "title": "Permanent Exhibit of the Russian Jewish Museum and Tolerance Center",
+    "id": "42607bbd",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://www.jewish-museum.ru/en/about-the-museum/permanent-exhibition/",
     "Footnote": [
       "f-42607bbd-1624"
     ],
-    "enabled": true
+    "title": "Permanent Exhibit of the Russian Jewish Museum and Tolerance Center"
   },
   {
-    "id": "2e0c92f5",
+    "enabled": true,
     "author.id": [
       "chesmar-terri"
     ],
     "date": 1990,
+    "uri": "http://www.worldcat.org/oclc/22444091",
     "publisher": "WHYY",
-    "title": "Holocaust Surivors Speak",
+    "id": "2e0c92f5",
     "type": [
       "Interview (Q178651)"
     ],
-    "uri": "http://www.worldcat.org/oclc/22444091",
     "Footnote": [
       "f-2e0c92f5-348",
       "f-2e0c92f5-349",
@@ -4570,72 +4570,72 @@
       "f-2e0c92f5-356",
       "f-2e0c92f5-357"
     ],
-    "enabled": true
+    "title": "Holocaust Surivors Speak"
   },
   {
-    "id": "29562f4c",
+    "enabled": true,
     "author.id": [
       "reich-daniel"
     ],
-    "title": "Article in Urim v'Tumim",
+    "uri": "http://www.worldcat.org/oclc/32414421",
+    "id": "29562f4c",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "http://www.worldcat.org/oclc/32414421",
     "Footnote": [
       "f-29562f4c-1423"
     ],
-    "enabled": true
+    "title": "Article in Urim v'Tumim"
   },
   {
-    "id": "8fb3cc2f",
+    "enabled": true,
     "author.id": [
       "langer-lawrence"
     ],
     "date": 2012,
+    "uri": "http://fortunoff.library.yale.edu/wp-content/uploads/2018/10/fortunoff2012_pamphletFIN.pdf",
     "publisher": "Achievements and challenges: 1982-2012 (Fortunoff Video Archive for Holocaust Testimonies)",
-    "title": "Seeing the Holocaust: How Testimonies Fill the Vacant Spaces of Atrocity",
+    "id": "8fb3cc2f",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "http://fortunoff.library.yale.edu/wp-content/uploads/2018/10/fortunoff2012_pamphletFIN.pdf",
     "Footnote": [
       "f-8fb3cc2f-1274"
     ],
-    "enabled": true
+    "title": "Seeing the Holocaust: How Testimonies Fill the Vacant Spaces of Atrocity"
   },
   {
-    "id": "dca3ccf8",
+    "enabled": true,
     "author.id": [
       "sellars-phillip"
     ],
     "date": 1996,
+    "uri": "https://www.bbc.co.uk/sounds/play/p039714v",
     "publisher": "BBC World Service ",
-    "title": "20/20: A View of the Century, Part 7 Killing ",
+    "id": "dca3ccf8",
     "type": [
       "Audio recording (Q3302947)"
     ],
-    "uri": "https://www.bbc.co.uk/sounds/play/p039714v",
     "Footnote": [
       "f-dca3ccf8-1472",
       "f-dca3ccf8-1473",
       "f-dca3ccf8-1565",
       "f-dca3ccf8-1566"
     ],
-    "enabled": true
+    "title": "20/20: A View of the Century, Part 7 Killing "
   },
   {
-    "id": "061f7cc4",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2004,
+    "uri": "https://mpa.wildapricot.org/Resources/Programs/Program2004.pdf",
     "publisher": "76th annual meeting - Midwestern Psychological Association, Chicago",
-    "title": "Emotional Experience During Recall of Traumatic Events: A Multiple Systems Perspective",
+    "id": "061f7cc4",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://mpa.wildapricot.org/Resources/Programs/Program2004.pdf",
     "Footnote": [
       "f-061f7cc4-760",
       "f-061f7cc4-761",
@@ -4654,20 +4654,20 @@
       "f-061f7cc4-774",
       "f-061f7cc4-775"
     ],
-    "enabled": true
+    "title": "Emotional Experience During Recall of Traumatic Events: A Multiple Systems Perspective"
   },
   {
-    "id": "ece8b7fc",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 1998,
+    "uri": "https://www.professorkraft.com/bio/vita",
     "publisher": "Psychonomic Society, Dallas",
-    "title": "Levels of Awareness During Traumatic Events",
+    "id": "ece8b7fc",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.professorkraft.com/bio/vita",
     "Footnote": [
       "f-ece8b7fc-819",
       "f-ece8b7fc-820",
@@ -4697,14 +4697,14 @@
       "f-ece8b7fc-844",
       "f-ece8b7fc-845"
     ],
-    "enabled": true
+    "title": "Levels of Awareness During Traumatic Events"
   },
   {
-    "id": "classroom-viewing",
     "author.id": [
       "pinchevski-amit"
     ],
     "date": 2011,
+    "id": "classroom-viewing",
     "type": [
       "Course (Q600134)"
     ],
@@ -4713,33 +4713,33 @@
     ]
   },
   {
-    "id": "book-tour-promotion",
     "author.id": [
       "epstein-helen"
     ],
     "date": 2020,
+    "uri": "https://library.ucsd.edu/news-events/events/francis-war-with-helen-epstein/",
     "publisher": "Penguin Books",
-    "title": "Book tour and promotion of Franci's War ",
+    "id": "book-tour-promotion",
     "type": [
       "Exhibit (Q11985689)"
     ],
-    "uri": "https://library.ucsd.edu/news-events/events/francis-war-with-helen-epstein/",
     "Footnote": [
       "f-book-tour-promotion-0001"
-    ]
+    ],
+    "title": "Book tour and promotion of Franci's War "
   },
   {
-    "id": "cd90439b",
+    "enabled": true,
     "author.id": [
       "pollin-galay-hannah"
     ],
     "date": 2014,
+    "uri": "https://scholar.google.com/citations?user=c4ojdWMAAAAJ&hl=en",
     "publisher": "Tel Aviv University ",
-    "title": "Ecologies of Testimony: Lithuanian Jews Narrate the Holocaust",
+    "id": "cd90439b",
     "type": [
       "Dissertation (Q187685)"
     ],
-    "uri": "https://scholar.google.com/citations?user=c4ojdWMAAAAJ&hl=en",
     "Footnote": [
       "f-cd90439b-1407",
       "f-cd90439b-1408",
@@ -4752,35 +4752,34 @@
       "f-cd90439b-1415",
       "f-cd90439b-1416"
     ],
-    "enabled": true
+    "title": "Ecologies of Testimony: Lithuanian Jews Narrate the Holocaust"
   },
   {
-    "id": "3d974fc5",
+    "enabled": true,
     "author.id": [
       "siegel-lawrence"
     ],
     "date": 2008,
+    "uri": "http://www.kaddishproject.net/about-kaddish.htm",
     "publisher": "Lawrence Siegel ",
-    "title": "Kaddish",
+    "id": "3d974fc5",
     "type": [
       "Audio recording (Q3302947)"
     ],
-    "uri": "http://www.kaddishproject.net/about-kaddish.htm",
     "Footnote": [
       "f-3d974fc5-1498",
       "f-3d974fc5-1499",
       "f-3d974fc5-1500",
       "f-3d974fc5-1501"
     ],
-    "enabled": true
+    "title": "Kaddish"
   },
   {
-    "id": "life-henry-meyer",
     "author.id": [
       "hickman-lillian"
     ],
     "date": 2022,
-    "title": "The Life of Henry Meyer Through Music",
+    "id": "life-henry-meyer",
     "Footnote": [
       "f-life-henry-meyer-0001",
       "f-life-henry-meyer-0002",
@@ -4789,37 +4788,38 @@
       "f-life-henry-meyer-0005",
       "f-life-henry-meyer-0006",
       "f-life-henry-meyer-0007"
-    ]
+    ],
+    "title": "The Life of Henry Meyer Through Music"
   },
   {
-    "id": "4dfdcdba",
+    "enabled": true,
     "author.id": [
       "paley-karen"
     ],
     "date": 2005,
+    "uri": "https://www.rememberwomen.org/Events/future_ev.html",
     "publisher": "Remember the Women Institute",
-    "title": "Women Resisting the Nazis",
+    "id": "4dfdcdba",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.rememberwomen.org/Events/future_ev.html",
     "Footnote": [
       "f-4dfdcdba-1375"
     ],
-    "enabled": true
+    "title": "Women Resisting the Nazis"
   },
   {
-    "id": "19b380b0",
+    "enabled": true,
     "author.id": [
       "knezevic-jovana"
     ],
     "date": 2005,
+    "uri": "https://www.associationforjewishstudies.org/docs/default-source/conference-files/ajs-conference-program-books/2005-ajs-conference-program.pdf?sfvrsn=4",
     "publisher": "Association for Jewish Studies, 37th annual conference ",
-    "title": "Communities Lost, Communities Found: The Transformation of Identity Among Yugoslavia's Jews during the Second World War ",
+    "id": "19b380b0",
     "type": [
       "Conference presentation (Q604733)"
     ],
-    "uri": "https://www.associationforjewishstudies.org/docs/default-source/conference-files/ajs-conference-program-books/2005-ajs-conference-program.pdf?sfvrsn=4",
     "Footnote": [
       "f-19b380b0-682",
       "f-19b380b0-683",
@@ -4829,34 +4829,33 @@
       "f-19b380b0-687",
       "f-19b380b0-688"
     ],
-    "enabled": true
+    "title": "Communities Lost, Communities Found: The Transformation of Identity Among Yugoslavia's Jews during the Second World War "
   },
   {
-    "id": "7707d286",
+    "enabled": true,
     "author.id": [
       "kofman-gil"
     ],
     "date": 2007,
+    "uri": "http://www.worldcat.org/oclc/985957368",
     "publisher": "Stark Raving Films ",
-    "title": " 'Inconsolable,' (The Memory Thief)",
+    "Notes": "a production by Bad Habit Films",
+    "id": "7707d286",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "http://www.worldcat.org/oclc/985957368",
     "Footnote": [
       "f-7707d286-691"
     ],
-    "enabled": true,
-    "Notes": "a production by Bad Habit Films"
+    "title": " 'Inconsolable,' (The Memory Thief)"
   },
   {
-    "id": "silenced-memories",
     "author.id": [
       "kralova-katerina"
     ],
     "date": 2022,
     "publisher": "S:I.M.O.N. ",
-    "title": "Silenced Memories and Network Dynamics in Holocaust Testimonies:\nThe Matalon Family and Case of Greece",
+    "id": "silenced-memories",
     "type": [
       "Academic journal article (Q18918145)"
     ],
@@ -4864,20 +4863,22 @@
       "f-silenced-memories-0001",
       "f-silenced-memories-0002",
       "f-silenced-memories-0003"
-    ]
+    ],
+    "title": "Silenced Memories and Network Dynamics in Holocaust Testimonies:\nThe Matalon Family and Case of Greece"
   },
   {
-    "id": "d3810a6d",
+    "enabled": true,
     "author.id": [
       "bodenstab-johanna"
     ],
     "date": 1998,
+    "uri": "http://www.worldcat.org/oclc/1004890544",
     "publisher": "Verlag für Berlin-Brandenburg",
-    "title": "Fortunoff Video Archive / Archiv der Erinnerung ",
+    "Notes": "(probably Archiv der Erinnerung - Interviews mit Uberlebenden der Shoah)",
+    "id": "d3810a6d",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/1004890544",
     "Footnote": [
       "f-d3810a6d-277",
       "f-d3810a6d-278",
@@ -4886,40 +4887,40 @@
       "f-d3810a6d-281",
       "f-d3810a6d-282"
     ],
-    "enabled": true,
-    "Notes": "(probably Archiv der Erinnerung - Interviews mit Uberlebenden der Shoah)"
+    "title": "Fortunoff Video Archive / Archiv der Erinnerung "
   },
   {
-    "id": "c5170197",
+    "enabled": true,
     "author.id": [
       "bauerle-jill"
     ],
     "date": 2006,
+    "uri": "https://library.columbia.edu/libraries/journalism/masters/2006.html",
     "publisher": "Columbia Journalism School ",
-    "title": "Surviving the War in Berlin",
+    "Notes": "Master's thesis ",
+    "id": "c5170197",
     "type": [
       "Dissertation (Q187685)"
     ],
-    "uri": "https://library.columbia.edu/libraries/journalism/masters/2006.html",
     "Footnote": [
       "f-c5170197-259",
       "f-c5170197-260"
     ],
-    "enabled": true,
-    "Notes": "Master's thesis "
+    "title": "Surviving the War in Berlin"
   },
   {
-    "id": "33457a50",
+    "enabled": true,
     "author.id": [
       "almuli-jasa"
     ],
     "date": 2005,
+    "uri": "http://www.worldcat.org/oclc/446801309",
     "publisher": "Beograd : Signature",
-    "title": "Jewish Women Speak",
+    "Notes": "(probably Jevrejke govore)",
+    "id": "33457a50",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/446801309",
     "Footnote": [
       "f-33457a50-175",
       "f-33457a50-176",
@@ -4935,21 +4936,20 @@
       "f-33457a50-186",
       "f-33457a50-187"
     ],
-    "enabled": true,
-    "Notes": "(probably Jevrejke govore)"
+    "title": "Jewish Women Speak"
   },
   {
-    "id": "50807a2b",
+    "enabled": true,
     "author.id": [
       "stein-simcha"
     ],
     "date": 2018,
+    "uri": "https://www.ushmm.org/information/exhibitions/online-exhibitions/special-focus/ukraine",
     "publisher": "United States Holocaust Memorial Museum ",
-    "title": "The Holocaust in Ukraine",
+    "id": "50807a2b",
     "type": [
       "Museum exhibit (Q11985689)"
     ],
-    "uri": "https://www.ushmm.org/information/exhibitions/online-exhibitions/special-focus/ukraine",
     "Footnote": [
       "f-50807a2b-1545",
       "f-50807a2b-1546",
@@ -4960,39 +4960,39 @@
       "f-50807a2b-1551",
       "f-50807a2b-1552"
     ],
-    "enabled": true
+    "title": "The Holocaust in Ukraine"
   },
   {
-    "id": "752c6b2d",
+    "enabled": true,
     "author.id": [
       "pollin-galay-hannah"
     ],
     "date": 2015,
+    "uri": "doi: 10.2979/prooftexts.35.1.06.",
     "publisher": "Prooftexts",
-    "title": "The History of My Voice: Yiddish at the Seams of Holocaust Video Testimony",
+    "id": "752c6b2d",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "doi: 10.2979/prooftexts.35.1.06.",
     "Footnote": [
       "f-752c6b2d-1404",
       "f-752c6b2d-1405",
       "f-752c6b2d-1406"
     ],
-    "enabled": true
+    "title": "The History of My Voice: Yiddish at the Seams of Holocaust Video Testimony"
   },
   {
-    "id": "0b2e2eaa",
+    "enabled": true,
     "author.id": [
       "finkelstein-laura"
     ],
     "date": 2006,
+    "uri": "https://doi.org/10.1521/jscp.2006.25.1.117",
     "publisher": "Journal of social and clinical psychology",
-    "title": "Disclosure of Holocaust Experiences: Reasons, attributions, and health implications ",
+    "id": "0b2e2eaa",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1521/jscp.2006.25.1.117",
     "Footnote": [
       "f-0b2e2eaa-594",
       "f-0b2e2eaa-595",
@@ -5009,54 +5009,54 @@
       "f-0b2e2eaa-606",
       "f-0b2e2eaa-607"
     ],
-    "enabled": true
+    "title": "Disclosure of Holocaust Experiences: Reasons, attributions, and health implications "
   },
   {
-    "id": "7cf33b15",
+    "enabled": true,
     "author.id": [
       "kacandes-irene"
     ],
     "date": 2009,
+    "uri": "http://www.worldcat.org/oclc/300073797",
     "publisher": "University of Nebraska Press",
-    "title": "Daddy's War: Greek American Storytelling, Family Memory and Trauma ",
+    "id": "7cf33b15",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/300073797",
     "Footnote": [
       "f-7cf33b15-667",
       "f-7cf33b15-668"
     ],
-    "enabled": true
+    "title": "Daddy's War: Greek American Storytelling, Family Memory and Trauma "
   },
   {
-    "id": "08029bf9",
+    "enabled": true,
     "author.id": [
       "university-of-hartford"
     ],
     "date": 2017,
+    "uri": "https://www.courant.com/news/connecticut/hc-news-local-doctor-nazi-movie-20190705-5ynupdwbefbflolncmcqxobfdi-story.html, https://www.youtube.com/watch?v=2d20m2VVcxE",
     "publisher": "University of Hartford ",
-    "title": "UHart Team Sheds Light on Story of Nazi Officer Who Tried to Save Jews",
+    "id": "08029bf9",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "https://www.courant.com/news/connecticut/hc-news-local-doctor-nazi-movie-20190705-5ynupdwbefbflolncmcqxobfdi-story.html, https://www.youtube.com/watch?v=2d20m2VVcxE",
     "Footnote": [
       "f-08029bf9-1623"
     ],
-    "enabled": true
+    "title": "UHart Team Sheds Light on Story of Nazi Officer Who Tried to Save Jews"
   },
   {
-    "id": "db6e0178",
+    "enabled": true,
     "author.id": [
       "strom-margot"
     ],
+    "uri": "https://www.facinghistory.org/for-educators/educator-resources/library-resources/c",
     "publisher": "Facing History and Ourselves",
-    "title": "Childhood Memories - DVD ",
+    "id": "db6e0178",
     "type": [
       "Documentary film (Q93204)"
     ],
-    "uri": "https://www.facinghistory.org/for-educators/educator-resources/library-resources/c",
     "Footnote": [
       "f-db6e0178-1580",
       "f-db6e0178-1583",
@@ -5070,15 +5070,14 @@
       "f-db6e0178-1610",
       "f-db6e0178-1611"
     ],
-    "enabled": true
+    "title": "Childhood Memories - DVD "
   },
   {
-    "id": "holocaust-in-ukraine",
     "author.id": [
       "agmon-pinhas"
     ],
     "publisher": "Beit Lohamei Haghetaot and the Israel Ministry of Defense ",
-    "title": "The Holocaust in Ukraine ",
+    "id": "holocaust-in-ukraine",
     "type": [
       "Book (Q571)"
     ],
@@ -5094,20 +5093,22 @@
       "f-holocaust-in-ukraine-0009",
       "f-holocaust-in-ukraine-0010",
       "f-holocaust-in-ukraine-0011"
-    ]
+    ],
+    "title": "The Holocaust in Ukraine "
   },
   {
-    "id": "6e0a4551",
+    "enabled": true,
     "author.id": [
       "almuli-jasa"
     ],
     "date": 2013,
+    "uri": "http://www.worldcat.org/oclc/884965998",
     "publisher": "Beograd : Zavod za Udžbenike",
-    "title": "They Stayed Alive ",
+    "Notes": "(probably Остали су живи/Ostali su živi)",
+    "id": "6e0a4551",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/884965998",
     "Footnote": [
       "f-6e0a4551-147",
       "f-6e0a4551-148",
@@ -5133,21 +5134,20 @@
       "f-6e0a4551-168",
       "f-6e0a4551-169"
     ],
-    "enabled": true,
-    "Notes": "(probably Остали су живи/Ostali su živi)"
+    "title": "They Stayed Alive "
   },
   {
-    "id": "f9470e5f",
+    "enabled": true,
     "author.id": [
       "weinding-paul"
     ],
     "date": 2014,
+    "uri": "http://www.worldcat.org/oclc/899248931",
     "publisher": "Bloomsbury Academic",
-    "title": "Victims and Survivors of Nazi Human Experiments: Science and Suffering in the Holocaust",
+    "id": "f9470e5f",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/899248931",
     "Footnote": [
       "f-f9470e5f-1629",
       "f-f9470e5f-1630",
@@ -5164,54 +5164,54 @@
       "f-f9470e5f-1641",
       "f-f9470e5f-1642"
     ],
-    "enabled": true
+    "title": "Victims and Survivors of Nazi Human Experiments: Science and Suffering in the Holocaust"
   },
   {
-    "id": "c76a52d8",
+    "enabled": true,
     "author.id": [
       "solterer-helen"
     ],
     "date": 2010,
+    "uri": "http://www.worldcat.org/oclc/758518145",
     "publisher": "Cambridge University Press",
-    "title": "Medieval Roles for Modern Times: Theater and the Battle for the French Third Republic",
+    "id": "c76a52d8",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/758518145",
     "Footnote": [
       "f-c76a52d8-1535"
     ],
-    "enabled": true
+    "title": "Medieval Roles for Modern Times: Theater and the Battle for the French Third Republic"
   },
   {
-    "id": "b2d76fc9",
+    "enabled": true,
     "author.id": [
       "finkel-evgeny"
     ],
     "date": 2015,
+    "uri": "https://doi.org/10.1017/S000305541500009X",
     "publisher": "The American political science review",
-    "title": "The Phoenix Effect of State Repression: Jewish Resistance during the Holocaust",
+    "id": "b2d76fc9",
     "type": [
       "Academic journal article (Q18918145)"
     ],
-    "uri": "https://doi.org/10.1017/S000305541500009X",
     "Footnote": [
       "f-b2d76fc9-485"
     ],
-    "enabled": true
+    "title": "The Phoenix Effect of State Repression: Jewish Resistance during the Holocaust"
   },
   {
-    "id": "e77a98a7",
+    "enabled": true,
     "author.id": [
       "kraft-robert"
     ],
     "date": 2004,
+    "uri": "http://www.worldcat.org/oclc/645595000",
     "publisher": "Oxford University Press",
-    "title": "Emotional Memory in Survivors of the Holocaust: A Qualitative Study of Oral Testimony",
+    "id": "e77a98a7",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/645595000",
     "Footnote": [
       "f-e77a98a7-985",
       "f-e77a98a7-986",
@@ -5283,71 +5283,71 @@
       "f-e77a98a7-1052",
       "f-e77a98a7-1053"
     ],
-    "enabled": true
+    "title": "Emotional Memory in Survivors of the Holocaust: A Qualitative Study of Oral Testimony"
   },
   {
-    "id": "30968726",
+    "enabled": true,
     "author.id": [
       "brcker-eva"
     ],
     "date": 2007,
+    "uri": "https://www.lbihs.at/BrueckerCV.pdf",
     "publisher": "Jagellonian University of Krakow",
-    "title": "From the \"Art of Dialogue\" to the \"Art of Presentation.\" At the Memorial to the Murdered Jews of Europe, Berlin, Oral History ",
+    "id": "30968726",
     "type": [
       "Lecture (Q603773)"
     ],
-    "uri": "https://www.lbihs.at/BrueckerCV.pdf",
     "Footnote": [
       "f-30968726-319"
     ],
-    "enabled": true
+    "title": "From the \"Art of Dialogue\" to the \"Art of Presentation.\" At the Memorial to the Murdered Jews of Europe, Berlin, Oral History "
   },
   {
-    "id": "d28964a7",
+    "enabled": true,
     "author.id": [
       "langer-lawrence"
     ],
     "date": 2002,
+    "uri": "http://www.worldcat.org/oclc/248743758",
     "publisher": "The Holocaust and history : the known, the unknown, the disputed, and the reexamined",
-    "title": "Texts and Subtexts in Holocaust Testimonies",
+    "id": "d28964a7",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/248743758",
     "Footnote": [
       "f-d28964a7-1184"
     ],
-    "enabled": true
+    "title": "Texts and Subtexts in Holocaust Testimonies"
   },
   {
-    "id": "00dbc07a",
+    "enabled": true,
     "author.id": [
       "strom-margot"
     ],
-    "title": "Stories of Separation: Denying Family and Saving Children in the Holocaust",
+    "id": "00dbc07a",
     "Footnote": [
       "f-00dbc07a-1582"
     ],
-    "enabled": true
+    "title": "Stories of Separation: Denying Family and Saving Children in the Holocaust"
   },
   {
-    "id": "13caafc3",
+    "enabled": true,
     "author.id": [
       "langer-lawrence"
     ],
     "date": 1988,
+    "uri": "http://www.worldcat.org/oclc/568570866",
     "publisher": "part of chapter 2 in Writing and the Holocaust ",
-    "title": "Interpreting Surviving Testimony",
+    "id": "13caafc3",
     "type": [
       "Book (Q571)"
     ],
-    "uri": "http://www.worldcat.org/oclc/568570866",
     "Footnote": [
       "f-13caafc3-1193",
       "f-13caafc3-1194",
       "f-13caafc3-1195",
       "f-13caafc3-1196"
     ],
-    "enabled": true
+    "title": "Interpreting Surviving Testimony"
   }
 ]

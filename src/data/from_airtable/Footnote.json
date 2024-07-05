@@ -9138,1157 +9138,1157 @@
     "uri": "https://fortunoff.aviaryplatform.com/r/w08w950x4k"
   },
   {
+    "id": "f-db6e0178-1610",
     "publication.id": [
       "db6e0178"
     ],
     "resource.id": [
       "HVT-0100"
     ],
-    "enabled": true,
-    "id": "f-db6e0178-1610",
-    "uri": "https://fortunoff.aviaryplatform.com/r/r20rr1pt39"
+    "uri": "https://fortunoff.aviaryplatform.com/r/r20rr1pt39",
+    "enabled": true
   },
   {
+    "id": "f-bc0a1794-1721",
     "publication.id": [
       "bc0a1794"
     ],
     "resource.id": [
       "HVT-0218"
     ],
-    "enabled": true,
-    "id": "f-bc0a1794-1721",
-    "uri": "https://fortunoff.aviaryplatform.com/r/n872v2ck08"
+    "uri": "https://fortunoff.aviaryplatform.com/r/n872v2ck08",
+    "enabled": true
   },
   {
+    "id": "f-945d4445-1672",
     "publication.id": [
       "945d4445"
     ],
     "resource.id": [
       "HVT-2648"
     ],
-    "enabled": true,
-    "id": "f-945d4445-1672",
-    "uri": "https://fortunoff.aviaryplatform.com/r/7p8tb0xv0w"
+    "uri": "https://fortunoff.aviaryplatform.com/r/7p8tb0xv0w",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-1226",
     "publication.id": [
       "e6797972"
     ],
     "resource.id": [
       "HVT-0037"
     ],
-    "id": "f-e6797972-1226",
     "uri": "https://fortunoff.aviaryplatform.com/r/p843r0q30r"
   },
   {
+    "id": "f-e6797972-34",
+    "chapter": "Chapter 3",
     "number": 34,
+    "page": "12",
     "publication.id": [
       "e6797972"
     ],
-    "text": "I cannot forget this...eyes and swallowed",
     "resource.id": [
       "HVT-0628"
     ],
-    "page": "12",
-    "enabled": true,
-    "tape": 1,
-    "chapter": "Chapter 3",
-    "id": "f-e6797972-34",
+    "start_time": 2703,
+    "text": "I cannot forget this...eyes and swallowed",
     "uri": "https://fortunoff.aviaryplatform.com/r/9882j6879m",
-    "start_time": 2703
+    "enabled": true,
+    "tape": 1
   },
   {
+    "id": "f-b68cf590-1681",
     "publication.id": [
       "b68cf590"
     ],
     "resource.id": [
       "HVT-0227"
     ],
-    "enabled": true,
-    "id": "f-b68cf590-1681",
-    "uri": "https://fortunoff.aviaryplatform.com/r/j09w08wj96"
+    "uri": "https://fortunoff.aviaryplatform.com/r/j09w08wj96",
+    "enabled": true
   },
   {
+    "id": "f-4bf3db26-1070",
+    "end_time": 2780,
     "publication.id": [
       "4bf3db26"
     ],
-    "text": "there is a ...   yet it isn't",
     "resource.id": [
       "HVT-0065"
     ],
-    "enabled": true,
-    "tape": 2,
-    "id": "f-4bf3db26-1070",
+    "start_time": 2762,
+    "text": "there is a ...   yet it isn't",
     "uri": "https://fortunoff.aviaryplatform.com/r/jh3cz3299m",
-    "end_time": 2780,
-    "start_time": 2762
+    "enabled": true,
+    "tape": 2
   },
   {
+    "id": "f-69499a4c-696",
     "publication.id": [
       "69499a4c"
     ],
     "resource.id": [
       "HVT-0210"
     ],
-    "enabled": true,
-    "id": "f-69499a4c-696",
-    "uri": "https://fortunoff.aviaryplatform.com/r/g44hm52p4m"
+    "uri": "https://fortunoff.aviaryplatform.com/r/g44hm52p4m",
+    "enabled": true
   },
   {
+    "id": "f-e77a98a7-1036",
     "publication.id": [
       "e77a98a7"
     ],
     "resource.id": [
       "HVT-2678"
     ],
-    "enabled": true,
-    "id": "f-e77a98a7-1036",
-    "uri": "https://fortunoff.aviaryplatform.com/r/v97zk55v1f"
+    "uri": "https://fortunoff.aviaryplatform.com/r/v97zk55v1f",
+    "enabled": true
   },
   {
+    "id": "f-fde34820-951",
     "publication.id": [
       "fde34820"
     ],
     "resource.id": [
       "HVT-0001"
     ],
-    "enabled": true,
-    "id": "f-fde34820-951",
-    "uri": "https://fortunoff.aviaryplatform.com/r/dn3zs2kd29"
+    "uri": "https://fortunoff.aviaryplatform.com/r/dn3zs2kd29",
+    "enabled": true
   },
   {
+    "id": "f-58ff7015-1438",
     "publication.id": [
       "58ff7015"
     ],
     "resource.id": [
       "HVT-2337"
     ],
-    "enabled": true,
-    "id": "f-58ff7015-1438",
-    "uri": "https://fortunoff.aviaryplatform.com/r/6688g8fk1r"
+    "uri": "https://fortunoff.aviaryplatform.com/r/6688g8fk1r",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-1244",
     "publication.id": [
       "e6797972"
     ],
     "resource.id": [
       "HVT-0011"
     ],
-    "id": "f-e6797972-1244",
     "uri": "https://fortunoff.aviaryplatform.com/r/ff3kw57m5q"
   },
   {
+    "id": "f-c1fa5603-876",
     "publication.id": [
       "c1fa5603"
     ],
     "resource.id": [
       "HVT-1154"
     ],
-    "enabled": true,
-    "id": "f-c1fa5603-876",
-    "uri": "https://fortunoff.aviaryplatform.com/r/jw86h4cx99"
+    "uri": "https://fortunoff.aviaryplatform.com/r/jw86h4cx99",
+    "enabled": true
   },
   {
+    "id": "f-65a68b23-1540",
     "publication.id": [
       "65a68b23"
     ],
     "resource.id": [
       "HVT-0034"
     ],
-    "enabled": true,
-    "id": "f-65a68b23-1540",
-    "uri": "https://fortunoff.aviaryplatform.com/r/dj58c9r78m"
+    "uri": "https://fortunoff.aviaryplatform.com/r/dj58c9r78m",
+    "enabled": true
   },
   {
+    "id": "f-4bf3db26-1060",
     "publication.id": [
       "4bf3db26"
     ],
     "resource.id": [
       "HVT-0050"
     ],
-    "enabled": true,
-    "id": "f-4bf3db26-1060",
-    "uri": "https://fortunoff.aviaryplatform.com/r/5t3fx73x7c"
+    "uri": "https://fortunoff.aviaryplatform.com/r/5t3fx73x7c",
+    "enabled": true
   },
   {
+    "id": "f-0f8844d9-1304",
     "publication.id": [
       "0f8844d9"
     ],
     "resource.id": [
       "HVT-0194"
     ],
-    "enabled": true,
-    "id": "f-0f8844d9-1304",
-    "uri": "https://fortunoff.aviaryplatform.com/r/9z9086396v"
+    "uri": "https://fortunoff.aviaryplatform.com/r/9z9086396v",
+    "enabled": true
   },
   {
+    "id": "f-tomshov-mazowiecki-0012",
+    "end_time": 2030,
     "publication.id": [
       "tomshov-mazowiecki"
     ],
-    "text": "כתבתי...לי",
     "resource.id": [
       "HVT-1840"
     ],
-    "tape": 1,
-    "id": "f-tomshov-mazowiecki-0012",
+    "start_time": 2010,
+    "text": "כתבתי...לי",
     "uri": "https://fortunoff.aviaryplatform.com/r/x921c1tw0z",
-    "end_time": 2030,
-    "start_time": 2010
+    "tape": 1
   },
   {
+    "id": "f-f9470e5f-1638",
     "publication.id": [
       "f9470e5f"
     ],
     "resource.id": [
       "HVT-0736"
     ],
-    "enabled": true,
-    "id": "f-f9470e5f-1638",
-    "uri": "https://fortunoff.aviaryplatform.com/r/639k35mc9d"
+    "uri": "https://fortunoff.aviaryplatform.com/r/639k35mc9d",
+    "enabled": true
   },
   {
+    "id": "f-782ab333-1323",
     "publication.id": [
       "782ab333"
     ],
     "resource.id": [
       "HVT-0098"
     ],
-    "enabled": true,
-    "id": "f-782ab333-1323",
-    "uri": "https://fortunoff.aviaryplatform.com/r/sb3ws8hs46"
+    "uri": "https://fortunoff.aviaryplatform.com/r/sb3ws8hs46",
+    "enabled": true
   },
   {
+    "id": "f-061f7cc4-763",
     "publication.id": [
       "061f7cc4"
     ],
     "resource.id": [
       "HVT-0173"
     ],
-    "enabled": true,
-    "id": "f-061f7cc4-763",
-    "uri": "https://fortunoff.aviaryplatform.com/r/k93125qj0h"
+    "uri": "https://fortunoff.aviaryplatform.com/r/k93125qj0h",
+    "enabled": true
   },
   {
+    "id": "f-33457a50-181",
     "publication.id": [
       "33457a50"
     ],
     "resource.id": [
       "HVT-3008"
     ],
-    "enabled": true,
-    "id": "f-33457a50-181",
-    "uri": "https://fortunoff.aviaryplatform.com/r/hh6c24qt7q"
+    "uri": "https://fortunoff.aviaryplatform.com/r/hh6c24qt7q",
+    "enabled": true
   },
   {
+    "id": "f-429a8872-285",
     "publication.id": [
       "429a8872"
     ],
     "resource.id": [
       "HVT-0970"
     ],
-    "enabled": true,
-    "id": "f-429a8872-285",
-    "uri": "https://fortunoff.aviaryplatform.com/r/4m91834424"
+    "uri": "https://fortunoff.aviaryplatform.com/r/4m91834424",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-50",
+    "chapter": "Chapter 4",
+    "end_time": 3020,
     "number": 50,
+    "page": "8",
     "publication.id": [
       "e6797972"
     ],
-    "text": "I saw Paradise...I saw Paradise",
     "resource.id": [
       "HVT-0107"
     ],
-    "page": "8",
-    "enabled": true,
-    "tape": 1,
-    "chapter": "Chapter 4",
-    "id": "f-e6797972-50",
+    "start_time": 3018,
+    "text": "I saw Paradise...I saw Paradise",
     "uri": "https://fortunoff.aviaryplatform.com/r/c53dz03438",
-    "end_time": 3020,
-    "start_time": 3018
+    "enabled": true,
+    "tape": 1
   },
   {
+    "id": "f-b0a61f2b-801",
     "publication.id": [
       "b0a61f2b"
     ],
     "resource.id": [
       "HVT-0173"
     ],
-    "enabled": true,
-    "id": "f-b0a61f2b-801",
-    "uri": "https://fortunoff.aviaryplatform.com/r/k93125qj0h"
+    "uri": "https://fortunoff.aviaryplatform.com/r/k93125qj0h",
+    "enabled": true
   },
   {
+    "id": "f-9ab419ca-740",
     "publication.id": [
       "9ab419ca"
     ],
     "resource.id": [
       "HVT-0363"
     ],
-    "enabled": true,
-    "id": "f-9ab419ca-740",
-    "uri": "https://fortunoff.aviaryplatform.com/r/h12v40k24t"
+    "uri": "https://fortunoff.aviaryplatform.com/r/h12v40k24t",
+    "enabled": true
   },
   {
+    "id": "f-752c6b2d-1406",
     "publication.id": [
       "752c6b2d"
     ],
     "resource.id": [
       "HVT-2298"
     ],
-    "enabled": true,
-    "id": "f-752c6b2d-1406",
-    "uri": "https://fortunoff.aviaryplatform.com/r/m32n58cs05"
+    "uri": "https://fortunoff.aviaryplatform.com/r/m32n58cs05",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-54",
+    "chapter": "Chapter 4",
+    "end_time": 880,
     "number": 54,
+    "page": "14",
     "publication.id": [
       "e6797972"
     ],
-    "text": "I believe in...to save his life",
     "resource.id": [
       "HVT-0011"
     ],
-    "page": "14",
-    "enabled": true,
-    "tape": 4,
-    "chapter": "Chapter 4",
-    "id": "f-e6797972-54",
+    "start_time": 868,
+    "text": "I believe in...to save his life",
     "uri": "https://fortunoff.aviaryplatform.com/r/ff3kw57m5q",
-    "end_time": 880,
-    "start_time": 868
+    "enabled": true,
+    "tape": 4
   },
   {
+    "id": "f-fde34820-974",
     "publication.id": [
       "fde34820"
     ],
     "resource.id": [
       "HVT-0977"
     ],
-    "enabled": true,
-    "id": "f-fde34820-974",
-    "uri": "https://fortunoff.aviaryplatform.com/r/jq0sq8qn0r"
+    "uri": "https://fortunoff.aviaryplatform.com/r/jq0sq8qn0r",
+    "enabled": true
   },
   {
+    "id": "f-307ded74-117",
     "publication.id": [
       "307ded74"
     ],
     "resource.id": [
       "HVT-4298"
     ],
-    "enabled": true,
-    "id": "f-307ded74-117",
-    "uri": "https://fortunoff.aviaryplatform.com/r/3f4kk94b2w"
+    "uri": "https://fortunoff.aviaryplatform.com/r/3f4kk94b2w",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-75",
+    "chapter": "Chapter 5",
     "number": 75,
+    "page": "16",
     "publication.id": [
       "e6797972"
     ],
-    "text": "...",
     "resource.id": [
       "HVT-0061"
     ],
-    "page": "16",
-    "chapter": "Chapter 5",
-    "id": "f-e6797972-75",
+    "text": "...",
     "uri": "https://fortunoff.aviaryplatform.com/r/s46h12vg63"
   },
   {
+    "id": "f-cf0d5af9-139",
     "publication.id": [
       "cf0d5af9"
     ],
     "resource.id": [
       "HVT-0206"
     ],
-    "enabled": true,
-    "id": "f-cf0d5af9-139",
-    "uri": "https://fortunoff.aviaryplatform.com/r/kw57d2qf47"
+    "uri": "https://fortunoff.aviaryplatform.com/r/kw57d2qf47",
+    "enabled": true
   },
   {
+    "id": "f-d79fc931-625",
     "publication.id": [
       "d79fc931"
     ],
     "resource.id": [
       "HVT-1681"
     ],
-    "enabled": true,
-    "id": "f-d79fc931-625",
-    "uri": "https://fortunoff.aviaryplatform.com/r/p55db7vz04"
+    "uri": "https://fortunoff.aviaryplatform.com/r/p55db7vz04",
+    "enabled": true
   },
   {
+    "id": "f-7f744cdc-1453",
     "publication.id": [
       "7f744cdc"
     ],
     "resource.id": [
       "HVT-2217"
     ],
-    "enabled": true,
-    "id": "f-7f744cdc-1453",
-    "uri": "https://fortunoff.aviaryplatform.com/r/8911n7xr0f"
+    "uri": "https://fortunoff.aviaryplatform.com/r/8911n7xr0f",
+    "enabled": true
   },
   {
+    "id": "f-b0a61f2b-807",
     "publication.id": [
       "b0a61f2b"
     ],
     "resource.id": [
       "HVT-0641"
     ],
-    "enabled": true,
-    "id": "f-b0a61f2b-807",
-    "uri": "https://fortunoff.aviaryplatform.com/r/x639z90q20"
+    "uri": "https://fortunoff.aviaryplatform.com/r/x639z90q20",
+    "enabled": true
   },
   {
+    "id": "f-e77a98a7-1021",
     "publication.id": [
       "e77a98a7"
     ],
     "resource.id": [
       "HVT-0978"
     ],
-    "enabled": true,
-    "id": "f-e77a98a7-1021",
-    "uri": "https://fortunoff.aviaryplatform.com/r/930ns0kx9f"
+    "uri": "https://fortunoff.aviaryplatform.com/r/930ns0kx9f",
+    "enabled": true
   },
   {
+    "id": "f-344454fa-1278",
     "publication.id": [
       "344454fa"
     ],
     "resource.id": [
       "HVT-0035"
     ],
-    "enabled": true,
-    "id": "f-344454fa-1278",
-    "uri": "https://fortunoff.aviaryplatform.com/r/4q7qn5z823"
+    "uri": "https://fortunoff.aviaryplatform.com/r/4q7qn5z823",
+    "enabled": true
   },
   {
+    "id": "f-bd8788dc-202",
     "publication.id": [
       "bd8788dc"
     ],
     "resource.id": [
       "HVT-3586"
     ],
-    "enabled": true,
-    "id": "f-bd8788dc-202",
-    "uri": "https://fortunoff.aviaryplatform.com/r/td9n29ph1p"
+    "uri": "https://fortunoff.aviaryplatform.com/r/td9n29ph1p",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-1241",
     "publication.id": [
       "e6797972"
     ],
     "resource.id": [
       "HVT-0107"
     ],
-    "id": "f-e6797972-1241",
     "uri": "https://fortunoff.aviaryplatform.com/r/c53dz03438"
   },
   {
+    "id": "f-fbfe87f8-640",
     "publication.id": [
       "fbfe87f8"
     ],
     "resource.id": [
       "HVT-0191"
     ],
-    "enabled": true,
-    "id": "f-fbfe87f8-640",
-    "uri": "https://fortunoff.aviaryplatform.com/r/s17sn01b2n"
+    "uri": "https://fortunoff.aviaryplatform.com/r/s17sn01b2n",
+    "enabled": true
   },
   {
+    "id": "f-e99933a7-1339",
     "publication.id": [
       "e99933a7"
     ],
     "resource.id": [
       "HVT-0045"
     ],
-    "enabled": true,
-    "id": "f-e99933a7-1339",
-    "uri": "https://fortunoff.aviaryplatform.com/r/696zw18p7m"
+    "uri": "https://fortunoff.aviaryplatform.com/r/696zw18p7m",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-76",
+    "chapter": "Chapter 5",
+    "end_time": 2163,
     "number": 76,
+    "page": "17",
     "publication.id": [
       "e6797972"
     ],
-    "text": "I gave him instructions...Kommandos what to do",
     "resource.id": [
       "HVT-0094"
     ],
-    "page": "17",
-    "enabled": true,
-    "tape": 1,
-    "chapter": "Chapter 5",
-    "id": "f-e6797972-76",
+    "start_time": 2071,
+    "text": "I gave him instructions...Kommandos what to do",
     "uri": "https://fortunoff.aviaryplatform.com/r/vd6nz80z8m",
-    "end_time": 2163,
-    "start_time": 2071
+    "enabled": true,
+    "tape": 1
   },
   {
+    "id": "f-cf0d5af9-146",
     "publication.id": [
       "cf0d5af9"
     ],
     "resource.id": [
       "HVT-1989"
     ],
-    "enabled": true,
-    "id": "f-cf0d5af9-146",
-    "uri": "https://fortunoff.aviaryplatform.com/r/fn10p0wx8h"
+    "uri": "https://fortunoff.aviaryplatform.com/r/fn10p0wx8h",
+    "enabled": true
   },
   {
+    "id": "f-d16e1535-786",
     "publication.id": [
       "d16e1535"
     ],
     "resource.id": [
       "HVT-0094"
     ],
-    "enabled": true,
-    "id": "f-d16e1535-786",
-    "uri": "https://fortunoff.aviaryplatform.com/r/vd6nz80z8m"
+    "uri": "https://fortunoff.aviaryplatform.com/r/vd6nz80z8m",
+    "enabled": true
   },
   {
+    "id": "f-d3d714fd-1470",
     "publication.id": [
       "d3d714fd"
     ],
     "resource.id": [
       "HVT-0612"
     ],
-    "enabled": true,
-    "id": "f-d3d714fd-1470",
-    "uri": "https://fortunoff.aviaryplatform.com/r/h98z892h29"
+    "uri": "https://fortunoff.aviaryplatform.com/r/h98z892h29",
+    "enabled": true
   },
   {
+    "id": "f-9ab419ca-733",
     "publication.id": [
       "9ab419ca"
     ],
     "resource.id": [
       "HVT-0005"
     ],
-    "enabled": true,
-    "id": "f-9ab419ca-733",
-    "uri": "https://fortunoff.aviaryplatform.com/r/9g5gb1xj4t"
+    "uri": "https://fortunoff.aviaryplatform.com/r/9g5gb1xj4t",
+    "enabled": true
   },
   {
+    "id": "f-5591100c-232",
     "publication.id": [
       "5591100c"
     ],
     "resource.id": [
       "HVT-3415"
     ],
-    "enabled": true,
-    "id": "f-5591100c-232",
-    "uri": "https://fortunoff.aviaryplatform.com/r/4746q1sj4w"
+    "uri": "https://fortunoff.aviaryplatform.com/r/4746q1sj4w",
+    "enabled": true
   },
   {
+    "id": "f-4bf3db26-1096",
     "publication.id": [
       "4bf3db26"
     ],
     "resource.id": [
       "HVT-0152"
     ],
-    "enabled": true,
-    "id": "f-4bf3db26-1096",
-    "uri": "https://fortunoff.aviaryplatform.com/r/bc3st7dx0h"
+    "uri": "https://fortunoff.aviaryplatform.com/r/bc3st7dx0h",
+    "enabled": true
   },
   {
+    "id": "f-01215645-638",
     "publication.id": [
       "1215645"
     ],
     "resource.id": [
       "HVT-2891"
     ],
-    "enabled": true,
-    "id": "f-01215645-638",
-    "uri": "https://fortunoff.aviaryplatform.com/r/3r0pr7mr8h"
+    "uri": "https://fortunoff.aviaryplatform.com/r/3r0pr7mr8h",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-39",
+    "chapter": "Chapter 3",
+    "end_time": 3112,
     "number": 39,
+    "page": "18",
     "publication.id": [
       "e6797972"
     ],
-    "text": "and she had a leg...I just bacame hysterical",
     "resource.id": [
       "HVT-1136"
     ],
-    "page": "18",
-    "enabled": true,
-    "tape": 1,
-    "chapter": "Chapter 3",
-    "id": "f-e6797972-39",
+    "start_time": 3076,
+    "text": "and she had a leg...I just bacame hysterical",
     "uri": "https://fortunoff.aviaryplatform.com/r/445h98zc00",
-    "end_time": 3112,
-    "start_time": 3076
+    "enabled": true,
+    "tape": 1
   },
   {
+    "id": "f-2e0c92f5-353",
     "publication.id": [
       "2e0c92f5"
     ],
     "resource.id": [
       "HVT-1309"
     ],
-    "enabled": true,
-    "id": "f-2e0c92f5-353",
-    "uri": "https://fortunoff.aviaryplatform.com/r/2804x54g6j"
+    "uri": "https://fortunoff.aviaryplatform.com/r/2804x54g6j",
+    "enabled": true
   },
   {
+    "id": "f-4bf3db26-1055",
     "publication.id": [
       "4bf3db26"
     ],
     "resource.id": [
       "HVT-0003"
     ],
-    "enabled": true,
-    "id": "f-4bf3db26-1055",
-    "uri": "https://fortunoff.aviaryplatform.com/r/pn8x921p64"
+    "uri": "https://fortunoff.aviaryplatform.com/r/pn8x921p64",
+    "enabled": true
   },
   {
+    "id": "f-782ab333-1322",
     "publication.id": [
       "782ab333"
     ],
     "resource.id": [
       "HVT-1879"
     ],
-    "enabled": true,
-    "id": "f-782ab333-1322",
-    "uri": "https://fortunoff.aviaryplatform.com/r/1v5bc3sv9d"
+    "uri": "https://fortunoff.aviaryplatform.com/r/1v5bc3sv9d",
+    "enabled": true
   },
   {
+    "id": "f-e77a98a7-1024",
     "publication.id": [
       "e77a98a7"
     ],
     "resource.id": [
       "HVT-0287"
     ],
-    "enabled": true,
-    "id": "f-e77a98a7-1024",
-    "uri": "https://fortunoff.aviaryplatform.com/r/m61bk16w64"
+    "uri": "https://fortunoff.aviaryplatform.com/r/m61bk16w64",
+    "enabled": true
   },
   {
+    "id": "f-3a7bbfef-679",
     "publication.id": [
       "3a7bbfef"
     ],
     "resource.id": [
       "HVT-0777"
     ],
-    "enabled": true,
-    "id": "f-3a7bbfef-679",
-    "uri": "https://fortunoff.aviaryplatform.com/r/v69862bp29"
+    "uri": "https://fortunoff.aviaryplatform.com/r/v69862bp29",
+    "enabled": true
   },
   {
+    "id": "f-cf0d5af9-132",
     "publication.id": [
       "cf0d5af9"
     ],
     "resource.id": [
       "HVT-1125"
     ],
-    "enabled": true,
-    "id": "f-cf0d5af9-132",
-    "uri": "https://fortunoff.aviaryplatform.com/r/n58cf9jf0w"
+    "uri": "https://fortunoff.aviaryplatform.com/r/n58cf9jf0w",
+    "enabled": true
   },
   {
+    "id": "f-d56ab6dd-438",
     "publication.id": [
       "d56ab6dd"
     ],
     "resource.id": [
       "HVT-2747"
     ],
-    "enabled": true,
-    "id": "f-d56ab6dd-438",
-    "uri": "https://fortunoff.aviaryplatform.com/r/sx6445hq8f"
+    "uri": "https://fortunoff.aviaryplatform.com/r/sx6445hq8f",
+    "enabled": true
   },
   {
+    "id": "f-5591100c-253",
     "publication.id": [
       "5591100c"
     ],
     "resource.id": [
       "HVT-2536"
     ],
-    "enabled": true,
-    "id": "f-5591100c-253",
-    "uri": "https://fortunoff.aviaryplatform.com/r/8w3804xn8j"
+    "uri": "https://fortunoff.aviaryplatform.com/r/8w3804xn8j",
+    "enabled": true
   },
   {
+    "id": "f-80f70f30-612",
     "publication.id": [
       "80f70f30"
     ],
     "resource.id": [
       "HVT-1300"
     ],
-    "enabled": true,
-    "id": "f-80f70f30-612",
-    "uri": "https://fortunoff.aviaryplatform.com/r/r49g44j008"
+    "uri": "https://fortunoff.aviaryplatform.com/r/r49g44j008",
+    "enabled": true
   },
   {
+    "id": "f-92fb59ae-910",
     "publication.id": [
       "92fb59ae"
     ],
     "resource.id": [
       "HVT-0005"
     ],
-    "enabled": true,
-    "id": "f-92fb59ae-910",
-    "uri": "https://fortunoff.aviaryplatform.com/r/9g5gb1xj4t"
+    "uri": "https://fortunoff.aviaryplatform.com/r/9g5gb1xj4t",
+    "enabled": true
   },
   {
+    "id": "f-756da694-1456",
     "publication.id": [
       "756da694"
     ],
     "resource.id": [
       "HVT-0295"
     ],
-    "enabled": true,
-    "id": "f-756da694-1456",
-    "uri": "https://fortunoff.aviaryplatform.com/r/jd4pk07553"
+    "uri": "https://fortunoff.aviaryplatform.com/r/jd4pk07553",
+    "enabled": true
   },
   {
+    "id": "f-a73f81fa-561",
     "publication.id": [
       "a73f81fa"
     ],
     "resource.id": [
       "HVT-2958"
     ],
-    "enabled": true,
-    "id": "f-a73f81fa-561",
-    "uri": "https://fortunoff.aviaryplatform.com/r/nk3610w19g"
+    "uri": "https://fortunoff.aviaryplatform.com/r/nk3610w19g",
+    "enabled": true
   },
   {
+    "id": "f-d56ab6dd-448",
     "publication.id": [
       "d56ab6dd"
     ],
     "resource.id": [
       "HVT-2929"
     ],
-    "enabled": true,
-    "id": "f-d56ab6dd-448",
-    "uri": "https://fortunoff.aviaryplatform.com/r/k35m90286w"
+    "uri": "https://fortunoff.aviaryplatform.com/r/k35m90286w",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-1229",
     "publication.id": [
       "e6797972"
     ],
     "resource.id": [
       "HVT-0192"
     ],
-    "id": "f-e6797972-1229",
     "uri": "https://fortunoff.aviaryplatform.com/r/1g0ht2g806"
   },
   {
+    "id": "f-3a7bbfef-677",
     "publication.id": [
       "3a7bbfef"
     ],
     "resource.id": [
       "HVT-0206"
     ],
-    "enabled": true,
-    "id": "f-3a7bbfef-677",
-    "uri": "https://fortunoff.aviaryplatform.com/r/kw57d2qf47"
+    "uri": "https://fortunoff.aviaryplatform.com/r/kw57d2qf47",
+    "enabled": true
   },
   {
+    "id": "f-5b1131c4-692",
     "publication.id": [
       "5b1131c4"
     ],
     "resource.id": [
       "HVT-0641"
     ],
-    "enabled": true,
-    "id": "f-5b1131c4-692",
-    "uri": "https://fortunoff.aviaryplatform.com/r/x639z90q20"
+    "uri": "https://fortunoff.aviaryplatform.com/r/x639z90q20",
+    "enabled": true
   },
   {
+    "id": "f-8fb3cc2f-1274",
     "publication.id": [
       "8fb3cc2f"
     ],
     "resource.id": [
       "HVT-1638"
     ],
-    "enabled": true,
-    "id": "f-8fb3cc2f-1274",
-    "uri": "https://fortunoff.aviaryplatform.com/r/0c4sj19m22"
+    "uri": "https://fortunoff.aviaryplatform.com/r/0c4sj19m22",
+    "enabled": true
   },
   {
+    "id": "f-holocaust testimonies-0005",
     "publication.id": [
       "holocaust-testimonies"
     ],
     "resource.id": [
       "HVT-0107"
     ],
-    "id": "f-holocaust testimonies-0005",
     "uri": "https://fortunoff.aviaryplatform.com/r/c53dz03438"
   },
   {
+    "id": "f-4bf3db26-1149",
     "publication.id": [
       "4bf3db26"
     ],
     "resource.id": [
       "HVT-2680"
     ],
-    "enabled": true,
-    "id": "f-4bf3db26-1149",
-    "uri": "https://fortunoff.aviaryplatform.com/r/2v2c824d6f"
+    "uri": "https://fortunoff.aviaryplatform.com/r/2v2c824d6f",
+    "enabled": true
   },
   {
+    "id": "f-4bf3db26-1087",
     "publication.id": [
       "4bf3db26"
     ],
     "resource.id": [
       "HVT-0976"
     ],
-    "enabled": true,
-    "id": "f-4bf3db26-1087",
-    "uri": "https://fortunoff.aviaryplatform.com/r/b27pn8xg1k"
+    "uri": "https://fortunoff.aviaryplatform.com/r/b27pn8xg1k",
+    "enabled": true
   },
   {
+    "id": "f-92fb59ae-923",
     "publication.id": [
       "92fb59ae"
     ],
     "resource.id": [
       "HVT-0100"
     ],
-    "enabled": true,
-    "id": "f-92fb59ae-923",
-    "uri": "https://fortunoff.aviaryplatform.com/r/r20rr1pt39"
+    "uri": "https://fortunoff.aviaryplatform.com/r/r20rr1pt39",
+    "enabled": true
   },
   {
+    "id": "f-d56ab6dd-378",
     "publication.id": [
       "d56ab6dd"
     ],
     "resource.id": [
       "HVT-0087"
     ],
-    "enabled": true,
-    "id": "f-d56ab6dd-378",
-    "uri": "https://fortunoff.aviaryplatform.com/r/pk06w96j2h"
+    "uri": "https://fortunoff.aviaryplatform.com/r/pk06w96j2h",
+    "enabled": true
   },
   {
+    "id": "f-d16e1535-779",
     "publication.id": [
       "d16e1535"
     ],
     "resource.id": [
       "HVT-0072"
     ],
-    "enabled": true,
-    "id": "f-d16e1535-779",
-    "uri": "https://fortunoff.aviaryplatform.com/r/7w6736m414"
+    "uri": "https://fortunoff.aviaryplatform.com/r/7w6736m414",
+    "enabled": true
   },
   {
+    "id": "f-9ab419ca-750",
     "publication.id": [
       "9ab419ca"
     ],
     "resource.id": [
       "HVT-2068"
     ],
-    "enabled": true,
-    "id": "f-9ab419ca-750",
-    "uri": "https://fortunoff.aviaryplatform.com/r/4x54f1mk81"
+    "uri": "https://fortunoff.aviaryplatform.com/r/4x54f1mk81",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-1252",
     "publication.id": [
       "e6797972"
     ],
     "resource.id": [
       "HVT-0250"
     ],
-    "id": "f-e6797972-1252",
     "uri": "https://fortunoff.aviaryplatform.com/r/pc2t43j75m"
   },
   {
+    "id": "f-92fb59ae-917",
     "publication.id": [
       "92fb59ae"
     ],
     "resource.id": [
       "HVT-0059"
     ],
-    "enabled": true,
-    "id": "f-92fb59ae-917",
-    "uri": "https://fortunoff.aviaryplatform.com/r/1n7xk84j9j"
+    "uri": "https://fortunoff.aviaryplatform.com/r/1n7xk84j9j",
+    "enabled": true
   },
   {
+    "id": "f-f9470e5f-1630",
     "publication.id": [
       "f9470e5f"
     ],
     "resource.id": [
       "HVT-4014"
     ],
-    "enabled": true,
-    "id": "f-f9470e5f-1630",
-    "uri": "https://fortunoff.aviaryplatform.com/r/x921c1tw5h"
+    "uri": "https://fortunoff.aviaryplatform.com/r/x921c1tw5h",
+    "enabled": true
   },
   {
+    "id": "f-a7874f8e-1353",
     "publication.id": [
       "a7874f8e"
     ],
     "resource.id": [
       "HVT-0003"
     ],
-    "enabled": true,
-    "id": "f-a7874f8e-1353",
-    "uri": "https://fortunoff.aviaryplatform.com/r/pn8x921p64"
+    "uri": "https://fortunoff.aviaryplatform.com/r/pn8x921p64",
+    "enabled": true
   },
   {
+    "id": "f-flight-ussr-0002",
+    "end_time": 1004,
     "publication.id": [
       "flight-ussr"
     ],
-    "text": "We...slept. ",
     "resource.id": [
       "HVT-2755"
     ],
-    "tape": 1,
-    "id": "f-flight-ussr-0002",
+    "start_time": 950,
+    "text": "We...slept. ",
     "uri": "https://fortunoff.aviaryplatform.com/r/028pc2t51h",
-    "end_time": 1004,
-    "start_time": 950
+    "tape": 1
   },
   {
+    "id": "f-e77a98a7-1042",
     "publication.id": [
       "e77a98a7"
     ],
     "resource.id": [
       "HVT-1154"
     ],
-    "enabled": true,
-    "id": "f-e77a98a7-1042",
-    "uri": "https://fortunoff.aviaryplatform.com/r/jw86h4cx99"
+    "uri": "https://fortunoff.aviaryplatform.com/r/jw86h4cx99",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-80",
+    "chapter": "Chapter 5",
+    "end_time": 2508,
     "number": 80,
+    "page": "24",
     "publication.id": [
       "e6797972"
     ],
-    "text": "And you're scared to come...I didn't feel over anything",
     "resource.id": [
       "HVT-0166"
     ],
-    "page": "24",
-    "enabled": true,
-    "tape": 2,
-    "chapter": "Chapter 5",
-    "id": "f-e6797972-80",
+    "start_time": 2434,
+    "text": "And you're scared to come...I didn't feel over anything",
     "uri": "https://fortunoff.aviaryplatform.com/r/542j678v9z",
-    "end_time": 2508,
-    "start_time": 2434
+    "enabled": true,
+    "tape": 2
   },
   {
+    "id": "f-174a10c9-272",
     "publication.id": [
       "174a10c9"
     ],
     "resource.id": [
       "HVT-1219"
     ],
-    "enabled": true,
-    "id": "f-174a10c9-272",
-    "uri": "https://fortunoff.aviaryplatform.com/r/4746q1sh7j"
+    "uri": "https://fortunoff.aviaryplatform.com/r/4746q1sh7j",
+    "enabled": true
   },
   {
+    "id": "f-4bf3db26-1125",
+    "end_time": 1504,
     "publication.id": [
       "4bf3db26"
     ],
-    "text": "The thing is, to tell...",
     "resource.id": [
       "HVT-0253"
     ],
-    "enabled": true,
-    "tape": 1,
-    "id": "f-4bf3db26-1125",
+    "start_time": 1473,
+    "text": "The thing is, to tell...",
     "uri": "https://fortunoff.aviaryplatform.com/r/vq2s46hf2f",
-    "end_time": 1504,
-    "start_time": 1473
+    "enabled": true,
+    "tape": 1
   },
   {
+    "id": "f-92fb59ae-948",
     "publication.id": [
       "92fb59ae"
     ],
     "resource.id": [
       "HVT-1533"
     ],
-    "enabled": true,
-    "id": "f-92fb59ae-948",
-    "uri": "https://fortunoff.aviaryplatform.com/r/rj48p5vk4t"
+    "uri": "https://fortunoff.aviaryplatform.com/r/rj48p5vk4t",
+    "enabled": true
   },
   {
+    "id": "f-945d4445-1676",
     "publication.id": [
       "945d4445"
     ],
     "resource.id": [
       "HVT-2841"
     ],
-    "enabled": true,
-    "id": "f-945d4445-1676",
-    "uri": "https://fortunoff.aviaryplatform.com/r/ft8df6k81p"
+    "uri": "https://fortunoff.aviaryplatform.com/r/ft8df6k81p",
+    "enabled": true
   },
   {
+    "id": "f-be400af4-334",
     "publication.id": [
       "be400af4"
     ],
     "resource.id": [
       "HVT-3184"
     ],
-    "enabled": true,
-    "id": "f-be400af4-334",
-    "uri": "https://fortunoff.aviaryplatform.com/r/dv1cj87r2j"
+    "uri": "https://fortunoff.aviaryplatform.com/r/dv1cj87r2j",
+    "enabled": true
   },
   {
+    "id": "f-e77a98a7-1000",
     "publication.id": [
       "e77a98a7"
     ],
     "resource.id": [
       "HVT-0144"
     ],
-    "enabled": true,
-    "id": "f-e77a98a7-1000",
-    "uri": "https://fortunoff.aviaryplatform.com/r/p55db7vx8b"
+    "uri": "https://fortunoff.aviaryplatform.com/r/p55db7vx8b",
+    "enabled": true
   },
   {
+    "id": "f-85ff34a7-1490",
     "publication.id": [
       "85ff34a7"
     ],
     "resource.id": [
       "HVT-1101"
     ],
-    "enabled": true,
-    "id": "f-85ff34a7-1490",
-    "uri": "https://fortunoff.aviaryplatform.com/r/1g0ht2g84f"
+    "uri": "https://fortunoff.aviaryplatform.com/r/1g0ht2g84f",
+    "enabled": true
   },
   {
+    "id": "f-b0a61f2b-817",
     "publication.id": [
       "b0a61f2b"
     ],
     "resource.id": [
       "HVT-3132"
     ],
-    "enabled": true,
-    "id": "f-b0a61f2b-817",
-    "uri": "https://fortunoff.aviaryplatform.com/r/kk9474712v"
+    "uri": "https://fortunoff.aviaryplatform.com/r/kk9474712v",
+    "enabled": true
   },
   {
+    "id": "f-d56ab6dd-453",
     "publication.id": [
       "d56ab6dd"
     ],
     "resource.id": [
       "HVT-3036"
     ],
-    "enabled": true,
-    "id": "f-d56ab6dd-453",
-    "uri": "https://fortunoff.aviaryplatform.com/r/k35m902876"
+    "uri": "https://fortunoff.aviaryplatform.com/r/k35m902876",
+    "enabled": true
   },
   {
+    "id": "f-57c48f4f-366",
     "publication.id": [
       "57c48f4f"
     ],
     "resource.id": [
       "HVT-2442"
     ],
-    "enabled": true,
-    "id": "f-57c48f4f-366",
-    "uri": "https://fortunoff.aviaryplatform.com/r/cr5n87325p"
+    "uri": "https://fortunoff.aviaryplatform.com/r/cr5n87325p",
+    "enabled": true
   },
   {
+    "id": "f-bc0a1794-1711",
     "publication.id": [
       "bc0a1794"
     ],
     "resource.id": [
       "HVT-1913"
     ],
-    "enabled": true,
-    "id": "f-bc0a1794-1711",
-    "uri": "https://fortunoff.aviaryplatform.com/r/5t3fx73z0g"
+    "uri": "https://fortunoff.aviaryplatform.com/r/5t3fx73z0g",
+    "enabled": true
   },
   {
+    "id": "f-a73f81fa-495",
     "publication.id": [
       "a73f81fa"
     ],
     "resource.id": [
       "HVT-0430"
     ],
-    "enabled": true,
-    "id": "f-a73f81fa-495",
-    "uri": "https://fortunoff.aviaryplatform.com/r/9z9086398g"
+    "uri": "https://fortunoff.aviaryplatform.com/r/9z9086398g",
+    "enabled": true
   },
   {
+    "id": "f-8f3594e1-1179",
     "publication.id": [
       "8f3594e1"
     ],
     "resource.id": [
       "HVT-0220"
     ],
-    "enabled": true,
-    "id": "f-8f3594e1-1179",
-    "uri": "https://fortunoff.aviaryplatform.com/r/ng4gm81v8b"
+    "uri": "https://fortunoff.aviaryplatform.com/r/ng4gm81v8b",
+    "enabled": true
   },
   {
+    "id": "f-8f3594e1-1181",
     "publication.id": [
       "8f3594e1"
     ],
     "resource.id": [
       "HVT-0066"
     ],
-    "enabled": true,
-    "id": "f-8f3594e1-1181",
-    "uri": "https://fortunoff.aviaryplatform.com/r/jw86h4cx6c"
+    "uri": "https://fortunoff.aviaryplatform.com/r/jw86h4cx6c",
+    "enabled": true
   },
   {
+    "id": "f-music-auschwitz-aid-survival-0008",
+    "end_time": 86,
     "publication.id": [
       "music-auschwitz-aid-survival"
     ],
-    "text": "The third thing, for entertainment for the SS...",
     "resource.id": [
       "HVT-1589"
     ],
-    "tape": 2,
-    "id": "f-music-auschwitz-aid-survival-0008",
+    "start_time": 81,
+    "text": "The third thing, for entertainment for the SS...",
     "uri": "https://fortunoff.aviaryplatform.com/r/7d2q52fc1x",
-    "end_time": 86,
-    "start_time": 81
+    "tape": 2
   },
   {
+    "id": "f-e6797972-1210",
     "publication.id": [
       "e6797972"
     ],
     "resource.id": [
       "HVT-0099"
     ],
-    "id": "f-e6797972-1210",
     "uri": "https://fortunoff.aviaryplatform.com/r/xs5j960m47"
   },
   {
+    "id": "f-d56ab6dd-441",
     "publication.id": [
       "d56ab6dd"
     ],
     "resource.id": [
       "HVT-2832"
     ],
-    "enabled": true,
-    "id": "f-d56ab6dd-441",
-    "uri": "https://fortunoff.aviaryplatform.com/r/gm81j97f9c"
+    "uri": "https://fortunoff.aviaryplatform.com/r/gm81j97f9c",
+    "enabled": true
   },
   {
+    "id": "f-e6797972-1255",
     "publication.id": [
       "e6797972"
     ],
     "resource.id": [
       "HVT-0065"
     ],
-    "id": "f-e6797972-1255",
     "uri": "https://fortunoff.aviaryplatform.com/r/jh3cz3299m"
   },
   {
+    "id": "f-307ded74-123",
     "publication.id": [
       "307ded74"
     ],
     "resource.id": [
       "HVT-1394"
     ],
-    "enabled": true,
-    "id": "f-307ded74-123",
-    "uri": "https://fortunoff.aviaryplatform.com/r/mg7fq9qc3m"
+    "uri": "https://fortunoff.aviaryplatform.com/r/mg7fq9qc3m",
+    "enabled": true
   },
   {
+    "id": "f-51265255-1536",
     "publication.id": [
       "51265255"
     ],
     "resource.id": [
       "HVT-2367"
     ],
-    "enabled": true,
-    "id": "f-51265255-1536",
-    "uri": "https://fortunoff.aviaryplatform.com/r/rr1pg1hw4s"
+    "uri": "https://fortunoff.aviaryplatform.com/r/rr1pg1hw4s",
+    "enabled": true
   },
   {
     "publication.id": [

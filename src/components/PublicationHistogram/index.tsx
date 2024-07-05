@@ -120,6 +120,8 @@ export default function PublicationsHistogram(props: any) {
     return;
   }
 
+  console.log("OAKWDOKAWD", data);
+
   return (
     <div className="PublicationHistogram">
       <ResponsiveBar data={dummyData} />
