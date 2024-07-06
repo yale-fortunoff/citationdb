@@ -1,17 +1,9 @@
 // @ts-nocheck
 
-import data from "../data";
+import Data from "../Data";
 
 // Set local or session storage;
-var storage;
-if (typeof localStorage !== "undefined") {
-  storage = localStorage;
-} else if (typeof sessionStorage !== "undefined") {
-  storage = sessionStorage;
-} else {
-  // If neither localStorage nor sessionStorage is supported
-  console.log("Web Storage is not supported in this environment.");
-}
+const storage = localStorage;
 let callbacks = {};
 
 function hasStorage() {
@@ -81,13 +73,13 @@ const key = {
 };
 
 function getSavedAuthors() {
-  return getList(key.author).map((id) => data.author.byId(id));
+  return getList(key.author).map((id) => Data.author.byId(id));
 }
 function getSavedPublications() {
-  return getList(key.publication).map((id) => data.publication.byId(id));
+  return getList(key.publication).map((id) => Data.publication.byId(id));
 }
 function getSavedResources() {
-  return getList(key.resource).map((id) => data.resource.byId(id));
+  return getList(key.resource).map((id) => Data.resource.byId(id));
 }
 
 function saveResource(id) {

@@ -30,7 +30,7 @@ function SavedItemCounter() {
   return (
     <>
       {count > 0 ? (
-        <Link className="PinsButton" href="/pins">
+        <Link className="PinsButton" href="/pins" type="button">
           <button
             className="Button"
             type="button"
@@ -56,6 +56,7 @@ export default function BreadCrumb(props: any) {
       <Link
         className="mr-1 box-border flex h-7 flex-col justify-center rounded-lg border-0 bg-[#efefef] px-2.5 py-0 text-center font-bold text-[#6e6e6e] no-underline hover:shadow-yale"
         href="/"
+        type="button"
       >
         <button className="Button" type="button" onClick={() => alert("TODO")}>
           Home

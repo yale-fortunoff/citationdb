@@ -1,5 +1,9 @@
+// @ts-nocheck
+
 import D3Component from "../D3Component";
 import * as d3 from "d3";
+
+import "./styles.scss";
 
 export default class extends D3Component {
   constructor(props) {
@@ -14,9 +18,7 @@ export default class extends D3Component {
     svg.selectAll("*").remove();
 
     this.xAxisG = svg.append("g").classed("axis", true).classed("x", true);
-
     this.yAxisG = svg.append("g").classed("axis", true).classed("y", true);
-
     this.barG = svg.append("g");
   }
 
@@ -64,7 +66,6 @@ export default class extends D3Component {
     const yAxis = d3
       .axisLeft(yScale)
       .tickSizeOuter(0)
-      // .tickSize(width - margin.left - margin.right)
       .ticks(height / 20)
       .tickFormat((e) => (Math.floor(e) === e ? e : undefined));
 
@@ -113,7 +114,6 @@ export default class extends D3Component {
         (exit) =>
           exit
             .attr("data-exit-value", (d) => d.count)
-            // .attr("class",d=>d.barClass)
             .attr("x", (d) => xScale(d.label))
             .call((exit) =>
               exit

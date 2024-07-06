@@ -39,5 +39,5 @@ export default function ResultsList(props: any) {
     })
     .slice(0, options.itemCount);
 
-  return <div className="ResultList">{items}</div>;
+  return <div className="mt-[30px]">{items}</div>;
 }

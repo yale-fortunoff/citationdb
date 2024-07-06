@@ -1,28 +1,33 @@
 import React from "react";
 import pluralize from "pluralize";
 import Link from "next/link";
+import { twMerge } from "tailwind-merge";
+
+import Button from "~/components/Button";
+import SaveButton from "~/components/SaveButton";
 
 import data from "~/data";
 import entity from "~/data/enums";
 import wordsConfig from "~/configs/words";
 
-import Button from "~/components/Button";
-
-import "../main.scss";
-
 function PillTray(props: any) {
   return (
-    <div className={`pill-tray-wrapper ${props.title}`}>
-      <div className="pill-tray">
-        <div className={`pill-tray-title`}>
+    <div className="flex flex-wrap">
+      <div className="flex max-w-full flex-wrap items-center">
+        <div className="mr-0.5 font-light">
           {props.items.length} {props.title}
         </div>
 
         {props.items.slice(0, 5).map((item: any, i: number) => {
           return (
-            <div key={i} className="pill">
-              <Link href={item.link}>{item.title}</Link>
-            </div>
+            <Link
+              key={i}
+              href={item.link}
+              type="button"
+              className="mx-1 mt-1 max-w-[100px] overflow-hidden whitespace-nowrap rounded-sm border-l-[3px] bg-[#f5f5f5] px-1 text-[11px] text-[#286dc0] transition-[border,max-width] hover:text-[#00356b] group-hover:max-w-full"
+            >
+              {item.title}
+            </Link>
           );
         })}
       </div>
@@ -38,7 +43,7 @@ function HeaderLink(props: any) {
     const resource = data.resource.byId(props.item["resource.id"]);
     return (
       <div className="HeaderLink">
-        <Link href={`/resources/${resource.id}`}>
+        <Link href={`/resources/${resource.id}`} type="button">
           {resource.title}{" "}
           {f["start_time"]
             ? `@${data.utils.secondsToTimestamp(f["start_time"])}`
@@ -48,7 +53,15 @@ function HeaderLink(props: any) {
     );
   }
 
-  return <Link href={`/${term}/${props.item.id}`}>{props.header}</Link>;
+  return (
+    <Link
+      className="text-[#286dc0] no-underline hover:text-[#00356b]"
+      href={`/${term}/${props.item.id}`}
+      type="button"
+    >
+      {props.header}
+    </Link>
+  );
 }
 
 function ItemHeader(props: any) {
@@ -58,8 +71,8 @@ function ItemHeader(props: any) {
   }
 
   return (
-    <div className="ItemHeader">
-      <div className="badge result-type">[{label}]</div>{" "}
+    <div className="mb-2.5 flex items-baseline font-bold">
+      <div className="mr-4 text-[10px] font-normal uppercase">[{label}]</div>
       <HeaderLink {...props}></HeaderLink>
     </div>
   );
@@ -70,10 +83,10 @@ function FootnoteFooter(props: any) {
     <div>
       {props.item.text ? `"${props.item.text}"` : null}
       <div>
-        <span className="metadata light">
+        <span className="font-light text-[#222]">
           {props.item.chapter ? `${props.item.chapter}, ` : null}
         </span>
-        <span className="metadata light">
+        <span className="font-light text-[#222]">
           {props.item.page ? `page ${props.item.page} ` : null}
         </span>
       </div>
@@ -86,25 +99,20 @@ function AuthorFooter(props: any) {
   const resources = data.resource.citedByAuthor(props.item.id);
   return (
     <div>
-      <div>
-        <PillTray
-          title={pluralize("publications", publications.length)}
-          items={publications.map((x: any) => {
-            return { title: x.title, link: `/publications/${x.id}` };
-          })}
-        />
-      </div>
-      <div>
-        <PillTray
-          title={
-            pluralize(wordsConfig.resource.singular, resources.length) +
-            " cited"
-          }
-          items={resources.map((x: any) => {
-            return { title: x.title, link: `/resources/${x.id}` };
-          })}
-        />
-      </div>
+      <PillTray
+        title={pluralize("publications", publications.length)}
+        items={publications.map((x: any) => {
+          return { title: x.title, link: `/publications/${x.id}` };
+        })}
+      />
+      <PillTray
+        title={
+          pluralize(wordsConfig.resource.singular, resources.length) + " cited"
+        }
+        items={resources.map((x: any) => {
+          return { title: x.title, link: `/resources/${x.id}` };
+        })}
+      />
     </div>
   );
 }
@@ -144,16 +152,23 @@ function PublicationFooter(props: any) {
       <div>
         {authors.map((author: any, i: number) => {
           return author.name ? (
-            <span key={i} className="metadata">
-              <Link href={`/authors/${author.id}`}>{author.name}</Link>
-            </span>
+            <Link
+              key={i}
+              className="font-bold text-[#222] underline hover:text-[#00356b]"
+              href={`/authors/${author.id}`}
+              type="button"
+            >
+              {author.name}
+            </Link>
           ) : null;
         })}
         {publication.publisher ? (
-          <span className="metadata light">, {publication.publisher}</span>
+          <span className="font-light text-[#222]">
+            , {publication.publisher}
+          </span>
         ) : null}
         {publication.date ? (
-          <span className="metadata light">, {publication.date}</span>
+          <span className="font-light text-[#222]">, {publication.date}</span>
         ) : null}
       </div>
       <div>
@@ -189,14 +204,15 @@ function Footer(props: any) {
 
 export default function ResultListItem(props: any) {
   return (
-    <div className={`ResultListItem ${props.type}`}>
-      <div className="content-area">
-        <header>
-          <ItemHeader {...props} />
-        </header>
-        <footer>
-          <Footer {...props} />
-        </footer>
+    <div
+      className={twMerge(
+        "group relative mb-4 flex overflow-hidden rounded-lg border-l-[10px] bg-white transition-[border] hover:max-w-full hover:border-l-[20px] hover:shadow-yale",
+        props.className,
+      )}
+    >
+      <div className="p-3.5">
+        <ItemHeader {...props} />
+        <Footer {...props} />
       </div>
       {props.type === "footnote" ? (
         <a
@@ -207,7 +223,7 @@ export default function ResultListItem(props: any) {
           <Button>View</Button>
         </a>
       ) : null}
-      {/* {<SaveButton type={props.type} id={props.item.id} />} */}
+      {<SaveButton type={props.type} id={props.item.id} />}
     </div>
   );
 }
