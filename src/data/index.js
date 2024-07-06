@@ -1,8 +1,8 @@
 /**
- * Data API
+ * data API
  *
- * @module Data
- * @exports Data.author
+ * @module data
+ * @exports data.author
  */
 import resource from "./resource";
 import footnote from "./footnote";

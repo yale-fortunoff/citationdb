@@ -5,8 +5,8 @@ import uniqueArray from "./utils/uniqueArray";
 
 /**
  * Adds conveninece functions for resources
- * @class Data.ResourceAPIEndpoint
- * @extends Data.BasicAPIEndpoint
+ * @class data.ResourceAPIEndpoint
+ * @extends data.BasicAPIEndpoint
  */
 class ResourceAPIEndpoint extends BasicAPIEndpoint {
   constructor(props) {
@@ -69,9 +69,9 @@ const endpoint = new ResourceAPIEndpoint({
 });
 
 /**
- * @memberof module:Data
+ * @memberof module:data
  * @alias resource
- * @type {Data.ResourceAPIEndpoint}
+ * @type {data.ResourceAPIEndpoint}
  */
 export default endpoint;
 // export default new ResourceAPIEndpoint(require("./json/resource.json"));

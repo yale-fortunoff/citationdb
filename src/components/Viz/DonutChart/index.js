@@ -9,7 +9,7 @@ export default class extends React.Component {
     const data = preprocess(this.props.data, this.props.maxItems);
 
     const frameProps = {
-      /* --- Data --- */
+      /* --- data --- */
       // data: [{ user: "Jason", tweets: 40, retweets: 5, favorites: 15 },
       // { user: "Susie", tweets: 5, retweets: 25, favorites: 100 }],
       data: data,

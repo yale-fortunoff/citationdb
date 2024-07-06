@@ -3,7 +3,7 @@ import dictToArray from "./dictToArray";
 export default class BasicAPIEndpoint {
   /**
    * @constructor
-   * @alias Data.BasicAPIEndpoint
+   * @alias data.BasicAPIEndpoint
    * @param {Object} obj
    */
   constructor(
@@ -78,7 +78,7 @@ export default class BasicAPIEndpoint {
 
   /**
    * Get a dictionary index of all items
-   * @memberof Data.BasicAPIEndpoint
+   * @memberof data.BasicAPIEndpoint
    */
   dictionary() {
     return this.resourceDictionary;
@@ -86,7 +86,7 @@ export default class BasicAPIEndpoint {
 
   /**
    * Get an array of all items
-   * @memberof Data.BasicAPIEndpoint
+   * @memberof data.BasicAPIEndpoint
    */
   all() {
     return this.resourceArray;
@@ -95,7 +95,7 @@ export default class BasicAPIEndpoint {
   /**
    * Find one item by id or undefined
    * @param {string} id
-   * @memberof Data.BasicAPIEndpoint
+   * @memberof data.BasicAPIEndpoint
    */
   byId(id, keyField = "id") {
     let ret = Object.assign({}, this.dictionary()[id]);
@@ -108,7 +108,7 @@ export default class BasicAPIEndpoint {
   /**
    * Get an array of all items i for which f(i) returns True
    * @param {function} f
-   * @memberof Data.BasicAPIEndpoint
+   * @memberof data.BasicAPIEndpoint
    */
   filter(f) {
     return this.all().filter(f);
@@ -117,7 +117,7 @@ export default class BasicAPIEndpoint {
   /**
    * Get item that matches f(i) if only one item matches f(i). Fail if multiple items return true
    * @param {function} f
-   * @memberof Data.BasicAPIEndpoint
+   * @memberof data.BasicAPIEndpoint
    */
   find(f) {
     const matches = this.filter(f);

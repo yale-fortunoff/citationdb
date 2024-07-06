@@ -2,9 +2,9 @@ import BasicAPIEndpoint from "./BasicAPIEndpoint";
 import entity from "./enums";
 
 /**
- * @memberof module:Data
+ * @memberof module:data
  * @alias author
- * @type {Data.BasicAPIEndpoint}
+ * @type {data.BasicAPIEndpoint}
  */
 
 const endpoint = new BasicAPIEndpoint(

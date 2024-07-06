@@ -6,13 +6,13 @@ import FussyArray from "./utils/FussyArray";
 
 /**
  * Adds a byAuthor search convenience method
- * @class Data.PublicationAPIEndpoint
- * @extends Data.BasicAPIEndpoint
+ * @class data.PublicationAPIEndpoint
+ * @extends data.BasicAPIEndpoint
  */
 class PublicationAPIEndPoint extends BasicAPIEndpoint {
   /**
    * @constructor
-   * @alias Data.PublicationAPIEndpoint
+   * @alias data.PublicationAPIEndpoint
    * @param {Object} props
    */
   constructor(props) {
@@ -31,7 +31,7 @@ class PublicationAPIEndPoint extends BasicAPIEndpoint {
    * Get publications by a given author
    * @param {string} authorId
    * @returns {Array}
-   * @method Data.PublicationAPIEndpoint#byAuthor
+   * @method data.PublicationAPIEndpoint#byAuthor
    */
   byAuthor(authorId) {
     //return  this.filter(x=>x["author.id"] === authorId)
@@ -71,9 +71,9 @@ const endpoint = new PublicationAPIEndPoint({
   "fetch-data-url": "data/publication.json",
 });
 /**
- * @memberof module:Data
+ * @memberof module:data
  * @alias publication
- * @type {Data.PublicationAPIEndpoint}
+ * @type {data.PublicationAPIEndpoint}
  */
 export default endpoint;
 

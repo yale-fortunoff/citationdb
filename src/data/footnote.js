@@ -4,8 +4,8 @@ import entity from "./enums";
 // import timeStampToSeconds from "./utils/timestampToSeconds";
 
 /**
- * @class Data.FootnoteAPIEndpoint
- * @extends Data.BasicAPIEndpoint
+ * @class data.FootnoteAPIEndpoint
+ * @extends data.BasicAPIEndpoint
  */
 class FootnoteAPIEndpoint extends BasicAPIEndpoint {
   constructor(props) {
@@ -91,9 +91,9 @@ class FootnoteAPIEndpoint extends BasicAPIEndpoint {
 }
 
 /**
- * @memberof module:Data
+ * @memberof module:data
  * @alias footnote
- * @type {Data.FootnoteAPIEndpoint}
+ * @type {data.FootnoteAPIEndpoint}
  */
 
 const endpoint = new FootnoteAPIEndpoint({

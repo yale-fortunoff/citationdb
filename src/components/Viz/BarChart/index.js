@@ -8,7 +8,7 @@ export default class extends React.Component {
     const data = preprocess(this.props.data, this.props.maxItems, "count");
 
     const frameProps = {
-      /* --- Data --- */
+      /* --- data --- */
       data: data,
 
       // data: [{ label: "Jason", value: 10, retweets: 5, favorites: 15 },

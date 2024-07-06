@@ -1,6 +1,6 @@
 // @ts-nocheck
 
-import Data from "../Data";
+import data from "../data";
 
 // Set local or session storage;
 const storage = localStorage;
@@ -73,13 +73,13 @@ const key = {
 };
 
 function getSavedAuthors() {
-  return getList(key.author).map((id) => Data.author.byId(id));
+  return getList(key.author).map((id) => data.author.byId(id));
 }
 function getSavedPublications() {
-  return getList(key.publication).map((id) => Data.publication.byId(id));
+  return getList(key.publication).map((id) => data.publication.byId(id));
 }
 function getSavedResources() {
-  return getList(key.resource).map((id) => Data.resource.byId(id));
+  return getList(key.resource).map((id) => data.resource.byId(id));
 }
 
 function saveResource(id) {
