@@ -17,10 +17,15 @@ export default function HomePage(props: any) {
     resource: boolean;
     publication: boolean;
     author: boolean;
-  }>({ resource: true, publication: true, author: true });
+  }>({ resource: false, publication: false, author: false });
 
-  const [items, setItems] = useState<any>();
-  const [counts, setCounts] = useState<any>();
+  const [items, setItems] = useState<any>([]);
+  const [counts, setCounts] = useState<any>({
+    resource: 0,
+    publication: 0,
+    author: 0,
+    footnote: 0,
+  });
 
   const toggleFactory = (label: "resource" | "publication" | "author") => {
     return () => {
@@ -29,14 +34,14 @@ export default function HomePage(props: any) {
   };
 
   useEffect(() => {
+    setToggles({ resource: true, publication: true, author: true });
+  }, []);
+
+  useEffect(() => {
     const newItems = data.search({ searchTerm, toggles });
     setItems(newItems);
     setCounts(data.summarize.countByType(newItems));
-  }, [
-    searchTerm,
-    toggles,
-    counts /* listener on counts / items causes refresh needed to retrieve correct data, but causes depth loop, TODO fix */,
-  ]);
+  }, [searchTerm, toggles]);
 
   if (!items || !counts) {
     return;
@@ -75,7 +80,7 @@ export default function HomePage(props: any) {
           </div>
         </div>
         <SearchArea
-          onChange={setSearchTerm}
+          onChange={(e: any) => setSearchTerm(e.target.value)}
           value={searchTerm}
           toggles={Object.keys(toggles).map((t: string, i: number) => ({
             label: t + "s",
@@ -83,9 +88,9 @@ export default function HomePage(props: any) {
             status: toggles[t as "resource" | "publication" | "author"],
           }))}
         />
-        {/* <section className="column-wrapper">
-        <ResultList items={items}></ResultList>
-      </section> */}
+        <section className="relative mx-auto w-4/5 max-w-[1200px]">
+          <ResultList items={items}></ResultList>
+        </section>
       </div>
     </>
   );

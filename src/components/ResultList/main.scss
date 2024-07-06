@@ -1,5 +1,3 @@
-@import "../../style/colors";
-
 // .HomePage .SearchArea,
 // .ResultListItem.publication {
 //   border-color: $color-publication-off;
@@ -52,7 +50,7 @@
 .ResultListItem {
   box-sizing: border-box;
   overflow: hidden;
-  border-left: 10px solid $color-white;
+  border-left: 10px solid #fff;
   position: relative;
 
   /**
@@ -89,7 +87,6 @@
     // display: flex;
     // flex-wrap: wrap;
     // max-width: 100%;
-
   }
 
   // .pill-tray-wrapper {

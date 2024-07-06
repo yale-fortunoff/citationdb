@@ -9,7 +9,7 @@ export default function TextInput(props: any /* TODO */) {
       )}
     >
       <input
-        className="absolute inset-0 border border-[#d3d3d3] bg-[#f5f5f5] pl-2 pr-7 font-yalenewroman text-[#222]"
+        className="absolute inset-0 h-9 border border-[#d3d3d3] bg-white pl-2 pr-7 font-yalenewroman text-lg text-[#222]"
         onChange={(e) => props.onChange(e)}
         value={props.value ?? ""}
         placeholder={props.placeholder}

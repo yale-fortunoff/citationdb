@@ -17,9 +17,13 @@ import * as utils from "./utils";
  * @param {Object} options
  */
 function search(options) {
-  options = options || {};
-  const toggles = options.toggles || {};
-  const searchTerm = options.searchTerm || "";
+  options = options ?? {};
+  const toggles = options?.toggles ?? {
+    resource: true,
+    publication: true,
+    author: true,
+  };
+  const searchTerm = options?.searchTerm ?? "";
 
   let results = new FussyArray();
 
@@ -29,10 +33,7 @@ function search(options) {
     }
 
     return api.filter((x) => {
-      // const tmpId = `entity.${x["id"]}`;
       const fofx = field(x);
-
-      // if (searchTerm.trim().length < 1){ return added.indexOf(tmpId) < 0 ; }
 
       if (searchTerm.trim().length < 1) {
         return true;
@@ -78,8 +79,6 @@ function search(options) {
     searchEntity("publication", (x) => x["title"], publication),
     (x) => "publication." + x["id"],
   );
-
-  // results = uniqueArray(results, x=>x["__type"] + "." + x["id"]);
 
   return results;
 }
