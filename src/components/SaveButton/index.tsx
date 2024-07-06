@@ -2,6 +2,7 @@ import { useState } from "react";
 import Button from "../Button";
 
 import * as storage from "../../utils/itemStorage";
+import { twMerge } from "tailwind-merge";
 
 let saveItem: any, removeItem: any, getSavedItems: any;
 
@@ -9,8 +10,6 @@ let saveItem: any, removeItem: any, getSavedItems: any;
  * The author page
  */
 export default function SaveButton(props: any) {
-  const [alreadySaved, setAlreadySaved] = useState<any>(isSaved());
-
   if (props.type === "resource") {
     saveItem = storage.saveResource;
     removeItem = storage.removeResource;
@@ -26,6 +25,8 @@ export default function SaveButton(props: any) {
   } else {
     return;
   }
+
+  const [alreadySaved, setAlreadySaved] = useState<any>(isSaved());
 
   function isSaved() {
     return (
@@ -44,8 +45,14 @@ export default function SaveButton(props: any) {
   }
 
   return (
-    <div className={`SaveButton ${alreadySaved ? "unsave" : "save"}`}>
+    <div
+      className={twMerge(
+        "absolute -top-20 right-0 transition-[top] group-hover:top-0",
+        alreadySaved ? "top-0" : "",
+      )}
+    >
       <Button
+        className="mx-0 rounded-[0_8px_0_8px] px-1.5 text-[#6e6e6e]"
         onClick={() => {
           alreadySaved ? removeItem(props.id) : saveItem(props.id);
           setSaved();

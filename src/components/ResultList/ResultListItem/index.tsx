@@ -223,7 +223,7 @@ export default function ResultListItem(props: any) {
           <Button>View</Button>
         </a>
       ) : null}
-      {<SaveButton type={props.type} id={props.item.id} />}
+      <SaveButton type={props.type} id={props.item.id} />
     </div>
   );
 }
