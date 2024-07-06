@@ -27,6 +27,8 @@ export default function HomePage(props: any) {
     footnote: 0,
   });
 
+  console.log("ASDF", items);
+
   const toggleFactory = (label: "resource" | "publication" | "author") => {
     return () => {
       setToggles((prev) => ({ ...prev, [label]: !prev[label] }));
@@ -57,7 +59,7 @@ export default function HomePage(props: any) {
             <BreadCrumb id={null} />
             <section className=" mt-7 flex flex-wrap">
               <div className="mx-2.5 flex-[2_1]">
-                {/* <PublicationHistogram items={items} /> */}
+                <PublicationHistogram items={items} />
               </div>
               <div className="flex max-w-[350px] justify-end">
                 <BigNumber
