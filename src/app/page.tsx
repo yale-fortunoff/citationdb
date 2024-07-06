@@ -89,7 +89,7 @@ export default function HomePage(props: any) {
           }))}
         />
         <section className="relative mx-auto w-4/5 max-w-[1200px]">
-          <ResultList items={items}></ResultList>
+          <ResultList items={items} />
         </section>
       </div>
     </>

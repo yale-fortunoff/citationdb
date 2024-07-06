@@ -165,11 +165,10 @@ class PublicationFooter extends React.Component {
           {authors.map((author, idx) => {
             return author.name ? (
               <span key={idx} className="metadata">
-                <Link to={`/authors/${author.id}`}>{author.name}</Link>
+                <Link href={`/authors/${author.id}`}>{author.name}</Link>
               </span>
             ) : null;
           })}
-          {/* {author.name ? (<span className="metadata"><Link to={`/authors/${author.id}`}>{author.name}</Link></span>) : (null)} */}
           {publication.publisher ? (
             <span className="metadata light">, {publication.publisher}</span>
           ) : null}
@@ -200,16 +199,16 @@ class PublicationFooter extends React.Component {
 class Footer extends React.Component {
   render() {
     if (this.props.type === "author") {
-      return <AuthorFooter {...this.props}></AuthorFooter>;
+      return <AuthorFooter {...this.props} />;
     }
     if (this.props.type === "publication") {
-      return <PublicationFooter {...this.props}></PublicationFooter>;
+      return <PublicationFooter {...this.props} />;
     }
     if (this.props.type === "resource") {
-      return <ResourceFooter {...this.props}></ResourceFooter>;
+      return <ResourceFooter {...this.props} />;
     }
     if (this.props.type === "footnote") {
-      return <FootnoteFooter {...this.props}></FootnoteFooter>;
+      return <FootnoteFooter {...this.props} />;
     }
     return <div className="Footer"></div>;
   }
@@ -219,7 +218,6 @@ export default class ResultListItem extends React.Component {
   render() {
     return (
       <div className={`ResultListItem ${this.props.type}`}>
-        {/* <div className="left-end"></div> */}
         <div className="content-area">
           <header>
             <ItemHeader {...this.props}></ItemHeader>
@@ -233,9 +231,7 @@ export default class ResultListItem extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
             href={data.footnote.getFootnoteURI(this.props.item)}
-            // href={this.props.item.uri}
           >
-            {/* <div className="button"> view</div> */}
             <Button>View</Button>
           </a>
         ) : null}
