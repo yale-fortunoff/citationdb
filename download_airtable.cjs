@@ -19,7 +19,6 @@ const base = Airtable.base("appn80Y1csBuNkzfO");
 async function downloadTable(tableName) {
   const records = await base(tableName).select().all();
   let jsonRecords = records.map((record) => record.fields);
-  // jsonRecords = Promise.all(jsonRecords.map(record => {
   return { tableName, records, jsonRecords };
 }
 

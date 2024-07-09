@@ -1,5 +1,4 @@
 import React from "react";
-import pluralize from "pluralize";
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
 
@@ -100,15 +99,13 @@ function AuthorFooter(props: any) {
   return (
     <div>
       <PillTray
-        title={pluralize("publications", publications.length)}
+        title={publications.length === 1 ? "publication" : "publications"}
         items={publications.map((x: any) => {
           return { title: x.title, link: `/publications/${x.id}` };
         })}
       />
       <PillTray
-        title={
-          pluralize(wordsConfig.resource.singular, resources.length) + " cited"
-        }
+        title={resources.length === 1 ? "testimoniy" : "testimonies" + " cited"}
         items={resources.map((x: any) => {
           return { title: x.title, link: `/resources/${x.id}` };
         })}
@@ -127,10 +124,11 @@ function ResourceFooter(props: any) {
       </div>
       <div>
         <PillTray
-          title={pluralize("publication", publications.length)}
-          items={publications.map((x: any) => {
-            return { title: x.title, link: `/publications/${x.id}` };
-          })}
+          title={publications.length === 1 ? "publication" : "publications"}
+          items={publications.map((x: any) => ({
+            title: x.title,
+            link: `/publications/${x.id}`,
+          }))}
         />
       </div>
     </div>
@@ -174,12 +172,12 @@ function PublicationFooter(props: any) {
       <div>
         <PillTray
           title={
-            pluralize(wordsConfig.resource.singular, resources.length) +
-            " cited"
+            resources.length === 1 ? "testimony" : "testimonies" + " cited"
           }
-          items={resources.map((x: any) => {
-            return { title: x.title, link: `/resources/${x.id}` };
-          })}
+          items={resources.map((x: any) => ({
+            title: x.title,
+            link: `/resources/${x.id}`,
+          }))}
         />
       </div>
     </div>

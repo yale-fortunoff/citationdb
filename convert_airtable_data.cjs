@@ -12,8 +12,6 @@ const tree = filetree({
   indent: true,
 });
 
-console.log(JSON.stringify(tree, null, 2));
-
 /**************
  * ENSURE DIR *
  **************/

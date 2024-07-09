@@ -3,10 +3,19 @@
 import data from "../data";
 
 // Set local or session storage;
-const storage = localStorage;
+const storage = isClient() ? localStorage : null;
 let callbacks = {};
 
+export function isClient() {
+  return (
+    typeof window !== "undefined" && typeof window.localStorage !== "undefined"
+  );
+}
+
 function hasStorage() {
+  if (!isClient()) {
+    return false;
+  }
   try {
     storage.setItem("canary", Date.now());
     storage.removeItem("canary");

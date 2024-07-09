@@ -1,45 +1,47 @@
-import { useState } from "react";
+"use client";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import pluralize from "pluralize";
 
 import {
   getSavedAuthors,
   getSavedPublications,
   getSavedResources,
   subscribe,
+  unsubscribe,
 } from "~/utils/itemStorage";
+import SaveButton from "../SaveButton";
+
+const getCurrentCount = () =>
+  getSavedAuthors().length +
+  getSavedPublications().length +
+  getSavedResources().length;
 
 function SavedItemCounter() {
-  const [count, setCount] = useState(
-    getSavedAuthors().length +
-      getSavedPublications().length +
-      getSavedResources().length,
-  );
+  const [count, setCount] = useState(getCurrentCount());
 
-  const getCurrentCount = () =>
-    getSavedAuthors().length +
-    getSavedPublications().length +
-    getSavedResources().length;
-
-  const updateCount = () => {
-    setCount(getCurrentCount());
-  };
-  subscribe("counter", updateCount);
+  useEffect(() => {
+    const updateCount = () => {
+      setCount(getCurrentCount());
+    };
+    subscribe("counter", updateCount);
+    return () => {
+      unsubscribe("counter");
+    };
+  }, []);
 
   return (
     <>
-      {count > 0 ? (
-        <Link className="PinsButton" href="/pins" type="button">
-          <button
-            className="Button"
-            type="button"
-            onClick={() => alert("TODO")}
-          >
-            {pluralize("pins", count, true)}
-          </button>
+      {count > 0 && (
+        <Link
+          className="box-border flex h-7 flex-col justify-center rounded-lg border-0 bg-[#efefef] px-2.5 py-0 text-center font-bold text-[#6e6e6e] no-underline hover:shadow-yale"
+          href="/pins"
+          type="button"
+        >
+          {`${count} ${count === 1 ? "pin" : "pins"}`}
         </Link>
-      ) : null}
+      )}
     </>
   );
 }
@@ -58,9 +60,7 @@ export default function BreadCrumb(props: any) {
         href="/"
         type="button"
       >
-        <button className="Button" type="button" onClick={() => alert("TODO")}>
-          Home
-        </button>
+        Home
       </Link>
     );
   };
@@ -74,9 +74,7 @@ export default function BreadCrumb(props: any) {
         <HomeButton />
         <SavedItemCounter />
       </div>
-      <button className="SaveButton" id={id} type="button">
-        Save
-      </button>
+      <SaveButton id={id} type={saveType} />
     </nav>
   );
 }
