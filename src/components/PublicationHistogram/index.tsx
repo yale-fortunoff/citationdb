@@ -13,7 +13,7 @@ export default function PublicationsHistogram(props: any) {
   }
 
   return (
-    <div className="h-full max-h-[150px] w-full">
+    <div className="block h-full max-h-[150px] w-full">
       <Histogram
         data={publicationData}
         minYear={1975}
@@ -25,7 +25,9 @@ export default function PublicationsHistogram(props: any) {
           bottom: 20,
         }}
       />
-      <h6 className="center">Publications by year</h6>
+      <h6 className="text-center text-xs font-bold text-[#222]">
+        Publications by year
+      </h6>
     </div>
   );
 }

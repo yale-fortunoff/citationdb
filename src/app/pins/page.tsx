@@ -5,7 +5,6 @@ import React, { useEffect, useState } from "react";
 import BigNumber from "~/components/BigNumber";
 import BreadCrumb from "~/components/BreadCrumb";
 import ResultList from "~/components/ResultList";
-import SiteBanner from "~/components/SiteBanner";
 import {
   getSavedAuthors,
   getSavedPublications,
@@ -39,7 +38,6 @@ export default function PinsPage(props: any) {
 
   return (
     <>
-      <SiteBanner />
       <div className="w-full bg-white px-2.5 py-10">
         <div className="relative mx-auto w-4/5 max-w-[1200px]">
           <BreadCrumb />

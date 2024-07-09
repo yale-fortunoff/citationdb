@@ -204,8 +204,10 @@ export default function ResultListItem(props: any) {
   return (
     <div
       className={twMerge(
-        "group relative mb-4 flex overflow-hidden rounded-lg border-l-[10px] bg-white transition-[border] hover:max-w-full hover:border-l-[20px] hover:shadow-yale",
-        props.className,
+        "group relative mb-4 flex overflow-hidden rounded-lg border-l-[10px] border-opacity-50 bg-white transition-[border] hover:max-w-full hover:border-l-[20px] hover:border-opacity-100 hover:shadow-yale",
+        props.type === "author" ? "border-l-[#ca6251]" : "",
+        props.type === "publication" ? "border-l-[#0d99aa]" : "",
+        props.type === "resource" ? "border-l-[#f9be00]" : "",
       )}
     >
       <div className="p-3.5">
