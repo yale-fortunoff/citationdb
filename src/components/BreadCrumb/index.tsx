@@ -13,15 +13,15 @@ import {
 } from "~/utils/itemStorage";
 import SaveButton from "../SaveButton";
 
-const getCurrentCount = () =>
-  getSavedAuthors().length +
-  getSavedPublications().length +
-  getSavedResources().length;
-
 function SavedItemCounter() {
-  const [count, setCount] = useState(getCurrentCount());
+  const [count, setCount] = useState(0);
 
   useEffect(() => {
+    const getCurrentCount = () =>
+      getSavedAuthors().length +
+      getSavedPublications().length +
+      getSavedResources().length;
+
     const updateCount = () => {
       setCount(getCurrentCount());
     };
@@ -31,18 +31,18 @@ function SavedItemCounter() {
     };
   }, []);
 
+  if (count < 1) {
+    return;
+  }
+
   return (
-    <>
-      {count > 0 && (
-        <Link
-          className="box-border flex h-7 flex-col justify-center rounded-lg border-0 bg-[#efefef] px-2.5 py-0 text-center font-bold text-[#6e6e6e] no-underline hover:shadow-yale"
-          href="/pins"
-          type="button"
-        >
-          {`${count} ${count === 1 ? "pin" : "pins"}`}
-        </Link>
-      )}
-    </>
+    <Link
+      className="box-border flex h-7 flex-col justify-center rounded-lg border-0 bg-[#efefef] px-2.5 py-0 text-center font-bold text-[#6e6e6e] no-underline hover:shadow-yale"
+      href="/pins"
+      type="button"
+    >
+      {`${count} ${count === 1 ? "pin" : "pins"}`}
+    </Link>
   );
 }
 

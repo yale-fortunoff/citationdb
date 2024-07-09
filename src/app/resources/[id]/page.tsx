@@ -1,5 +1,6 @@
 "use client"; // debug
 
+import Link from "next/link";
 import BigNumber from "~/components/BigNumber";
 import Button from "~/components/Button";
 import PublicationHistogram from "~/components/PublicationHistogram";
@@ -22,25 +23,28 @@ export default function ResourcesPage(props: any) {
   return (
     <div className="ResourcePage">
       <TopWrapper id={resourcesId} saveType="resource">
-        <div className="left">
-          <h1 className="title">{resource.title}</h1>
-          <div className="chunk metadata">{resource.id}</div>
+        <div className="m-5 md:mx-2.5 md:flex-[2_1]">
+          <h1 className="font-yalenewroman text-2xl">{resource.title}</h1>
+          <div className="mt-3 font-bold text-[#222]">{resource.id}</div>
 
           <div className="view-button-container">
-            <a href={data.utils.getResourceLink(resource)}>
-              {" "}
-              <Button>View</Button>
-            </a>
+            <Link
+              className="flex h-[30px] w-fit items-center justify-center rounded-lg bg-[#0d99aa] px-2.5 text-sm font-bold text-white hover:shadow-yale"
+              href={data.utils.getResourceLink(resource)}
+              type="button"
+            >
+              View
+            </Link>
           </div>
 
-          <div className="summary">
+          <div className="my-4">
             <p>
               This testimony has been cited{" "}
-              <span className="stat">
+              <span className="font-bold">
                 {footnotes.length} {footnotes.length === 1 ? "time" : "times"}
               </span>{" "}
               in the{" "}
-              <span className="stat">
+              <span className="font-bold">
                 {publications.length}{" "}
                 {publications.length === 1 ? "publication" : "publications"}
               </span>{" "}

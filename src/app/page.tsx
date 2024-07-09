@@ -2,14 +2,14 @@
 
 import { useEffect, useState } from "react";
 
-import BreadCrumb from "~/components/BreadCrumb";
 import PublicationHistogram from "~/components/PublicationHistogram";
 import BigNumber from "~/components/BigNumber";
 import SearchArea from "~/components/SearchArea";
 import ResultList from "~/components/ResultList";
+import TopWrapper from "~/components/TopWrapper";
+import useLocalDataStore from "~/store";
 
 import data from "../data";
-import TopWrapper from "~/components/TopWrapper";
 
 export default function HomePage(props: any) {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -18,7 +18,6 @@ export default function HomePage(props: any) {
     publication: boolean;
     author: boolean;
   }>({ resource: false, publication: false, author: false });
-
   const [items, setItems] = useState<any>([]);
   const [counts, setCounts] = useState<any>({
     resource: 0,
@@ -26,6 +25,11 @@ export default function HomePage(props: any) {
     author: 0,
     footnote: 0,
   });
+
+  console.log("resource", data.resource.all());
+
+  const localData = useLocalDataStore();
+  console.log("store resource", localData.resources);
 
   const toggleFactory = (label: "resource" | "publication" | "author") => {
     return () => {
@@ -38,9 +42,38 @@ export default function HomePage(props: any) {
   }, []);
 
   useEffect(() => {
-    const newItems = data.search({ searchTerm, toggles });
-    setItems(newItems);
-    setCounts(data.summarize.countByType(newItems));
+    // const newItems = data.search({ searchTerm, toggles });
+    // setItems(newItems);
+    // setCounts(data.summarize.countByType(newItems));
+    let filteredAuthors = [];
+    let filteredPublications = [];
+    let filteredResources = [];
+    const trimmedSearchTerm = searchTerm.trim().toLowerCase();
+    if (toggles.author) {
+      filteredAuthors = localData.authors.filter((a) =>
+        a.__header?.toLowerCase().includes(trimmedSearchTerm),
+      );
+    }
+    if (toggles.publication) {
+      filteredPublications = localData.publications.filter((p) =>
+        p.__header?.toLowerCase().includes(trimmedSearchTerm),
+      );
+    }
+    if (toggles.resource) {
+      filteredResources = localData.resources.filter((r) =>
+        r.__header?.toLowerCase().includes(trimmedSearchTerm),
+      );
+    }
+    setItems(
+      [...filteredAuthors, ...filteredPublications, ...filteredResources].sort(
+        (a: any, b: any) => (a.__header > b.__header ? 1 : -1),
+      ),
+    );
+    setCounts({
+      resource: filteredResources.length,
+      author: filteredAuthors.length,
+      publication: filteredPublications.length,
+    });
   }, [searchTerm, toggles]);
 
   if (!items || !counts) {

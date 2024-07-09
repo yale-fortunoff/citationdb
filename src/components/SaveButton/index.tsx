@@ -44,6 +44,11 @@ export default function SaveButton(props: any) {
     return null;
   }
 
+  const handleClick = () => {
+    alreadySaved ? removeItem(props.id) : saveItem(props.id);
+    setSaved();
+  };
+
   return (
     <div
       className={twMerge(
@@ -57,10 +62,7 @@ export default function SaveButton(props: any) {
           "mx-0 rounded-[0_8px_0_8px] px-1.5 text-[#6e6e6e]",
           props.className?.button,
         )}
-        onClick={() => {
-          alreadySaved ? removeItem(props.id) : saveItem(props.id);
-          setSaved();
-        }}
+        onClick={handleClick}
       >
         {alreadySaved ? "unpin" : "pin"}
       </Button>

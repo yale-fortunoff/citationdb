@@ -24,7 +24,7 @@ export default function PublicationsPage(props: any) {
     <>
       <TopWrapper id={publicationsId} saveType="publication">
         <div className="m-5 md:mx-2.5">
-          <h1 className="title">{item.title}</h1>
+          <h1 className="font-yalenewroman text-2xl">{item.title}</h1>
           <div className="chunk">
             {authors?.map((author: any, i: number) => (
               <span key={i} className="metadata">
@@ -51,15 +51,15 @@ export default function PublicationsPage(props: any) {
             ) : null}
           </div>
 
-          <div className="summary">
+          <div className="my-4">
             <p>
               This publication cites{" "}
-              <span className="stat">
+              <span className="font-bold">
                 {resourceCount}{" "}
                 {resourceCount === 1 ? "testimony" : "testimonies"}
               </span>{" "}
               in the{" "}
-              <span className="stat">
+              <span className="font-bold">
                 {footnoteCount} {footnoteCount === 1 ? "citation" : "citations"}
               </span>{" "}
               listed below.

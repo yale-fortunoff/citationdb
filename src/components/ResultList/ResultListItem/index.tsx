@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
 
@@ -8,6 +9,7 @@ import SaveButton from "~/components/SaveButton";
 import data from "~/data";
 import entity from "~/data/enums";
 import wordsConfig from "~/configs/words";
+import useLocalDataStore from "~/store";
 
 function PillTray(props: any) {
   return (
@@ -115,8 +117,22 @@ function AuthorFooter(props: any) {
 }
 
 function ResourceFooter(props: any) {
-  const footnotes = data.footnote.byResource(props.item.id);
-  const publications = data.publication.inFootnotes(footnotes);
+  const localData = useLocalDataStore();
+  const footnotes = localData.footnotes
+    .filter((f) => f["resource.id"] === props.item.id)
+    .map((f) => f["publication.id"]);
+  // const publications = localData.footnotes.filter(
+  //   (f) => f["resource.id"] === props.item.id,
+  // );
+  const publications = localData.publications.filter((p) =>
+    footnotes.some((f) => f === p.id),
+  );
+  if (props.item.title.includes("Aaron")) {
+    console.log("RESOURCE", props.item);
+    console.log("footnotes", footnotes);
+    console.log("publication", publications);
+    console.log("#####");
+  }
   return (
     <div>
       <div>

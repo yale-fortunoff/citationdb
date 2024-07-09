@@ -28,7 +28,8 @@
     "react-range-slider-input": "^3.0.7",
     "semiotic": "^2.0.3",
     "tailwind-merge": "^2.3.0",
-    "zod": "^3.23.3"
+    "zod": "^3.23.3",
+    "zustand": "^4.5.4"
   },
   "devDependencies": {
     "@types/d3": "^7.4.3",

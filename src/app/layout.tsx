@@ -1,7 +1,9 @@
-import "~/styles/globals.scss";
-
 import { GeistSans } from "geist/font/sans";
+
 import SiteBanner from "~/components/SiteBanner";
+import Data from "~/components/Data";
+
+import "~/styles/globals.scss";
 
 export const metadata = {
   title: "Metadash - Fortunoff Video Archive for Holocaust Testimonies",
@@ -17,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <body className="bg-[#f5f5f5]">
+        <Data />
         <SiteBanner />
         {children}
       </body>
