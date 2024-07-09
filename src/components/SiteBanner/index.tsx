@@ -61,11 +61,9 @@ const FortunoffTitleSVG = () => (
 export default function SiteBanner() {
   return (
     <header className={styles.SiteBanner}>
-      <div className={styles.SiteLogo}>
-        <a href="https://web.library.yale.edu/">
-          <YaleLogoSVG />
-        </a>
-      </div>
+      <a href="https://web.library.yale.edu/" className={styles.SiteLogo}>
+        <YaleLogoSVG />
+      </a>
       <div className={styles.SiteTitle}>
         <a href="https://fortunoff.library.yale.edu/">
           <FortunoffTitleSVG />

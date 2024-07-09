@@ -74,7 +74,14 @@ export default function BreadCrumb(props: any) {
         <HomeButton />
         <SavedItemCounter />
       </div>
-      <SaveButton id={id} type={saveType} />
+      <SaveButton
+        className={{
+          wrapper: "top-0",
+          button: "rounded-lg",
+        }}
+        id={id}
+        type={saveType}
+      />
     </nav>
   );
 }

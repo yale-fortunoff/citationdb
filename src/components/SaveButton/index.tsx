@@ -49,10 +49,14 @@ export default function SaveButton(props: any) {
       className={twMerge(
         "absolute -top-20 right-0 transition-[top] group-hover:top-0",
         alreadySaved ? "top-0" : "",
+        props.className?.wrapper,
       )}
     >
       <Button
-        className="mx-0 rounded-[0_8px_0_8px] px-1.5 text-[#6e6e6e]"
+        className={twMerge(
+          "mx-0 rounded-[0_8px_0_8px] px-1.5 text-[#6e6e6e]",
+          props.className?.button,
+        )}
         onClick={() => {
           alreadySaved ? removeItem(props.id) : saveItem(props.id);
           setSaved();
