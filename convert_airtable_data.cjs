@@ -60,7 +60,7 @@ FootnoteSource.forEach((obj, index) => {
     page: null,
     start_time: null,
     text: null,
-    "publication.id": obj["publication.id"][0].slice(3),
+    "publication.id": obj["publication.id"][0],
     "resource.id": obj["resource.id"][0],
     uri: obj.uri,
   };

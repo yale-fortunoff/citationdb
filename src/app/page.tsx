@@ -26,10 +26,7 @@ export default function HomePage(props: any) {
     footnote: 0,
   });
 
-  console.log("resource", data.resource.all());
-
   const localData = useLocalDataStore();
-  console.log("store resource", localData.resources);
 
   const toggleFactory = (label: "resource" | "publication" | "author") => {
     return () => {
