@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import BigNumber from "~/components/BigNumber";
 import BreadCrumb from "~/components/BreadCrumb";
 import ResultList from "~/components/ResultList";
+import ResultListWrapper from "~/components/ResultListWrapper";
 import {
   getSavedAuthors,
   getSavedPublications,
@@ -80,11 +81,11 @@ export default function PinsPage(props: any) {
         </div>
       </div>
 
-      <section className="relative mx-auto mt-7 w-4/5 max-w-[1200px]">
+      <ResultListWrapper>
         <ResultList items={data.resources} />
         <ResultList items={data.publications} />
         <ResultList items={data.authors} />
-      </section>
+      </ResultListWrapper>
     </>
   );
 }

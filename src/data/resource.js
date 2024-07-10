@@ -1,7 +1,7 @@
+import { uniqueArray } from "~/utils/array";
 import BasicAPIEndpoint from "./BasicAPIEndpoint";
 // import publication from "./publication";
 import footnote from "./footnote";
-import uniqueArray from "./utils/uniqueArray";
 
 /**
  * Adds conveninece functions for resources

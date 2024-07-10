@@ -1,7 +1,7 @@
+import { uniqueArray } from "~/utils/array";
 import BasicAPIEndpoint from "./BasicAPIEndpoint";
 import footnote from "./footnote";
 // import resource from "./resource";
-import uniqueArray from "./utils/uniqueArray";
 
 /**
  * Adds a byAuthor search convenience method

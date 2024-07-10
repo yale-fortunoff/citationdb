@@ -7,9 +7,9 @@ import BigNumber from "~/components/BigNumber";
 import SearchArea from "~/components/SearchArea";
 import ResultList from "~/components/ResultList";
 import TopWrapper from "~/components/TopWrapper";
-import useLocalDataStore from "~/store";
 
-import data from "../data";
+import useLocalDataStore from "~/store";
+import ResultListWrapper from "~/components/ResultListWrapper";
 
 export default function HomePage(props: any) {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -39,9 +39,6 @@ export default function HomePage(props: any) {
   }, []);
 
   useEffect(() => {
-    // const newItems = data.search({ searchTerm, toggles });
-    // setItems(newItems);
-    // setCounts(data.summarize.countByType(newItems));
     let filteredAuthors = [];
     let filteredPublications = [];
     let filteredResources = [];
@@ -110,9 +107,9 @@ export default function HomePage(props: any) {
           status: toggles[t as "resource" | "publication" | "author"],
         }))}
       />
-      <section className="relative mx-auto w-4/5 max-w-[1200px]">
+      <ResultListWrapper>
         <ResultList items={items} />
-      </section>
+      </ResultListWrapper>
     </>
   );
 }

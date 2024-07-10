@@ -31,14 +31,10 @@ export default function ResultsList(props: any) {
   };
 
   const items = props.items
-    .sort((a: any, b: any) => {
-      return a.__header > b.__header ? 1 : -1;
-    })
-    .map((x: any, i: number) => {
-      return (
-        <ResultListItem key={i} item={x} type={x.__type} header={x.__header} />
-      );
-    })
+    .sort((a: any, b: any) => (a.__header > b.__header ? 1 : -1))
+    .map((x: any, i: number) => (
+      <ResultListItem key={i} item={x} type={x.__type} header={x.__header} />
+    ))
     .slice(0, options.itemCount);
 
   return <div className="mt-[30px]">{items}</div>;

@@ -1,22 +1,29 @@
-"use client"; // debug
+"use client";
 
 import BigNumber from "~/components/BigNumber";
 import ResultList from "~/components/ResultList";
-import uniqueArray from "~/data/utils/uniqueArray";
 import TopWrapper from "~/components/TopWrapper";
 
 import data from "~/data";
+import ResultListWrapper from "~/components/ResultListWrapper";
+import { uniqueArray } from "~/utils/array";
+import useLocalDataStore from "~/store";
 
 export default function AuthorsPage(props: any) {
   const authorId = props.params.id;
 
-  const item = data.publication.byId(authorId);
-  const author = data.author.byId(item.id);
+  const localData = useLocalDataStore();
+
+  const author = localData.authors.find((a) => a.id === authorId);
+
   const publications = data.publication.byAuthor(authorId);
   const footnotes = data.footnote.byAuthor(authorId);
-  const resourceCount = uniqueArray(
-    data.resource.inFootnotes(footnotes).map((x: any) => x.id),
-  ).length;
+  const uniqueResources = uniqueArray(
+    localData.resources.filter((r) =>
+      footnotes.some((f: any) => f["resource.id"] === r.id),
+    ),
+    "id",
+  );
 
   return (
     <div className="PublicationPage">
@@ -38,8 +45,8 @@ export default function AuthorsPage(props: any) {
                 </span>{" "}
                 to{" "}
                 <span className="font-bold">
-                  {resourceCount}{" "}
-                  {resourceCount === 1 ? "testimony" : "testimonies"}
+                  {uniqueResources.length}{" "}
+                  {uniqueResources.length === 1 ? "testimony" : "testimonies"}
                 </span>{" "}
                 in the{" "}
                 <span className="font-bold">
@@ -65,16 +72,16 @@ export default function AuthorsPage(props: any) {
             />
             <BigNumber
               className="border-[#f9be00]"
-              label={resourceCount === 1 ? "testimony" : "testimonies"}
-              value={resourceCount}
+              label={uniqueResources.length === 1 ? "testimony" : "testimonies"}
+              value={uniqueResources.length}
             />
           </div>
         </div>
       </TopWrapper>
       ,
-      <section className="column-wrapper">
+      <ResultListWrapper>
         <ResultList items={publications} />
-      </section>
+      </ResultListWrapper>
     </div>
   );
 }

@@ -1,10 +1,8 @@
-"use client"; // debug
-
 import Link from "next/link";
 import BigNumber from "~/components/BigNumber";
-import Button from "~/components/Button";
 import PublicationHistogram from "~/components/PublicationHistogram";
 import ResultList from "~/components/ResultList";
+import ResultListWrapper from "~/components/ResultListWrapper";
 import TopWrapper from "~/components/TopWrapper";
 import data from "~/data";
 
@@ -69,9 +67,9 @@ export default function ResourcesPage(props: any) {
         </div>
       </TopWrapper>
 
-      <section className="column-wrapper">
+      <ResultListWrapper>
         <ResultList items={publications} />
-      </section>
+      </ResultListWrapper>
     </div>
   );
 }

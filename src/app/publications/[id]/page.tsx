@@ -1,30 +1,43 @@
+"use client";
+
 import Link from "next/link";
 
-import uniqueArray from "~/data/utils/uniqueArray";
 import BigNumber from "~/components/BigNumber";
 import ResultList from "~/components/ResultList";
 import TopWrapper from "~/components/TopWrapper";
-import data from "~/data";
+import ResultListWrapper from "~/components/ResultListWrapper";
+import useLocalDataStore from "~/store";
+import { uniqueArray } from "~/utils/array";
 
 export default function PublicationsPage(props: any) {
   const publicationsId = props.params.id;
 
-  const item = data.publication.byId(publicationsId);
-  const authors = item["author.id"]?.map((authorID: any) =>
-    data.author.byId(authorID),
-  );
-  const footnotes = data.footnote.byPublication(publicationsId);
+  const localData = useLocalDataStore();
 
-  const footnoteCount = footnotes.length,
-    resourceCount = uniqueArray(
-      data.resource.inFootnotes(footnotes).map((x: any) => x.id),
-    ).length;
+  const publication = localData.publications.find(
+    (p) => p.id === publicationsId,
+  );
+
+  const authors = localData.authors.filter((a) =>
+    publication["author.id"].some((aid: string) => aid === a.id),
+  );
+
+  const footnotes = localData.footnotes.filter(
+    (f) => f["publication.id"] === publicationsId,
+  );
+
+  const uniqueResources = uniqueArray(
+    localData.resources.filter((r) =>
+      footnotes.some((f) => f["resource.id"] === r.id),
+    ),
+    "id",
+  );
 
   return (
     <>
       <TopWrapper id={publicationsId} saveType="publication">
         <div className="m-5 md:mx-2.5">
-          <h1 className="font-yalenewroman text-2xl">{item.title}</h1>
+          <h1 className="font-yalenewroman text-2xl">{publication.title}</h1>
           <div className="chunk">
             {authors?.map((author: any, i: number) => (
               <span key={i} className="metadata">
@@ -36,16 +49,20 @@ export default function PublicationsPage(props: any) {
             ))}
 
             <span className="metadata">
-              {item.publisher ? `${item.publisher}` : null}
+              {publication.publisher ? `${publication.publisher}` : null}
             </span>
 
             <span className="metadata light">
-              {item.date ? `, ${item.date}` : null}
+              {publication.date ? `, ${publication.date}` : null}
             </span>
           </div>
           <div className="metadata light">
-            {item.uri ? (
-              <a rel="noopener noreferrer" target="_blank" href={item.uri}>
+            {publication.uri ? (
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href={publication.uri}
+              >
                 Publication page
               </a>
             ) : null}
@@ -55,12 +72,13 @@ export default function PublicationsPage(props: any) {
             <p>
               This publication cites{" "}
               <span className="font-bold">
-                {resourceCount}{" "}
-                {resourceCount === 1 ? "testimony" : "testimonies"}
+                {uniqueResources.length}{" "}
+                {uniqueResources.length === 1 ? "testimony" : "testimonies"}
               </span>{" "}
               in the{" "}
               <span className="font-bold">
-                {footnoteCount} {footnoteCount === 1 ? "citation" : "citations"}
+                {footnotes.length}{" "}
+                {footnotes.length === 1 ? "citation" : "citations"}
               </span>{" "}
               listed below.
             </p>
@@ -71,19 +89,19 @@ export default function PublicationsPage(props: any) {
             <BigNumber
               className="border-[#f48734]"
               label="citations"
-              value={footnoteCount}
+              value={footnotes.length}
             />
             <BigNumber
               className="border-[#f9be00]"
-              label={resourceCount === 1 ? "testimony" : "testimonies"}
-              value={resourceCount}
+              label={uniqueResources.length === 1 ? "testimony" : "testimonies"}
+              value={uniqueResources.length}
             />
           </div>
         </div>
       </TopWrapper>{" "}
-      <section className="column-wrapper">
-        <ResultList items={footnotes}></ResultList>
-      </section>
+      <ResultListWrapper>
+        <ResultList items={footnotes} />
+      </ResultListWrapper>
     </>
   );
 }

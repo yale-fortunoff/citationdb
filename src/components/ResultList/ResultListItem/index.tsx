@@ -25,7 +25,7 @@ function PillTray(props: any) {
               key={i}
               href={item.link}
               type="button"
-              className="mx-1 mt-1 max-w-[100px] overflow-hidden whitespace-nowrap rounded-sm border-l-[3px] bg-[#f5f5f5] px-1 text-[11px] text-[#286dc0] transition-[border,max-width] hover:text-[#00356b] group-hover:max-w-full"
+              className="mx-1 mt-1 max-w-[100px] overflow-hidden text-ellipsis whitespace-nowrap rounded-sm border-l-[3px] bg-[#f5f5f5] px-1 text-[11px] text-[#286dc0] transition-[border,max-width] hover:text-[#00356b] group-hover:max-w-full"
             >
               {item.title}
             </Link>
@@ -96,8 +96,16 @@ function FootnoteFooter(props: any) {
 }
 
 function AuthorFooter(props: any) {
-  const publications = data.publication.byAuthor(props.item.id);
-  const resources = data.resource.citedByAuthor(props.item.id);
+  const localData = useLocalDataStore();
+  const publications = localData.publications.filter((p) =>
+    p["author.id"].some((a) => a === props.item.id),
+  );
+  const footnotes = localData.footnotes.filter((f) =>
+    publications.some((p) => f["publication.id"] === p.id),
+  );
+  const resources = localData.resources.filter((r) =>
+    footnotes.some((f) => f["resource.id"] === r.id),
+  );
   return (
     <div>
       <PillTray
@@ -121,18 +129,10 @@ function ResourceFooter(props: any) {
   const footnotes = localData.footnotes
     .filter((f) => f["resource.id"] === props.item.id)
     .map((f) => f["publication.id"]);
-  // const publications = localData.footnotes.filter(
-  //   (f) => f["resource.id"] === props.item.id,
-  // );
   const publications = localData.publications.filter((p) =>
     footnotes.some((f) => f === p.id),
   );
-  if (props.item.title.includes("Aaron")) {
-    console.log("RESOURCE", props.item);
-    console.log("footnotes", footnotes);
-    console.log("publication", publications);
-    console.log("#####");
-  }
+
   return (
     <div>
       <div>
