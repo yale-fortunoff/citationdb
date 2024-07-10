@@ -18,19 +18,16 @@ function PillTray(props: any) {
         <div className="mr-0.5 font-light">
           {props.items.length} {props.title}
         </div>
-
-        {props.items.slice(0, 5).map((item: any, i: number) => {
-          return (
-            <Link
-              key={i}
-              href={item.link}
-              type="button"
-              className="mx-1 mt-1 max-w-[100px] overflow-hidden text-ellipsis whitespace-nowrap rounded-sm border-l-[3px] bg-[#f5f5f5] px-1 text-[11px] text-[#286dc0] transition-[border,max-width] hover:text-[#00356b] group-hover:max-w-full"
-            >
-              {item.title}
-            </Link>
-          );
-        })}
+        {props.items.slice(0, 5).map((item: any, i: number) => (
+          <Link
+            key={i}
+            href={item.link}
+            type="button"
+            className="mx-1 mt-1 max-w-[100px] overflow-hidden text-ellipsis whitespace-nowrap rounded-sm border-l-[3px] bg-[#f5f5f5] px-1 text-[11px] text-[#286dc0] transition-[border,max-width] hover:text-[#00356b] group-hover:max-w-full"
+          >
+            {item.title}
+          </Link>
+        ))}
       </div>
     </div>
   );
@@ -43,7 +40,7 @@ function HeaderLink(props: any) {
     const f = props.item;
     const resource = data.resource.byId(props.item["resource.id"]);
     return (
-      <div className="HeaderLink">
+      <div className="flex justify-around">
         <Link href={`/resources/${resource.id}`} type="button">
           {resource.title}{" "}
           {f["start_time"]
@@ -68,13 +65,13 @@ function HeaderLink(props: any) {
 function ItemHeader(props: any) {
   let label = props.type;
   if (wordsConfig.hasOwnProperty(props.type)) {
-    label = wordsConfig[label].singular;
+    label = (wordsConfig as any)[label].singular;
   }
 
   return (
     <div className="mb-2.5 flex items-baseline font-bold">
       <div className="mr-4 text-[10px] font-normal uppercase">[{label}]</div>
-      <HeaderLink {...props}></HeaderLink>
+      <HeaderLink {...props} />
     </div>
   );
 }
@@ -98,7 +95,7 @@ function FootnoteFooter(props: any) {
 function AuthorFooter(props: any) {
   const localData = useLocalDataStore();
   const publications = localData.publications.filter((p) =>
-    p["author.id"].some((a) => a === props.item.id),
+    p["author.id"].some((a: any) => a === props.item.id),
   );
   const footnotes = localData.footnotes.filter((f) =>
     publications.some((p) => f["publication.id"] === p.id),
@@ -106,6 +103,7 @@ function AuthorFooter(props: any) {
   const resources = localData.resources.filter((r) =>
     footnotes.some((f) => f["resource.id"] === r.id),
   );
+
   return (
     <div>
       <PillTray

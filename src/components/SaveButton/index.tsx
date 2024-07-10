@@ -1,52 +1,67 @@
-import { useState } from "react";
-import Button from "../Button";
+"use client";
 
-import * as storage from "../../utils/itemStorage";
+import { useEffect, useState } from "react";
 import { twMerge } from "tailwind-merge";
 
-let saveItem: any, removeItem: any, getSavedItems: any;
+import useLocalDataStore from "~/store";
+import Button from "../Button";
 
-/**
- * The author page
- */
 export default function SaveButton(props: any) {
-  if (props.type === "resource") {
-    saveItem = storage.saveResource;
-    removeItem = storage.removeResource;
-    getSavedItems = storage.getSavedResources;
-  } else if (props.type === "author") {
-    saveItem = storage.saveAuthor;
-    removeItem = storage.removeAuthor;
-    getSavedItems = storage.getSavedAuthors;
-  } else if (props.type === "publication") {
-    saveItem = storage.savePublication;
-    removeItem = storage.removePublication;
-    getSavedItems = storage.getSavedPublications;
-  } else {
+  const localData = useLocalDataStore();
+  const [alreadySaved, setAlreadySaved] = useState<boolean>(false);
+
+  useEffect(() => {
+    let pinnedArray;
+    switch (props.type) {
+      case "author":
+        pinnedArray = localData.authorIDsPinned;
+        break;
+      case "publication":
+        pinnedArray = localData.publicationIDsPinned;
+        break;
+      case "resource":
+        pinnedArray = localData.resourceIDsPinned;
+        break;
+    }
+    if (pinnedArray) {
+      setAlreadySaved(pinnedArray.some((id) => id === props.id));
+    }
+  }, [
+    localData.authorIDsPinned,
+    localData.publicationIDsPinned,
+    localData.resourceIDsPinned,
+  ]);
+
+  if (
+    !["publication", "author", "resource"].some((type) => type === props.type)
+  ) {
     return;
   }
 
-  const [alreadySaved, setAlreadySaved] = useState<any>(isSaved());
-
-  function isSaved() {
-    return (
-      getSavedItems()
-        .map((x: any) => x.id)
-        .indexOf(props.id) >= 0
-    );
-  }
-
-  const setSaved = () => {
-    setAlreadySaved(isSaved());
-  };
-
-  if (["publication", "author", "resource"].indexOf(props.type) < 0) {
-    return null;
-  }
-
   const handleClick = () => {
-    alreadySaved ? removeItem(props.id) : saveItem(props.id);
-    setSaved();
+    switch (props.type) {
+      case "author":
+        localData.setAuthorIDsPinned(
+          localData.authorIDsPinned.some((id) => id === props.id)
+            ? localData.authorIDsPinned.filter((id) => id !== props.id)
+            : [...localData.authorIDsPinned, props.id],
+        );
+        break;
+      case "publication":
+        localData.setPublicationIDsPinned(
+          localData.publicationIDsPinned.some((id) => id === props.id)
+            ? localData.publicationIDsPinned.filter((id) => id !== props.id)
+            : [...localData.publicationIDsPinned, props.id],
+        );
+        break;
+      case "resource":
+        localData.setResourceIDsPinned(
+          localData.resourceIDsPinned.some((id) => id === props.id)
+            ? localData.resourceIDsPinned.filter((id) => id !== props.id)
+            : [...localData.resourceIDsPinned, props.id],
+        );
+        break;
+    }
   };
 
   return (

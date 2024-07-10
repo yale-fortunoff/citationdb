@@ -12,24 +12,24 @@ import {
   unsubscribe,
 } from "~/utils/itemStorage";
 import SaveButton from "../SaveButton";
+import useLocalDataStore from "~/store";
 
 function SavedItemCounter() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number>(0);
+
+  const localData = useLocalDataStore();
 
   useEffect(() => {
-    const getCurrentCount = () =>
-      getSavedAuthors().length +
-      getSavedPublications().length +
-      getSavedResources().length;
-
-    const updateCount = () => {
-      setCount(getCurrentCount());
-    };
-    subscribe("counter", updateCount);
-    return () => {
-      unsubscribe("counter");
-    };
-  }, []);
+    setCount(
+      localData.authorIDsPinned.length +
+        localData.publicationIDsPinned.length +
+        localData.resourceIDsPinned.length,
+    );
+  }, [
+    localData.authorIDsPinned,
+    localData.publicationIDsPinned,
+    localData.resourceIDsPinned,
+  ]);
 
   if (count < 1) {
     return;
