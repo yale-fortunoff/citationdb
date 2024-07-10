@@ -62,9 +62,9 @@ async function downloadAllTables() {
       return record;
     });
 
-    fs.ensureDirSync(path.resolve(__dirname, `./src/data/from_airtable`));
+    fs.ensureDirSync(path.resolve(__dirname, `../airtable`));
     fs.writeFileSync(
-      path.resolve(__dirname, `./src/data/from_airtable/${tableName}.json`),
+      path.resolve(__dirname, `./${tableName.toLowerCase()}.json`),
       JSON.stringify(table.jsonRecords, null, 2),
     );
   }

@@ -5,17 +5,15 @@ import { twMerge } from "tailwind-merge";
 
 import Button from "~/components/Button";
 import SaveButton from "~/components/SaveButton";
-
-import data from "~/data";
-import entity from "~/data/enums";
 import wordsConfig from "~/configs/words";
 import useLocalDataStore from "~/store";
+import { getFootnoteURI, secondsToTimestamp } from "~/utils/data";
 
 function PillTray(props: any) {
   return (
     <div className="flex flex-wrap">
       <div className="flex max-w-full flex-wrap items-center">
-        <div className="mr-0.5 font-light">
+        <div className="mr-0.5 text-[13px] font-light">
           {props.items.length} {props.title}
         </div>
         {props.items.slice(0, 5).map((item: any, i: number) => (
@@ -34,18 +32,24 @@ function PillTray(props: any) {
 }
 
 function HeaderLink(props: any) {
+  const localData = useLocalDataStore();
+
   const term = props.type + "s";
 
-  if (props.type === entity.footnote) {
+  if (props.type === "footnote") {
     const f = props.item;
-    const resource = data.resource.byId(props.item["resource.id"]);
+    const resource = localData.resources.find(
+      (r) => r.id === props.item["resource.id"],
+    );
     return (
       <div className="flex justify-around">
-        <Link href={`/resources/${resource.id}`} type="button">
+        <Link
+          className="text-[#286dc0] no-underline hover:text-[#00356b]"
+          href={`/resources/${resource.id}`}
+          type="button"
+        >
           {resource.title}{" "}
-          {f["start_time"]
-            ? `@${data.utils.secondsToTimestamp(f["start_time"])}`
-            : null}
+          {f["start_time"] ? `@${secondsToTimestamp(f["start_time"])}` : null}
         </Link>
       </div>
     );
@@ -69,7 +73,7 @@ function ItemHeader(props: any) {
   }
 
   return (
-    <div className="mb-2.5 flex items-baseline font-bold">
+    <div className="mb-1 flex items-baseline font-bold">
       <div className="mr-4 text-[10px] font-normal uppercase">[{label}]</div>
       <HeaderLink {...props} />
     </div>
@@ -150,17 +154,22 @@ function ResourceFooter(props: any) {
 }
 
 function PublicationFooter(props: any) {
+  const localData = useLocalDataStore();
+
   const publication = props.item;
   const authorIDs = props.item["author.id"] || [];
-  const authors = authorIDs.map((authorID: any) => {
-    let ret = data.author.byId(authorID) || {};
-    return ret;
-  });
-
-  const resources = data.resource.byPublication(props.item.id);
+  const authors = localData.authors.filter((a) =>
+    authorIDs.some((id: string) => id === a.id),
+  );
+  const footnotes = localData.footnotes.filter(
+    (f) => f["publication.id"] === publication.id,
+  );
+  const resources = localData.resources.filter((r) =>
+    footnotes.some((f) => f["resource.id"] === r.id),
+  );
 
   return (
-    <div>
+    <>
       <div>
         {authors.map((author: any, i: number) => {
           return author.name ? (
@@ -174,14 +183,14 @@ function PublicationFooter(props: any) {
             </Link>
           ) : null;
         })}
-        {publication.publisher ? (
+        {publication.publisher && (
           <span className="font-light text-[#222]">
             , {publication.publisher}
           </span>
-        ) : null}
-        {publication.date ? (
+        )}
+        {publication.date && (
           <span className="font-light text-[#222]">, {publication.date}</span>
-        ) : null}
+        )}
       </div>
       <div>
         <PillTray
@@ -194,7 +203,7 @@ function PublicationFooter(props: any) {
           }))}
         />
       </div>
-    </div>
+    </>
   );
 }
 
@@ -218,13 +227,14 @@ export default function ResultListItem(props: any) {
   return (
     <div
       className={twMerge(
-        "group relative mb-4 flex overflow-hidden rounded-lg border-l-[10px] border-opacity-50 bg-white transition-[border] hover:max-w-full hover:border-l-[20px] hover:border-opacity-100 hover:shadow-yale",
+        "group relative mb-4 flex items-center overflow-hidden rounded-lg border-l-[10px] border-opacity-50 bg-white pr-4 transition-[border] hover:max-w-full hover:border-l-[20px] hover:border-opacity-100 hover:shadow-yale",
         props.type === "author" ? "border-l-[#ca6251]" : "",
         props.type === "publication" ? "border-l-[#0d99aa]" : "",
         props.type === "resource" ? "border-l-[#f9be00]" : "",
+        props.type === "footnote" ? "border-l-[#f9be00]" : "",
       )}
     >
-      <div className="p-3.5">
+      <div className="w-full p-3.5">
         <ItemHeader {...props} />
         <Footer {...props} />
       </div>
@@ -232,9 +242,11 @@ export default function ResultListItem(props: any) {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href={data.footnote.getFootnoteURI(props.item)}
+          href={getFootnoteURI(props.item)}
         >
-          <Button>View</Button>
+          <Button className="m-0 bg-[#8ec8cc] px-5 hover:bg-[#ca6251]">
+            View
+          </Button>
         </a>
       ) : null}
       <SaveButton type={props.type} id={props.item.id} />

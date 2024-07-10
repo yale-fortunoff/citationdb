@@ -1,10 +1,10 @@
 import React from "react";
 
-import data from "~/data";
 import Histogram from "~/components/Viz/Histogram";
+import { yearCounts } from "~/utils/data";
 
 export default function PublicationsHistogram(props: any) {
-  const publicationData = data.summarize.yearCounts(
+  const publicationData = yearCounts(
     props.items.filter((item: any) => item.__type === "publication"),
   ) as any[];
 

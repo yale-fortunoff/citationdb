@@ -74,7 +74,7 @@ export default function SaveButton(props: any) {
     >
       <Button
         className={twMerge(
-          "mx-0 rounded-[0_8px_0_8px] px-1.5 text-[#6e6e6e]",
+          "mx-0 rounded-[0_8px_0_8px] text-[#6e6e6e]",
           props.className?.button,
         )}
         onClick={handleClick}

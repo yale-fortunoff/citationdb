@@ -36,37 +36,34 @@ export default function PublicationsPage(props: any) {
   return (
     <>
       <TopWrapper id={publicationsId} saveType="publication">
-        <div className="m-5 md:mx-2.5">
+        <div className="m-5 md:mx-2.5 md:flex-[2_1]">
           <h1 className="font-yalenewroman text-2xl">{publication.title}</h1>
-          <div className="chunk">
+          <div>
             {authors?.map((author: any, i: number) => (
-              <span key={i} className="metadata">
-                <Link href={`/authors/${author.id}`}>
-                  {author.name ? `${author.name}` : null}
+              <span key={i}>
+                <Link
+                  className="font-bold text-[#222] underline hover:text-[#00356b]"
+                  href={`/authors/${author.id}`}
+                  type="button"
+                >
+                  {author.name ?? ""}
                 </Link>
                 {"; "}
               </span>
             ))}
-
-            <span className="metadata">
-              {publication.publisher ? `${publication.publisher}` : null}
-            </span>
-
-            <span className="metadata light">
-              {publication.date ? `, ${publication.date}` : null}
-            </span>
+            <span className="font-bold">{publication.publisher ?? ""}</span>
+            <span>{publication.date ?? ""}</span>
           </div>
-          <div className="metadata light">
-            {publication.uri ? (
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href={publication.uri}
-              >
-                Publication page
-              </a>
-            ) : null}
-          </div>
+          {publication.uri && (
+            <a
+              className="text-[#222] underline hover:text-[#00356b]"
+              rel="noopener noreferrer"
+              target="_blank"
+              href={publication.uri}
+            >
+              Publication page
+            </a>
+          )}
 
           <div className="my-4">
             <p>

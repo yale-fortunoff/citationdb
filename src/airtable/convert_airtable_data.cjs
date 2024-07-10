@@ -5,7 +5,7 @@ const path = require("path");
 var filetree = require("filetree.js");
 
 const tree = filetree({
-  path: path.resolve(__dirname, "./src/data/"),
+  path: path.resolve(__dirname, "../airtable/"),
   maxDepth: 4,
   exclude: ["node_modules", "bower_components"],
   all: true,
@@ -16,14 +16,12 @@ const tree = filetree({
  * ENSURE DIR *
  **************/
 
-fs.ensureDirSync(path.resolve(__dirname, "./src/data/json/"));
+fs.ensureDirSync(path.resolve(__dirname, "../../public/data"));
 
 /***********
  * AUTHORS *
  ***********/
-const AuthorSource = require(
-  path.resolve(__dirname, "./src/data/from_airtable/author.json"),
-);
+const AuthorSource = require(path.resolve(__dirname, "./author.json"));
 const authorTarget = {};
 
 for (const obj of AuthorSource) {
@@ -36,16 +34,14 @@ for (const obj of AuthorSource) {
 }
 
 fs.writeFileSync(
-  path.resolve(__dirname, "./public/data/author.json"),
+  path.resolve(__dirname, "../../public/data/author.json"),
   JSON.stringify(authorTarget, null, 2),
 );
 
 /*************
  * FOOTNOTES *
  *************/
-const FootnoteSource = require(
-  path.resolve(__dirname, "./src/data/from_airtable/footnote.json"),
-);
+const FootnoteSource = require(path.resolve(__dirname, "./footnote.json"));
 const footnoteTarget = {};
 
 FootnoteSource.forEach((obj, index) => {
@@ -67,16 +63,14 @@ FootnoteSource.forEach((obj, index) => {
 });
 
 fs.writeFileSync(
-  path.resolve(__dirname, "./public/data/footnote.json"),
+  path.resolve(__dirname, "../../public/data/footnote.json"),
   JSON.stringify(footnoteTarget, null, 2),
 );
 
 /*************
  * RESOURCES *
  *************/
-const resourceSource = require(
-  path.resolve(__dirname, "./src/data/from_airtable/resource.json"),
-);
+const resourceSource = require(path.resolve(__dirname, "./resource.json"));
 const resourceTarget = {};
 
 resourceSource.forEach((item) => {
@@ -86,7 +80,7 @@ resourceSource.forEach((item) => {
 });
 
 fs.writeFileSync(
-  path.resolve(__dirname, "./public/data/resource.json"),
+  path.resolve(__dirname, "../../public/data/resource.json"),
   JSON.stringify(resourceTarget, null, 2),
 );
 
@@ -94,7 +88,7 @@ fs.writeFileSync(
  * PUBLICATIONS *
  ****************/
 const publicationSource = require(
-  path.resolve(__dirname, "./src/data/from_airtable/publication.json"),
+  path.resolve(__dirname, "./publication.json"),
 );
 const publicationTarget = {};
 
@@ -118,6 +112,6 @@ for (const item of publicationSource) {
 }
 
 fs.writeFileSync(
-  path.resolve(__dirname, "./public/data/publication.json"),
+  path.resolve(__dirname, "../../public/data/publication.json"),
   JSON.stringify(publicationTarget, null, 2),
 );

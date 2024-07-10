@@ -4,13 +4,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import {
-  getSavedAuthors,
-  getSavedPublications,
-  getSavedResources,
-  subscribe,
-  unsubscribe,
-} from "~/utils/itemStorage";
 import SaveButton from "../SaveButton";
 import useLocalDataStore from "~/store";
 
@@ -60,7 +53,7 @@ export default function BreadCrumb(props: any) {
         href="/"
         type="button"
       >
-        Home
+        home
       </Link>
     );
   };

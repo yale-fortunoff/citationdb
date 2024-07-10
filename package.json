@@ -8,8 +8,8 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "data:download": "node ./download_airtable.cjs",
-    "data:convert": "node ./convert_airtable_data.cjs",
+    "data:download": "node ./src/airtable/download_airtable.cjs",
+    "data:convert": "node ./src/airtable/convert_airtable_data.cjs",
     "prebuild": "npm run data:download && npm run data:convert"
   },
   "dependencies": {

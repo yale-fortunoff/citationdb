@@ -1,41 +1,49 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import BigNumber from "~/components/BigNumber";
 import BreadCrumb from "~/components/BreadCrumb";
 import ResultList from "~/components/ResultList";
 import ResultListWrapper from "~/components/ResultListWrapper";
-import {
-  getSavedAuthors,
-  getSavedPublications,
-  getSavedResources,
-  subscribe,
-  unsubscribe,
-} from "~/utils/itemStorage";
-
-const getCounts = () => ({
-  publications: getSavedPublications(),
-  authors: getSavedAuthors(),
-  resources: getSavedResources(),
-});
+import useLocalDataStore from "~/store";
 
 export default function PinsPage(props: any) {
-  const [data, setData] = useState<{
-    publications: any[];
+  const localData = useLocalDataStore();
+
+  const [pinnedData, setPinnedData] = useState<{
     authors: any[];
+    publications: any[];
     resources: any[];
-  }>(getCounts());
+  }>({
+    authors: localData.authors.filter((a) =>
+      localData.authorIDsPinned.some((id) => id === a.id),
+    ),
+    publications: localData.publications.filter((p) =>
+      localData.publicationIDsPinned.some((id) => id === p.id),
+    ),
+    resources: localData.resources.filter((r) =>
+      localData.resourceIDsPinned.some((id) => id === r.id),
+    ),
+  });
 
   useEffect(() => {
-    const updateCounts = () => {
-      setData(getCounts());
-    };
-    subscribe("saved-items-page", updateCounts);
-    return () => {
-      unsubscribe("saved-items-page");
-    };
-  }, []);
+    setPinnedData({
+      authors: localData.authors.filter((a) =>
+        localData.authorIDsPinned.some((id) => id === a.id),
+      ),
+      publications: localData.publications.filter((p) =>
+        localData.publicationIDsPinned.some((id) => id === p.id),
+      ),
+      resources: localData.resources.filter((r) =>
+        localData.resourceIDsPinned.some((id) => id === r.id),
+      ),
+    });
+  }, [
+    localData.authorIDsPinned,
+    localData.publicationIDsPinned,
+    localData.resourceIDsPinned,
+  ]);
 
   return (
     <>
@@ -57,23 +65,25 @@ export default function PinsPage(props: any) {
                 <BigNumber
                   className="border-[#f9be00]"
                   label={
-                    data.resources.length === 1 ? "testimony" : "testimonies"
+                    pinnedData.resources.length === 1
+                      ? "testimony"
+                      : "testimonies"
                   }
-                  value={data.resources.length}
+                  value={pinnedData.resources.length}
                 />
                 <BigNumber
                   className="border-[#0d99aa]"
                   label={
-                    data.publications.length === 1
+                    pinnedData.publications.length === 1
                       ? "publication"
                       : "publications"
                   }
-                  value={data.publications.length}
+                  value={pinnedData.publications.length}
                 />
                 <BigNumber
                   className="border-[#ca6251]"
-                  label={data.authors.length === 1 ? "author" : "authors"}
-                  value={data.authors.length}
+                  label={pinnedData.authors.length === 1 ? "author" : "authors"}
+                  value={pinnedData.authors.length}
                 />
               </div>
             </div>
@@ -82,9 +92,9 @@ export default function PinsPage(props: any) {
       </div>
 
       <ResultListWrapper>
-        <ResultList items={data.resources} />
-        <ResultList items={data.publications} />
-        <ResultList items={data.authors} />
+        <ResultList items={pinnedData.resources} />
+        <ResultList items={pinnedData.publications} />
+        <ResultList items={pinnedData.authors} />
       </ResultListWrapper>
     </>
   );
