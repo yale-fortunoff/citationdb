@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { twMerge } from "tailwind-merge";
 
-import useLocalDataStore from "~/store";
+import useLocalDataStore from "~/store/local";
 import Button from "../Button";
 
 export default function SaveButton(props: any) {

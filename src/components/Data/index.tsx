@@ -2,7 +2,8 @@
 
 import { useEffect } from "react";
 
-import useLocalDataStore from "~/store";
+import useLocalDataStore from "~/store/local";
+import useSessionDataStore from "~/store/session";
 
 import authorJSON from "../../../public/data/author.json" assert { type: "json" };
 import footnoteJSON from "../../../public/data/footnote.json" assert { type: "json" };
@@ -11,9 +12,10 @@ import resourceJSON from "../../../public/data/resource.json" assert { type: "js
 
 export default function Data() {
   const localData = useLocalDataStore();
+  const sessionData = useSessionDataStore();
 
   useEffect(() => {
-    if (localData.loaded) {
+    if (sessionData.loaded) {
       return;
     }
     localData.setAuthors(
@@ -48,8 +50,8 @@ export default function Data() {
         __type: "resource",
       })),
     );
-    localData.setLoaded(true);
-  }, [localData.loaded]);
+    sessionData.setLoaded(true);
+  }, [sessionData.loaded]);
 
   return <></>;
 }

@@ -2,7 +2,6 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
 const useLocalDataStore = create<{
-  loaded: boolean;
   authors: any[];
   authorIDsPinned: string[];
   footnotes: any[];
@@ -10,7 +9,6 @@ const useLocalDataStore = create<{
   publicationIDsPinned: string[];
   resources: any[];
   resourceIDsPinned: string[];
-  setLoaded(loaded: boolean): void;
   setAuthors(authors: any[]): void;
   setAuthorIDsPinned(authorIDs: string[]): void;
   setFootnotes(footnotes: any[]): void;
@@ -21,7 +19,6 @@ const useLocalDataStore = create<{
 }>()(
   persist(
     (set) => ({
-      loaded: false,
       authors: [],
       authorIDsPinned: [],
       footnotes: [],
@@ -29,8 +26,6 @@ const useLocalDataStore = create<{
       publicationIDsPinned: [],
       resources: [],
       resourceIDsPinned: [],
-      setLoaded: (newLoaded: boolean) =>
-        set((state: any) => ({ ...state, loaded: newLoaded })),
       setAuthors: (newAuthors: any[]) =>
         set((state: any) => ({ ...state, authors: newAuthors })),
       setAuthorIDsPinned: (newAuthorIDsPinned: string[]) =>

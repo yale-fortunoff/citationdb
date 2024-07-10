@@ -7,7 +7,7 @@ import PublicationHistogram from "~/components/PublicationHistogram";
 import ResultList from "~/components/ResultList";
 import ResultListWrapper from "~/components/ResultListWrapper";
 import TopWrapper from "~/components/TopWrapper";
-import useLocalDataStore from "~/store";
+import useLocalDataStore from "~/store/local";
 import { getResourceLink } from "~/utils/data";
 
 export default function ResourcesPage(props: any) {

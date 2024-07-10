@@ -6,7 +6,7 @@ import BigNumber from "~/components/BigNumber";
 import ResultList from "~/components/ResultList";
 import TopWrapper from "~/components/TopWrapper";
 import ResultListWrapper from "~/components/ResultListWrapper";
-import useLocalDataStore from "~/store";
+import useLocalDataStore from "~/store/local";
 import { uniqueArray } from "~/utils/array";
 
 export default function PublicationsPage(props: any) {

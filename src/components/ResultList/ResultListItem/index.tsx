@@ -6,7 +6,7 @@ import { twMerge } from "tailwind-merge";
 import Button from "~/components/Button";
 import SaveButton from "~/components/SaveButton";
 import wordsConfig from "~/configs/words";
-import useLocalDataStore from "~/store";
+import useLocalDataStore from "~/store/local";
 import { getFootnoteURI, secondsToTimestamp } from "~/utils/data";
 
 function PillTray(props: any) {

@@ -8,7 +8,7 @@ import SearchArea from "~/components/SearchArea";
 import ResultList from "~/components/ResultList";
 import TopWrapper from "~/components/TopWrapper";
 
-import useLocalDataStore from "~/store";
+import useLocalDataStore from "~/store/local";
 import ResultListWrapper from "~/components/ResultListWrapper";
 
 export default function HomePage(props: any) {

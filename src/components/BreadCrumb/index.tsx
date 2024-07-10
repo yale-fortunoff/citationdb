@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import SaveButton from "../SaveButton";
-import useLocalDataStore from "~/store";
+import useLocalDataStore from "~/store/local";
 
 function SavedItemCounter() {
   const [count, setCount] = useState<number>(0);

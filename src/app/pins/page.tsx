@@ -6,7 +6,7 @@ import BigNumber from "~/components/BigNumber";
 import BreadCrumb from "~/components/BreadCrumb";
 import ResultList from "~/components/ResultList";
 import ResultListWrapper from "~/components/ResultListWrapper";
-import useLocalDataStore from "~/store";
+import useLocalDataStore from "~/store/local";
 
 export default function PinsPage(props: any) {
   const localData = useLocalDataStore();

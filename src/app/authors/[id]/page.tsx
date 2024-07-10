@@ -6,7 +6,7 @@ import TopWrapper from "~/components/TopWrapper";
 
 import ResultListWrapper from "~/components/ResultListWrapper";
 import { uniqueArray } from "~/utils/array";
-import useLocalDataStore from "~/store";
+import useLocalDataStore from "~/store/local";
 
 export default function AuthorsPage(props: any) {
   const localData = useLocalDataStore();
