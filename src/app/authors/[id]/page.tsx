@@ -4,20 +4,27 @@ import BigNumber from "~/components/BigNumber";
 import ResultList from "~/components/ResultList";
 import TopWrapper from "~/components/TopWrapper";
 
-import data from "~/data";
 import ResultListWrapper from "~/components/ResultListWrapper";
 import { uniqueArray } from "~/utils/array";
 import useLocalDataStore from "~/store";
 
 export default function AuthorsPage(props: any) {
-  const authorId = props.params.id;
-
   const localData = useLocalDataStore();
+
+  const authorId = props.params.id;
 
   const author = localData.authors.find((a) => a.id === authorId);
 
-  const publications = data.publication.byAuthor(authorId);
-  const footnotes = data.footnote.byAuthor(authorId);
+  if (!author) {
+    return;
+  }
+
+  const publications = localData.publications.filter((p) =>
+    p["author.id"].some((id: string) => id === authorId),
+  );
+  const footnotes = localData.footnotes.filter((f) =>
+    publications.some((p) => p.id === f["publication.id"]),
+  );
   const uniqueResources = uniqueArray(
     localData.resources.filter((r) =>
       footnotes.some((f: any) => f["resource.id"] === r.id),
@@ -28,11 +35,14 @@ export default function AuthorsPage(props: any) {
   return (
     <div className="PublicationPage">
       <TopWrapper id={authorId} saveType="author">
-        <div className="m-5 md:mx-2.5 md:my-0 md:flex">
+        <div className="m-5 md:mx-2.5 md:my-0 md:flex-[2_1]">
           <div>
             <h1 className="font-yalenewroman text-2xl">{author.name}</h1>
             {author.uri?.length > 0 && (
-              <a className="text-[#286dc0] no-underline" href={author.uri}>
+              <a
+                className="text-[#286dc0] no-underline hover:text-[#00356b]"
+                href={author.uri}
+              >
                 Author website
               </a>
             )}
