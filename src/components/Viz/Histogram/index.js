@@ -27,8 +27,9 @@ export default class extends D3Component {
     const svg = d3.select(this.svg);
 
     // get width and height
-    const width = svg.node().getBoundingClientRect().width,
-      height = this.props.height || svg.node().getBoundingClientRect().height;
+    const width = svg.node()?.getBoundingClientRect()?.width ?? 0;
+    const height =
+      this.props.height || svg.node().getBoundingClientRect().height;
 
     const yearRange = [this.props.minYear, this.props.maxYear];
     const countRange = [0, d3.max(data?.map((x) => x.count)) ?? 1];

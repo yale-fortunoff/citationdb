@@ -1,22 +1,34 @@
+"use client";
+
 import Link from "next/link";
+
 import BigNumber from "~/components/BigNumber";
 import PublicationHistogram from "~/components/PublicationHistogram";
 import ResultList from "~/components/ResultList";
 import ResultListWrapper from "~/components/ResultListWrapper";
 import TopWrapper from "~/components/TopWrapper";
-import data from "~/data";
+import useLocalDataStore from "~/store";
+import { getResourceLink } from "~/utils/data";
 
 export default function ResourcesPage(props: any) {
+  const localData = useLocalDataStore();
+
   const resourcesId = props.params.id;
 
-  const resource = data.resource.dictionary()[resourcesId];
+  const resource = localData.resources.find((r) => r.id === resourcesId);
 
   if (!resource) {
     return;
   }
 
-  const publications = data.publication.byResource(resourcesId);
-  const footnotes = data.footnote.byResource(resourcesId);
+  const footnotes = localData.footnotes.filter(
+    (f) => f["resource.id"] === resourcesId,
+  );
+  const publications = localData.publications.filter((p) =>
+    footnotes.some((f) => f["publication.id"] === p.id),
+  );
+
+  console.log("OAWDKOAWDKO", publications);
 
   return (
     <div className="ResourcePage">
@@ -28,7 +40,7 @@ export default function ResourcesPage(props: any) {
           <div className="view-button-container">
             <Link
               className="flex h-[30px] w-fit items-center justify-center rounded-lg bg-[#0d99aa] px-2.5 text-sm font-bold text-white hover:shadow-yale"
-              href={data.utils.getResourceLink(resource)}
+              href={getResourceLink(resource)}
               type="button"
             >
               View
@@ -52,7 +64,7 @@ export default function ResourcesPage(props: any) {
         </div>
         <div className="md:max-w-[350px]">
           <PublicationHistogram items={publications} />
-          <div className="flex-center md:flex-end flex">
+          <div className="mt-2 flex justify-end">
             <BigNumber
               className="border-[#f48734]"
               label={footnotes.length === 1 ? "citation" : "citations"}

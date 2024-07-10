@@ -8,12 +8,14 @@ export default function PublicationsHistogram(props: any) {
     props.items.filter((item: any) => item.__type === "publication"),
   ) as any[];
 
+  console.log("OAKWDKOAWD", publicationData);
+
   if (publicationData.length < 1) {
     return;
   }
 
   return (
-    <div className="block h-full max-h-[150px] w-full">
+    <div className="relative flex h-full max-h-[150px] w-full flex-col">
       <Histogram
         data={publicationData}
         minYear={1975}
@@ -22,10 +24,10 @@ export default function PublicationsHistogram(props: any) {
           top: 10,
           left: 30,
           right: 10,
-          bottom: 20,
+          bottom: 40,
         }}
       />
-      <h6 className="text-center text-xs font-bold text-[#222]">
+      <h6 className="absolute bottom-0 left-0 right-0 text-center text-xs font-bold text-[#222]">
         Publications by year
       </h6>
     </div>

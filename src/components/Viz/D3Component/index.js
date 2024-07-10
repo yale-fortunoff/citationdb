@@ -47,14 +47,12 @@ export default class D3Component extends PureComponent {
 
   render() {
     return (
-      <div>
-        <svg
-          className="w-full"
-          ref={(el) => {
-            this.svg = el;
-          }}
-        />
-      </div>
+      <svg
+        className="w-full"
+        ref={(el) => {
+          this.svg = el;
+        }}
+      />
     );
   }
 
