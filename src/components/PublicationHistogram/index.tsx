@@ -8,8 +8,6 @@ export default function PublicationsHistogram(props: any) {
     props.items.filter((item: any) => item.__type === "publication"),
   ) as any[];
 
-  console.log("OAKWDKOAWD", publicationData);
-
   if (publicationData.length < 1) {
     return;
   }

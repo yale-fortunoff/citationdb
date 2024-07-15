@@ -9,7 +9,7 @@ export function getRecordingYear(record: any) {
 }
 
 export function yearCounts(items) {
-  var ret = {};
+  let ret = {};
   items.forEach((item) => {
     if (Number(item.date) && String(item.date).length === 4) {
       if (!ret[item.date]) {
@@ -23,7 +23,7 @@ export function yearCounts(items) {
 }
 
 export function countByType(items) {
-  let ret = {
+  const ret = {
     publication: 0,
     footnote: 0,
     resource: 0,
@@ -66,9 +66,12 @@ export function getResourceLink(resource) {
   return `https://fortunoff.aviaryplatform.com/c/mssa.hvt.${num}`;
 }
 
-export function dictToArray(obj, keyField = "id") {
+export function dictToArray(
+  obj: Record<string, string | number>,
+  keyField = "id",
+) {
   return Object.keys(obj).map((key) => {
-    let ret = {
+    const ret = {
       ...obj[key],
     };
 
@@ -94,11 +97,11 @@ export function getFootnoteURI(footnote) {
   const videoBaseURL = "https://fortunoff.aviaryplatform.com/c/" + mssid + "/";
 
   // if there's a full time stamp we can use that.
-  if (!footnote["tape"]) {
+  if (!footnote.tape) {
     return videoBaseURL;
   }
-  const tape = Number(footnote["tape"]);
-  const start_time = Math.round(footnote["start_time"]); //.trim();
+  const tape = footnote.tape as number;
+  const start_time = Math.round(footnote.start_time as number); //.trim();
 
   if (!tape || start_time.length < 1) {
     return videoBaseURL;

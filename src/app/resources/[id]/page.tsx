@@ -28,8 +28,6 @@ export default function ResourcesPage(props: any) {
     footnotes.some((f) => f["publication.id"] === p.id),
   );
 
-  console.log("OAWDKOAWDKO", publications);
-
   return (
     <div className="ResourcePage">
       <TopWrapper id={resourcesId} saveType="resource">

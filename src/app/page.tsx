@@ -11,19 +11,22 @@ import TopWrapper from "~/components/TopWrapper";
 import useLocalDataStore from "~/store/local";
 import ResultListWrapper from "~/components/ResultListWrapper";
 
-export default function HomePage(props: any) {
+export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [toggles, setToggles] = useState<{
     resource: boolean;
     publication: boolean;
     author: boolean;
   }>({ resource: false, publication: false, author: false });
-  const [items, setItems] = useState<any>([]);
-  const [counts, setCounts] = useState<any>({
+  const [items, setItems] = useState<object[]>([]);
+  const [counts, setCounts] = useState<{
+    resource: number;
+    publication: number;
+    author: number;
+  }>({
     resource: 0,
     publication: 0,
     author: 0,
-    footnote: 0,
   });
 
   const localData = useLocalDataStore();
@@ -60,7 +63,7 @@ export default function HomePage(props: any) {
     }
     setItems(
       [...filteredAuthors, ...filteredPublications, ...filteredResources].sort(
-        (a: any, b: any) => (a.__header > b.__header ? 1 : -1),
+        (a, b) => (a.__header > b.__header ? 1 : -1),
       ),
     );
     setCounts({
@@ -101,7 +104,7 @@ export default function HomePage(props: any) {
       <SearchArea
         onChange={(e: any) => setSearchTerm(e.target.value)}
         value={searchTerm}
-        toggles={Object.keys(toggles).map((t: string, i: number) => ({
+        toggles={Object.keys(toggles).map((t: string) => ({
           label: t + "s",
           handler: toggleFactory(t as "resource" | "publication" | "author"),
           status: toggles[t as "resource" | "publication" | "author"],

@@ -8,7 +8,7 @@ import ResultListWrapper from "~/components/ResultListWrapper";
 import { uniqueArray } from "~/utils/array";
 import useLocalDataStore from "~/store/local";
 
-export default function AuthorsPage(props: any) {
+export default function AuthorsPage(props: { params: { id: string } }) {
   const localData = useLocalDataStore();
 
   const authorId = props.params.id;
@@ -27,7 +27,7 @@ export default function AuthorsPage(props: any) {
   );
   const uniqueResources = uniqueArray(
     localData.resources.filter((r) =>
-      footnotes.some((f: any) => f["resource.id"] === r.id),
+      footnotes.some((f) => f["resource.id"] === r.id),
     ),
     "id",
   );

@@ -26,7 +26,7 @@ const useSessionDataStore = create<{
     }),
     {
       name: "citationdb",
-      getStorage: () => sessionStorage,
+      storage: sessionStorage,
     },
   ),
 );

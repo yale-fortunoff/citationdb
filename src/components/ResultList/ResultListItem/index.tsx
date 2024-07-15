@@ -49,7 +49,7 @@ function HeaderLink(props: any) {
           type="button"
         >
           {resource.title}{" "}
-          {f["start_time"] ? `@${secondsToTimestamp(f["start_time"])}` : null}
+          {f.start_time ? `@${secondsToTimestamp(f.start_time)}` : null}
         </Link>
       </div>
     );

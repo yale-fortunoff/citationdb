@@ -8,7 +8,7 @@ import ResultList from "~/components/ResultList";
 import ResultListWrapper from "~/components/ResultListWrapper";
 import useLocalDataStore from "~/store/local";
 
-export default function PinsPage(props: any) {
+export default function PinsPage() {
   const localData = useLocalDataStore();
 
   const [pinnedData, setPinnedData] = useState<{
