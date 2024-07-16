@@ -1,347 +1,344 @@
 [
   {
-    "id": "leisawitz-daniel",
-    "name": "Leisawitz, Daniel",
-    "uri": "https://www.muhlenberg.edu/academics/llc/faculty/italianfaculty/danielleisawitz/",
     "Publication": [
       "77bbad54"
     ],
-    "enabled": true
+    "uri": "https://www.muhlenberg.edu/academics/llc/faculty/italianfaculty/danielleisawitz/",
+    "name": "Leisawitz, Daniel",
+    "enabled": true,
+    "id": "leisawitz-daniel"
   },
   {
-    "id": "gold-nili",
-    "name": "Gold, Nili",
-    "uri": "http://viaf.org/viaf/79532031",
     "Publication": [
       "ac69a8ff",
       "2cd89676"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/79532031",
+    "name": "Gold, Nili",
+    "enabled": true,
+    "id": "gold-nili"
   },
   {
-    "id": "saidel-rochelle",
-    "name": "Saidel, Rochelle",
     "uri": "http://viaf.org/viaf/37040054",
-    "enabled": true
+    "name": "Saidel, Rochelle",
+    "enabled": true,
+    "id": "saidel-rochelle"
   },
   {
-    "id": "laor-nathaniel",
-    "name": "Laor, Nathaniel",
-    "uri": "https://english.tau.ac.il/profile/nlaor",
     "Publication": [
       "8683bc17"
     ],
-    "enabled": true
+    "uri": "https://english.tau.ac.il/profile/nlaor",
+    "name": "Laor, Nathaniel",
+    "enabled": true,
+    "id": "laor-nathaniel"
   },
   {
-    "id": "jaiser-constanze",
-    "name": "Jaiser, Constanze",
-    "uri": "https://www.raa-mv.de/de/content/jaiser",
     "Publication": [
       "d8887b93"
     ],
-    "enabled": true
+    "uri": "https://www.raa-mv.de/de/content/jaiser",
+    "name": "Jaiser, Constanze",
+    "enabled": true,
+    "id": "jaiser-constanze"
   },
   {
-    "id": "joskowicz-alexander",
-    "name": "Joskowicz, Alexander",
-    "uri": "http://viaf.org/viaf/297611218",
     "Publication": [
       "1f497fdb"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/297611218",
+    "name": "Joskowicz, Alexander",
+    "enabled": true,
+    "id": "joskowicz-alexander"
   },
   {
-    "id": "miller-lisa",
-    "name": "Miller, Lisa",
     "Publication": [
       "d7439bee"
     ],
-    "enabled": true
+    "name": "Miller, Lisa",
+    "enabled": true,
+    "id": "miller-lisa"
   },
   {
-    "id": "diem-eva",
-    "name": "Diem, Eva",
     "Publication": [
       "erich-levi"
-    ]
+    ],
+    "name": "Diem, Eva",
+    "id": "diem-eva"
   },
   {
-    "id": "williams-benn",
-    "name": "Williams, Benn",
-    "uri": "http://viaf.org/viaf/86300589",
     "Publication": [
       "1898c196",
       "945d4445"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/86300589",
+    "name": "Williams, Benn",
+    "enabled": true,
+    "id": "williams-benn"
   },
   {
-    "id": "haushofer-lisa",
-    "name": "Haushofer, Lisa",
-    "uri": "http://viaf.org/viaf/296711938",
     "Publication": [
       "90cb6d73",
       "1215645"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/296711938",
+    "name": "Haushofer, Lisa",
+    "enabled": true,
+    "id": "haushofer-lisa"
   },
   {
-    "id": "mueller-melanie",
-    "name": "Mueller, Melanie",
-    "uri": "https://www.aip.org/aip/staff-contacts",
     "Publication": [
       "a2060730"
     ],
-    "enabled": true
+    "uri": "https://www.aip.org/aip/staff-contacts",
+    "name": "Mueller, Melanie",
+    "enabled": true,
+    "id": "mueller-melanie"
   },
   {
-    "id": "young-james",
-    "name": "Young, James",
-    "uri": "http://viaf.org/viaf/259636173",
     "Publication": [
       "0428ee36"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/259636173",
+    "name": "Young, James",
+    "enabled": true,
+    "id": "young-james"
   },
   {
-    "id": "programmkino-wuerzburg-eg",
-    "name": "Programmkino Wuerzburg eG, ",
     "Publication": [
       "7adaced0"
     ],
-    "enabled": true
+    "name": "Programmkino Wuerzburg eG, ",
+    "enabled": true,
+    "id": "programmkino-wuerzburg-eg"
   },
   {
-    "id": "Fedewa-L",
-    "name": "Fedewa, Lauren ",
-    "uri": "https://www.history.utoronto.ca/people/directories/graduate-students/lauren-fedewa",
     "Publication": [
       "Fedewa1"
     ],
-    "enabled": true
+    "uri": "https://www.history.utoronto.ca/people/directories/graduate-students/lauren-fedewa",
+    "name": "Fedewa, Lauren ",
+    "enabled": true,
+    "id": "Fedewa-L"
   },
   {
-    "id": "kennedy-patrick",
-    "name": "Kennedy, Patrick",
     "Publication": [
       "1b29fa19"
     ],
-    "enabled": true
+    "name": "Kennedy, Patrick",
+    "enabled": true,
+    "id": "kennedy-patrick"
   },
   {
-    "id": "howard-karen",
-    "name": "Howard, Karen",
     "Publication": [
       "180d7767"
     ],
-    "enabled": true
+    "name": "Howard, Karen",
+    "enabled": true,
+    "id": "howard-karen"
   },
   {
-    "id": "reich-daniel",
-    "name": "Reich, Daniel",
-    "uri": "https://www.jfedstl.org/staff/dan-reich/",
     "Publication": [
       "29562f4c"
     ],
-    "enabled": true
+    "uri": "https://www.jfedstl.org/staff/dan-reich/",
+    "name": "Reich, Daniel",
+    "enabled": true,
+    "id": "reich-daniel"
   },
   {
-    "id": "gross-jan",
-    "name": "Gross, Jan",
-    "uri": "http://viaf.org/viaf/44317114",
     "Publication": [
       "d79fc931"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/44317114",
+    "name": "Gross, Jan",
+    "enabled": true,
+    "id": "gross-jan"
   },
   {
-    "id": "epstein-helen",
-    "name": "Epstein, Helen",
     "Publication": [
       "book-tour-promotion"
-    ]
+    ],
+    "name": "Epstein, Helen",
+    "id": "epstein-helen"
   },
   {
-    "id": "sugano-maiko",
-    "name": "Sugano, Maiko",
-    "uri": "http://viaf.org/viaf/15151594341905350776",
     "Publication": [
       "cdf13e09"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/15151594341905350776",
+    "name": "Sugano, Maiko",
+    "enabled": true,
+    "id": "sugano-maiko"
   },
   {
-    "id": "petrore-ben",
-    "name": "Petrore, Ben",
     "Publication": [
       "book-media-pitch"
-    ]
+    ],
+    "name": "Petrore, Ben",
+    "id": "petrore-ben"
   },
   {
-    "id": "marzinka-birgit",
-    "name": "Marzinka, Birgit",
-    "uri": "http://agentur-bildung.de/team",
     "Publication": [
       "jewish-child-survivors"
     ],
-    "enabled": true
+    "uri": "http://agentur-bildung.de/team",
+    "name": "Marzinka, Birgit",
+    "enabled": true,
+    "id": "marzinka-birgit"
   },
   {
-    "id": "browning-christopher",
-    "name": "Browning, Christopher",
-    "uri": "http://viaf.org/viaf/85323468",
     "Publication": [
       "7db5a573",
       "fb2b3b8d"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/85323468",
+    "name": "Browning, Christopher",
+    "enabled": true,
+    "id": "browning-christopher"
   },
   {
-    "id": "althausen-deborah",
-    "name": "Althausen, Deborah",
-    "uri": "https://www.alibris.com/search/books/author/Althausen-Deborah-Sophia-Helene?aid=7168914",
     "Publication": [
       "5759e9cb"
     ],
-    "enabled": true
+    "uri": "https://www.alibris.com/search/books/author/Althausen-Deborah-Sophia-Helene?aid=7168914",
+    "name": "Althausen, Deborah",
+    "enabled": true,
+    "id": "althausen-deborah"
   },
   {
-    "id": "fogelman-eva",
-    "name": "Fogelman, Eva",
-    "uri": "http://viaf.org/viaf/59798287",
     "Publication": [
       "2d59fb20"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/59798287",
+    "name": "Fogelman, Eva",
+    "enabled": true,
+    "id": "fogelman-eva"
   },
   {
-    "id": "storm-margot",
-    "name": "Storm, Margot",
-    "uri": "http://viaf.org/viaf/72695878",
     "Publication": [
       "dbd03367",
       "2d04aaba",
       "26e960d0"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/72695878",
+    "name": "Storm, Margot",
+    "enabled": true,
+    "id": "storm-margot"
   },
   {
-    "id": "pollin-galay-hannah",
-    "name": "Pollin-Galay, Hannah",
-    "uri": "http://viaf.org/viaf/301615069",
     "Publication": [
       "752c6b2d",
       "cd90439b"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/301615069",
+    "name": "Pollin-Galay, Hannah",
+    "enabled": true,
+    "id": "pollin-galay-hannah"
   },
   {
-    "id": "neal-rebecca",
-    "name": "Neal, Rebecca",
     "Publication": [
       "697ceec3"
     ],
-    "enabled": true
+    "name": "Neal, Rebecca",
+    "enabled": true,
+    "id": "neal-rebecca"
   },
   {
-    "id": "langer-lawrence-l",
-    "name": "Langer, Lawrence L.",
     "uri": "http://viaf.org/viaf/68976398",
-    "enabled": true
+    "name": "Langer, Lawrence L.",
+    "enabled": true,
+    "id": "langer-lawrence-l"
   },
   {
-    "id": "wlodarski-amy-lynn",
-    "name": "Wlodarski, Amy Lynn",
-    "uri": "http://viaf.org/viaf/265440225",
     "Publication": [
       "a2e87b5d",
       "60867951",
       "b68cf590",
       "e7d37d35"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/265440225",
+    "name": "Wlodarski, Amy Lynn",
+    "enabled": true,
+    "id": "wlodarski-amy-lynn"
   },
   {
-    "id": "vlack-alex",
-    "name": "Vlack, Alex",
-    "uri": "https://www.jewish-museum.ru/en/about-the-museum/permanent-exhibition/",
     "Publication": [
       "42607bbd"
     ],
-    "enabled": true
+    "uri": "https://www.jewish-museum.ru/en/about-the-museum/permanent-exhibition/",
+    "name": "Vlack, Alex",
+    "enabled": true,
+    "id": "vlack-alex"
   },
   {
-    "id": "barsky-ivy",
-    "name": "Barsky, Ivy",
-    "uri": "https://viaf.org/viaf/36157834/",
     "Publication": [
       "536c2c2d"
     ],
-    "enabled": true
+    "uri": "https://viaf.org/viaf/36157834/",
+    "name": "Barsky, Ivy",
+    "enabled": true,
+    "id": "barsky-ivy"
   },
   {
-    "id": "athar-mohad",
-    "name": "Athar, Mohad",
     "Publication": [
       "8775daf9"
     ],
-    "enabled": true
+    "name": "Athar, Mohad",
+    "enabled": true,
+    "id": "athar-mohad"
   },
   {
-    "id": "shephard-ben",
-    "name": "Shephard, Ben",
-    "uri": "http://viaf.org/viaf/59299934",
     "Publication": [
       "3ea34442"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/59299934",
+    "name": "Shephard, Ben",
+    "enabled": true,
+    "id": "shephard-ben"
   },
   {
-    "id": "ziyadeh-nadia",
-    "name": "Ziyadeh, Nadia",
     "Publication": [
       "ef5d531e"
     ],
-    "enabled": true
+    "name": "Ziyadeh, Nadia",
+    "enabled": true,
+    "id": "ziyadeh-nadia"
   },
   {
-    "id": "livne-micha",
-    "name": "Livne, Micha",
-    "uri": "https://www.imdb.com/name/nm4288363/",
     "Publication": [
       "the-listener"
-    ]
+    ],
+    "uri": "https://www.imdb.com/name/nm4288363/",
+    "name": "Livne, Micha",
+    "id": "livne-micha"
   },
   {
-    "id": "gerber-mitchel",
-    "name": "Gerber, Mitchel",
-    "uri": "https://semo.edu/polisci/faculty/gerber.html",
     "Publication": [
       "80f70f30"
     ],
-    "enabled": true
+    "uri": "https://semo.edu/polisci/faculty/gerber.html",
+    "name": "Gerber, Mitchel",
+    "enabled": true,
+    "id": "gerber-mitchel"
   },
   {
-    "id": "lee-vivian",
-    "name": "Lee, Vivian",
     "Publication": [
       "63af67ec"
     ],
-    "enabled": true
+    "name": "Lee, Vivian",
+    "enabled": true,
+    "id": "lee-vivian"
   },
   {
-    "id": "lurie-daniel",
-    "name": "Lurie, Daniel",
     "Publication": [
       "0f8844d9"
     ],
-    "enabled": true
+    "name": "Lurie, Daniel",
+    "enabled": true,
+    "id": "lurie-daniel"
   },
   {
-    "id": "kraft-robert",
-    "name": "Kraft, Robert",
-    "uri": "http://viaf.org/viaf/7513263",
     "Publication": [
       "5b1131c4",
       "69499a4c",
@@ -360,77 +357,77 @@
       "e77a98a7",
       "4bf3db26"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/7513263",
+    "name": "Kraft, Robert",
+    "enabled": true,
+    "id": "kraft-robert"
   },
   {
-    "id": "stein-simcha",
-    "name": "Stein, Simcha",
     "Publication": [
       "50807a2b"
     ],
-    "enabled": true
+    "name": "Stein, Simcha",
+    "enabled": true,
+    "id": "stein-simcha"
   },
   {
-    "id": "horowitz-sarah",
-    "name": "Horowitz, Sarah",
-    "uri": "https://profiles.laps.yorku.ca/profiles/srh/",
     "Publication": [
       "182451d6"
     ],
-    "enabled": true
+    "uri": "https://profiles.laps.yorku.ca/profiles/srh/",
+    "name": "Horowitz, Sarah",
+    "enabled": true,
+    "id": "horowitz-sarah"
   },
   {
-    "id": "roskies-david",
-    "name": "Roskies, David",
-    "uri": "http://viaf.org/viaf/108491322",
     "Publication": [
       "abe6a263"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/108491322",
+    "name": "Roskies, David",
+    "enabled": true,
+    "id": "roskies-david"
   },
   {
-    "id": "bauerle-jill",
-    "name": "Bauerle, Jill",
-    "uri": "https://library.columbia.edu/libraries/journalism/masters/2006.html",
     "Publication": [
       "c5170197"
     ],
-    "enabled": true
+    "uri": "https://library.columbia.edu/libraries/journalism/masters/2006.html",
+    "name": "Bauerle, Jill",
+    "enabled": true,
+    "id": "bauerle-jill"
   },
   {
-    "id": "hirsch-marianne",
-    "name": "Hirsch, Marianne",
-    "uri": "http://viaf.org/viaf/44312375",
     "Publication": [
       "bbc3ebf7"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/44312375",
+    "name": "Hirsch, Marianne",
+    "enabled": true,
+    "id": "hirsch-marianne"
   },
   {
-    "id": "weinding-paul",
-    "name": "Weindling, Paul",
-    "uri": "https://www.brookes.ac.uk/templates/pages/staff.aspx?wid=&op=full&uid=p0072333",
     "Publication": [
       "f9470e5f"
     ],
-    "enabled": true
+    "uri": "https://www.brookes.ac.uk/templates/pages/staff.aspx?wid=&op=full&uid=p0072333",
+    "name": "Weindling, Paul",
+    "enabled": true,
+    "id": "weinding-paul"
   },
   {
-    "id": "brcker-eva",
-    "name": "Brücker, Eva",
-    "uri": "https://www.lbihs.at/BrueckerCV.pdf",
     "Publication": [
       "91300663",
       "30968726",
       "deb53257",
       "be400af4"
     ],
-    "enabled": true
+    "uri": "https://www.lbihs.at/BrueckerCV.pdf",
+    "name": "Brücker, Eva",
+    "enabled": true,
+    "id": "brcker-eva"
   },
   {
-    "id": "strom-margot",
-    "name": "Strom, Margot",
-    "uri": "http://viaf.org/viaf/72695878",
     "Publication": [
       "db6e0178",
       "40caeb19",
@@ -438,300 +435,300 @@
       "0427e08d",
       "7841ad5a"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/72695878",
+    "name": "Strom, Margot",
+    "enabled": true,
+    "id": "strom-margot"
   },
   {
-    "id": "ziva--pamet-ops",
+    "uri": "http://www.zivapamet.cz/",
     "name": "Ziva  pamet o.p.s, ",
-    "uri": "http://www.zivapamet.cz/"
+    "id": "ziva--pamet-ops"
   },
   {
-    "id": "schwarcz-vera",
-    "name": "Schwarcz, Vera",
-    "uri": "http://viaf.org/viaf/261333298",
     "Publication": [
       "33145efa",
       "d3d714fd"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/261333298",
+    "name": "Schwarcz, Vera",
+    "enabled": true,
+    "id": "schwarcz-vera"
   },
   {
-    "id": "museri-mira",
-    "name": "Museri, Mira",
-    "uri": "http://www.jasenovac-info.com/biblioteka/Summer_Seminar_Program2009.pdf",
     "Publication": [
       "ff81c307"
     ],
-    "enabled": true
+    "uri": "http://www.jasenovac-info.com/biblioteka/Summer_Seminar_Program2009.pdf",
+    "name": "Museri, Mira",
+    "enabled": true,
+    "id": "museri-mira"
   },
   {
-    "id": "budnitskiy-alex",
-    "name": "Budnitskiy, Alex",
-    "uri": "https://www.jchb.org/contact/alex-budnitskiy/",
     "Publication": [
       "4bee231a"
     ],
-    "enabled": true
+    "uri": "https://www.jchb.org/contact/alex-budnitskiy/",
+    "name": "Budnitskiy, Alex",
+    "enabled": true,
+    "id": "budnitskiy-alex"
   },
   {
-    "id": "chesmar-terri",
-    "name": "Chesmar, Terri",
     "Publication": [
       "2e0c92f5"
     ],
-    "enabled": true
+    "name": "Chesmar, Terri",
+    "enabled": true,
+    "id": "chesmar-terri"
   },
   {
-    "id": "ruedenberg-lucia",
-    "name": "Ruedenberg, Lucia",
-    "uri": "http://www.worldcat.org/oclc/37244733",
     "Publication": [
       "ff3ca1b8"
     ],
-    "enabled": true
+    "uri": "http://www.worldcat.org/oclc/37244733",
+    "name": "Ruedenberg, Lucia",
+    "enabled": true,
+    "id": "ruedenberg-lucia"
   },
   {
-    "id": "zeiberg-sharon",
-    "name": "Zeiberg, Sharon",
     "Publication": [
       "ffc3bc11"
     ],
-    "enabled": true
+    "name": "Zeiberg, Sharon",
+    "enabled": true,
+    "id": "zeiberg-sharon"
   },
   {
-    "id": "richman-sophia",
-    "name": "Richman, Sophia",
-    "uri": "http://viaf.org/viaf/28009124",
     "Publication": [
       "31fee6b8"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/28009124",
+    "name": "Richman, Sophia",
+    "enabled": true,
+    "id": "richman-sophia"
   },
   {
-    "id": "ringelheim-joan",
-    "name": "Ringelheim, Joan",
-    "uri": "http://viaf.org/viaf/245513750",
     "Publication": [
       "7bb10560"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/245513750",
+    "name": "Ringelheim, Joan",
+    "enabled": true,
+    "id": "ringelheim-joan"
   },
   {
-    "id": "zilberstein-avremi",
-    "name": "Zilberstein, Avremi",
     "Publication": [
       "tomshov-mazowiecki"
-    ]
+    ],
+    "name": "Zilberstein, Avremi",
+    "id": "zilberstein-avremi"
   },
   {
-    "id": "kipfer-birgit",
-    "name": "Kipfer, Birgit",
-    "uri": "https://www.pforzheim-ddr-museum.de/impresum/",
     "Publication": [
       "9bf2fbe8"
     ],
-    "enabled": true
+    "uri": "https://www.pforzheim-ddr-museum.de/impresum/",
+    "name": "Kipfer, Birgit",
+    "enabled": true,
+    "id": "kipfer-birgit"
   },
   {
-    "id": "university-of-hartford",
-    "name": "University of Hartford, ",
     "Publication": [
       "08029bf9"
     ],
-    "enabled": true
+    "name": "University of Hartford, ",
+    "enabled": true,
+    "id": "university-of-hartford"
   },
   {
-    "id": "avrahami-monia",
-    "name": "Avrahami, Monia",
     "Publication": [
       "9f2238b7"
     ],
-    "enabled": true
+    "name": "Avrahami, Monia",
+    "enabled": true,
+    "id": "avrahami-monia"
   },
   {
-    "id": "rubenstein-rachel",
-    "name": "Rubenstein, Rachel",
     "Publication": [
       "a5da44dd"
     ],
-    "enabled": true
+    "name": "Rubenstein, Rachel",
+    "enabled": true,
+    "id": "rubenstein-rachel"
   },
   {
-    "id": "barlow-susan",
-    "name": "Barlow, Susan",
     "Publication": [
       "f6e6969b"
     ],
-    "enabled": true
+    "name": "Barlow, Susan",
+    "enabled": true,
+    "id": "barlow-susan"
   },
   {
-    "id": "kacandes-irene",
-    "name": "Kacandes, Irene",
-    "uri": "http://viaf.org/viaf/71714181",
     "Publication": [
       "7cf33b15",
       "c7d434b1",
       "6e80def8"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/71714181",
+    "name": "Kacandes, Irene",
+    "enabled": true,
+    "id": "kacandes-irene"
   },
   {
-    "id": "metz-jeremy",
-    "name": "Metz, Jeremy",
-    "uri": "http://www.english.umd.edu/news/6648",
     "Publication": [
       "b69a33f8"
     ],
-    "enabled": true
+    "uri": "http://www.english.umd.edu/news/6648",
+    "name": "Metz, Jeremy",
+    "enabled": true,
+    "id": "metz-jeremy"
   },
   {
-    "id": "bieber-jeff",
-    "name": "Bieber, Jeff",
-    "uri": "https://weta.org/about/management",
     "Publication": [
       "d9ac974b"
     ],
-    "enabled": true
+    "uri": "https://weta.org/about/management",
+    "name": "Bieber, Jeff",
+    "enabled": true,
+    "id": "bieber-jeff"
   },
   {
-    "id": "miller-judith",
-    "name": "Miller, Judith",
-    "uri": "http://www.judithmiller.com/about/",
     "Publication": [
       "e6cfcf7b"
     ],
-    "enabled": true
+    "uri": "http://www.judithmiller.com/about/",
+    "name": "Miller, Judith",
+    "enabled": true,
+    "id": "miller-judith"
   },
   {
-    "id": "pollard-miranda",
-    "name": "Pollard, Miranda",
-    "uri": "https://history.uga.edu/directory/people/miranda-pollard",
     "Publication": [
       "74808811"
     ],
-    "enabled": true
+    "uri": "https://history.uga.edu/directory/people/miranda-pollard",
+    "name": "Pollard, Miranda",
+    "enabled": true,
+    "id": "pollard-miranda"
   },
   {
-    "id": "hiemesch-wiebke",
-    "name": "Hiemesch, Wiebke",
-    "uri": "http://viaf.org/viaf/21151594446005352054",
     "Publication": [
       "fbfe87f8"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/21151594446005352054",
+    "name": "Hiemesch, Wiebke",
+    "enabled": true,
+    "id": "hiemesch-wiebke"
   },
   {
-    "id": "siegel-lawrence",
-    "name": "Siegel, Lawrence",
-    "uri": "http://viaf.org/viaf/9443460",
     "Publication": [
       "3d974fc5"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/9443460",
+    "name": "Siegel, Lawrence",
+    "enabled": true,
+    "id": "siegel-lawrence"
   },
   {
-    "id": "klunker-heinz",
-    "name": "Klunker, Heinz",
-    "uri": "http://worldcat.org/identities/lccn-n94040896/",
     "Publication": [
       "3a7bbfef"
     ],
-    "enabled": true
+    "uri": "http://worldcat.org/identities/lccn-n94040896/",
+    "name": "Klunker, Heinz",
+    "enabled": true,
+    "id": "klunker-heinz"
   },
   {
-    "id": "mintz-mark",
-    "name": "Mintz, Mark",
-    "uri": "https://www.researchgate.net/publication/35521492_Eaglets_of_Moses_a_collage_of_the_education_of_Jewish_youth_in_Poland_1918-1943",
     "Publication": [
       "dd59fedf"
     ],
-    "enabled": true
+    "uri": "https://www.researchgate.net/publication/35521492_Eaglets_of_Moses_a_collage_of_the_education_of_Jewish_youth_in_Poland_1918-1943",
+    "name": "Mintz, Mark",
+    "enabled": true,
+    "id": "mintz-mark"
   },
   {
-    "id": "wachsmann-nikolaus",
-    "name": "Wachsmann, Nikolaus",
-    "uri": "http://viaf.org/viaf/47008926",
     "Publication": [
       "ecf3a2e0",
       "history-nazi-concentration-camps"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/47008926",
+    "name": "Wachsmann, Nikolaus",
+    "enabled": true,
+    "id": "wachsmann-nikolaus"
   },
   {
-    "id": "petit-marianne",
-    "name": "Petit, Marianne",
-    "uri": "https://www.histoire-immigration.fr/projets/memorial-du-camp-de-rivesaltes",
     "Publication": [
       "c45d60fd"
     ],
-    "enabled": true
+    "uri": "https://www.histoire-immigration.fr/projets/memorial-du-camp-de-rivesaltes",
+    "name": "Petit, Marianne",
+    "enabled": true,
+    "id": "petit-marianne"
   },
   {
-    "id": "schiffin-deborah",
-    "name": "Schiffrin, Deborah",
-    "uri": "https://www.jstor.org/stable/4169181",
     "Publication": [
       "2f8e0f9f"
     ],
-    "enabled": true
+    "uri": "https://www.jstor.org/stable/4169181",
+    "name": "Schiffrin, Deborah",
+    "enabled": true,
+    "id": "schiffin-deborah"
   },
   {
-    "id": "bressler-c-stephen",
-    "name": "Bressler, C. Stephen",
-    "uri": "https://www.brooklinema.gov/DocumentCenter/View/644/2007-Annual-Report-PDF",
     "Publication": [
       "65ad813d"
     ],
-    "enabled": true
+    "uri": "https://www.brooklinema.gov/DocumentCenter/View/644/2007-Annual-Report-PDF",
+    "name": "Bressler, C. Stephen",
+    "enabled": true,
+    "id": "bressler-c-stephen"
   },
   {
-    "id": "sommer-robert",
-    "name": "Sommer, Robert",
-    "uri": "http://viaf.org/viaf/63819692",
     "Publication": [
       "51265255"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/63819692",
+    "name": "Sommer, Robert",
+    "enabled": true,
+    "id": "sommer-robert"
   },
   {
-    "id": "sellars-phillip",
-    "name": "Sellars, Phillip",
-    "uri": "https://www.bbc.co.uk/blogs/aboutthebbc/authors/393b38bf-c10e-4b0b-82b0-bc87561d2c6b",
     "Publication": [
       "dca3ccf8"
     ],
-    "enabled": true
+    "uri": "https://www.bbc.co.uk/blogs/aboutthebbc/authors/393b38bf-c10e-4b0b-82b0-bc87561d2c6b",
+    "name": "Sellars, Phillip",
+    "enabled": true,
+    "id": "sellars-phillip"
   },
   {
-    "id": "kumar-shiva",
-    "name": "Kumar, Shiva",
-    "uri": "http://id.loc.gov/authorities/names/no99073200",
     "Publication": [
       "witness-voices-from-holocaust"
-    ]
+    ],
+    "uri": "http://id.loc.gov/authorities/names/no99073200",
+    "name": "Kumar, Shiva",
+    "id": "kumar-shiva"
   },
   {
-    "id": "von-harder-burkhard",
-    "name": "von Harder, Burkhard",
-    "uri": "http://www.burkhardvonharder.com/index.html",
     "Publication": [
       "7d97a39b"
     ],
-    "enabled": true
+    "uri": "http://www.burkhardvonharder.com/index.html",
+    "name": "von Harder, Burkhard",
+    "enabled": true,
+    "id": "von-harder-burkhard"
   },
   {
-    "id": "pinchevski-amit",
-    "name": "Pinchevski, Amit",
-    "uri": "https://scholars.huji.ac.il/smart/dr-amit-pinchevski",
     "Publication": [
       "classroom-viewing"
     ],
-    "enabled": true
+    "uri": "https://scholars.huji.ac.il/smart/dr-amit-pinchevski",
+    "name": "Pinchevski, Amit",
+    "enabled": true,
+    "id": "pinchevski-amit"
   },
   {
-    "id": "alford-c-fred",
-    "name": "Alford, C. Fred",
-    "uri": "http://viaf.org/viaf/51711368",
     "Publication": [
       "cea3e7b7",
       "cbcbe41a",
@@ -739,12 +736,12 @@
       "307ded74",
       "cf0d5af9"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/51711368",
+    "name": "Alford, C. Fred",
+    "enabled": true,
+    "id": "alford-c-fred"
   },
   {
-    "id": "almuli-jasa",
-    "name": "Almuli, Jasa",
-    "uri": "http://viaf.org/viaf/31518306",
     "Publication": [
       "6e0a4551",
       "7d6c1e63",
@@ -754,181 +751,181 @@
       "bd8788dc",
       "5ba5658c"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/31518306",
+    "name": "Almuli, Jasa",
+    "enabled": true,
+    "id": "almuli-jasa"
   },
   {
-    "id": "kremer-s-lillian",
-    "name": "Kremer, S. Lillian",
-    "uri": "http://viaf.org/viaf/262692952",
     "Publication": [
       "6cc4afa5"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/262692952",
+    "name": "Kremer, S. Lillian",
+    "enabled": true,
+    "id": "kremer-s-lillian"
   },
   {
-    "id": "paley-karen",
-    "name": "Paley, Karen",
-    "uri": "https://applefcu.cusonet.com/team/karen-paley/",
     "Publication": [
       "4dfdcdba",
       "9d3c1e37"
     ],
-    "enabled": true
+    "uri": "https://applefcu.cusonet.com/team/karen-paley/",
+    "name": "Paley, Karen",
+    "enabled": true,
+    "id": "paley-karen"
   },
   {
-    "id": "laor-davidi",
-    "name": "Laor, Davidi",
-    "uri": "https://il.linkedin.com/in/davidi-laor-90617ba3?trk=people-guest_people_search-card",
     "Publication": [
       "tomshov-mazowiecki"
-    ]
+    ],
+    "uri": "https://il.linkedin.com/in/davidi-laor-90617ba3?trk=people-guest_people_search-card",
+    "name": "Laor, Davidi",
+    "id": "laor-davidi"
   },
   {
-    "id": "shenker-noah",
-    "name": "Shenker, Noah",
-    "uri": "http://viaf.org/viaf/313489846",
     "Publication": [
       "85ff34a7",
       "58609a4c",
       "54b6ab6e"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/313489846",
+    "name": "Shenker, Noah",
+    "enabled": true,
+    "id": "shenker-noah"
   },
   {
     "id": "Agency of Education - History, Politics and Media "
   },
   {
-    "id": "agmon-pinhas",
-    "name": "Agmon, Pinhas",
-    "uri": "http://id.loc.gov/authorities/names/n98012213",
     "Publication": [
       "holocaust-in-ukraine"
-    ]
+    ],
+    "uri": "http://id.loc.gov/authorities/names/n98012213",
+    "name": "Agmon, Pinhas",
+    "id": "agmon-pinhas"
   },
   {
-    "id": "okeefe-catherine",
-    "name": "O'Keefe, Catherine",
-    "uri": "https://www.facinghistory.org/about-us/people/facing-history-and-ourselves-staff",
     "Publication": [
       "c2220c09"
     ],
-    "enabled": true
+    "uri": "https://www.facinghistory.org/about-us/people/facing-history-and-ourselves-staff",
+    "name": "O'Keefe, Catherine",
+    "enabled": true,
+    "id": "okeefe-catherine"
   },
   {
-    "id": "erinnern.at",
-    "name": "erinnern.at",
     "Publication": [
       "testimonies-for-future"
-    ]
+    ],
+    "name": "erinnern.at",
+    "id": "erinnern.at"
   },
   {
-    "id": "stier-oren-baruch",
-    "name": "Stier, Oren Baruch",
-    "uri": "http://viaf.org/viaf/264421098",
     "Publication": [
       "5bab993d",
       "d5b80b1c"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/264421098",
+    "name": "Stier, Oren Baruch",
+    "enabled": true,
+    "id": "stier-oren-baruch"
   },
   {
-    "id": "schönfeld-wolfgang",
-    "name": "Schönfeld, Wolfgang",
     "Publication": [
       "jewish-families-flehingen"
-    ]
+    ],
+    "name": "Schönfeld, Wolfgang",
+    "id": "schönfeld-wolfgang"
   },
   {
-    "id": "patt, avinoam",
-    "name": "Patt, Avinoam ",
-    "uri": "https://id.loc.gov/authorities/names/no2006027894.html",
     "Publication": [
       "survivors-vilna"
-    ]
+    ],
+    "uri": "https://id.loc.gov/authorities/names/no2006027894.html",
+    "name": "Patt, Avinoam ",
+    "id": "patt, avinoam"
   },
   {
-    "id": "solterer-helen",
-    "name": "Solterer, Helen",
-    "uri": "http://viaf.org/viaf/48447440",
     "Publication": [
       "c76a52d8"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/48447440",
+    "name": "Solterer, Helen",
+    "enabled": true,
+    "id": "solterer-helen"
   },
   {
-    "id": "raim-edith",
-    "name": "Raim, Edith",
-    "uri": "http://viaf.org/viaf/90723695",
     "Publication": [
       "55e640cc"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/90723695",
+    "name": "Raim, Edith",
+    "enabled": true,
+    "id": "raim-edith"
   },
   {
-    "id": "moradof-ilona",
-    "name": "Moradof, Ilona",
     "uri": "https://blogs.yu.edu/news/kindertransport-rescuing-children-on-the-brink-of-war/",
-    "enabled": true
+    "name": "Moradof, Ilona",
+    "enabled": true,
+    "id": "moradof-ilona"
   },
   {
-    "id": "cormier-caroline",
-    "name": "Cormier, Caroline",
-    "uri": "https://history.utoronto.ca/people/caroline-cormier",
     "Publication": [
       "57c48f4f"
     ],
-    "enabled": true
+    "uri": "https://history.utoronto.ca/people/caroline-cormier",
+    "name": "Cormier, Caroline",
+    "enabled": true,
+    "id": "cormier-caroline"
   },
   {
-    "id": "millet-kitty",
-    "name": "Millet, Kitty",
-    "uri": "http://viaf.org/viaf/315208078",
     "Publication": [
       "e99933a7"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/315208078",
+    "name": "Millet, Kitty",
+    "enabled": true,
+    "id": "millet-kitty"
   },
   {
-    "id": "cooper-tiarra",
-    "name": "Cooper, Tiarra",
     "Publication": [
       "affective-experiences-women"
-    ]
+    ],
+    "name": "Cooper, Tiarra",
+    "id": "cooper-tiarra"
   },
   {
-    "id": "baumann-ulrich",
-    "name": "Baumann, Ulrich",
-    "uri": "https://anatolia.edu.gr/en/general/4320-conference-filling-the-void",
     "Publication": [
       "9c495624"
     ],
-    "enabled": true
+    "uri": "https://anatolia.edu.gr/en/general/4320-conference-filling-the-void",
+    "name": "Baumann, Ulrich",
+    "enabled": true,
+    "id": "baumann-ulrich"
   },
   {
-    "id": "bolkosky-sidney",
-    "name": "Bolkosky, Sidney",
-    "uri": "http://viaf.org/viaf/72366898",
     "Publication": [
       "ee4d2210"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/72366898",
+    "name": "Bolkosky, Sidney",
+    "enabled": true,
+    "id": "bolkosky-sidney"
   },
   {
-    "id": "kakaroudi-theodora",
-    "name": "Kakaroudi, Theodora ",
     "Publication": [
       "narratives-jewish-community"
-    ]
+    ],
+    "name": "Kakaroudi, Theodora ",
+    "id": "kakaroudi-theodora"
   },
   {
-    "id": "stone-j-christopher",
     "name": "Stone, J. Christopher",
-    "enabled": true
+    "enabled": true,
+    "id": "stone-j-christopher"
   },
   {
-    "id": "langer-lawrence",
-    "name": "Langer, Lawrence",
-    "uri": "http://viaf.org/viaf/68976398",
     "Publication": [
       "9c293119",
       "8f3594e1",
@@ -939,12 +936,12 @@
       "8fb3cc2f",
       "e6797972"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/68976398",
+    "name": "Langer, Lawrence",
+    "enabled": true,
+    "id": "langer-lawrence"
   },
   {
-    "id": "laub-dori",
-    "name": "Laub, Dori",
-    "uri": "http://viaf.org/viaf/178056",
     "Publication": [
       "4d148850",
       "344454fa",
@@ -955,152 +952,152 @@
       "713c5a24",
       "watching-mother's-testimony"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/178056",
+    "name": "Laub, Dori",
+    "enabled": true,
+    "id": "laub-dori"
   },
   {
-    "id": "simon-roger",
-    "name": "Simon, Roger",
-    "uri": "http://viaf.org/viaf/23701093",
     "Publication": [
       "505f79a6",
       "19276d49"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/23701093",
+    "name": "Simon, Roger",
+    "enabled": true,
+    "id": "simon-roger"
   },
   {
-    "id": "sherr-laurence",
-    "name": "Sherr, Laurence",
-    "uri": "http://id.loc.gov/authorities/names/no98090943",
     "Publication": [
       "music-auschwitz-aid-survival"
-    ]
+    ],
+    "uri": "http://id.loc.gov/authorities/names/no98090943",
+    "name": "Sherr, Laurence",
+    "id": "sherr-laurence"
   },
   {
-    "id": "hirsch-david",
-    "name": "Hirsch, David",
-    "uri": "https://www.gold.ac.uk/sociology/staff/hirsh/",
     "Publication": [
       "b97b0d38"
     ],
-    "enabled": true
+    "uri": "https://www.gold.ac.uk/sociology/staff/hirsh/",
+    "name": "Hirsch, David",
+    "enabled": true,
+    "id": "hirsch-david"
   },
   {
-    "id": "stark-jared",
-    "name": "Stark, Jared",
-    "uri": "http://viaf.org/viaf/50118495",
     "Publication": [
       "65a68b23",
       "14b854a1",
       "e6338207"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/50118495",
+    "name": "Stark, Jared",
+    "enabled": true,
+    "id": "stark-jared"
   },
   {
-    "id": "adams-samuel",
-    "name": "Adams, Samuel",
-    "uri": "https://www.chicagotribune.com/entertainment/ct-musicnow-review-ent-1123-20161122-column.html",
     "Publication": [
       "bae07563"
     ],
-    "enabled": true
+    "uri": "https://www.chicagotribune.com/entertainment/ct-musicnow-review-ent-1123-20161122-column.html",
+    "name": "Adams, Samuel",
+    "enabled": true,
+    "id": "adams-samuel"
   },
   {
-    "id": "kriebel-leslie",
-    "name": "Kriebel, Leslie",
-    "uri": "https://www.bu.edu/cgs/profile/leslie-kriebel/",
     "Publication": [
       "2a140322"
     ],
-    "enabled": true
+    "uri": "https://www.bu.edu/cgs/profile/leslie-kriebel/",
+    "name": "Kriebel, Leslie",
+    "enabled": true,
+    "id": "kriebel-leslie"
   },
   {
-    "id": "kofman-gil",
-    "name": "Kofman, Gil",
-    "uri": "http://www.worldcat.org/identities/lccn-no2008160496/",
     "Publication": [
       "7707d286"
     ],
-    "enabled": true
+    "uri": "http://www.worldcat.org/identities/lccn-no2008160496/",
+    "name": "Kofman, Gil",
+    "enabled": true,
+    "id": "kofman-gil"
   },
   {
-    "id": "muhich-barbara",
-    "name": "Muhich, Barbara",
     "Publication": [
       "b814cc74"
     ],
-    "enabled": true
+    "name": "Muhich, Barbara",
+    "enabled": true,
+    "id": "muhich-barbara"
   },
   {
-    "id": "malinow-rachel",
-    "name": "Malinow, Rachel",
     "Publication": [
       "782ab333"
     ],
-    "enabled": true
+    "name": "Malinow, Rachel",
+    "enabled": true,
+    "id": "malinow-rachel"
   },
   {
-    "id": "mnch-walter",
-    "name": "Mönch, Walter",
-    "uri": "https://lag-buchenwald.vvn-bda.de/2012/04/16/das-3-treffen-der-nachkommen-in-buchenwald/",
     "Publication": [
       "e91f4164"
     ],
-    "enabled": true
+    "uri": "https://lag-buchenwald.vvn-bda.de/2012/04/16/das-3-treffen-der-nachkommen-in-buchenwald/",
+    "name": "Mönch, Walter",
+    "enabled": true,
+    "id": "mnch-walter"
   },
   {
-    "id": "greene-joshua",
-    "name": "Greene, Joshua",
-    "uri": "http://viaf.org/viaf/97865792",
     "Publication": [
       "c4d367dc",
       "witness-voices-from-holocaust"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/97865792",
+    "name": "Greene, Joshua",
+    "enabled": true,
+    "id": "greene-joshua"
   },
   {
-    "id": "wilkinson-sarah",
-    "name": "Wilkinson, Sarah",
-    "uri": "https://orcid.org/0000-0003-0252-9306",
     "Publication": [
       "stories-holocaust-local-memory"
-    ]
+    ],
+    "uri": "https://orcid.org/0000-0003-0252-9306",
+    "name": "Wilkinson, Sarah",
+    "id": "wilkinson-sarah"
   },
   {
-    "id": "hickman-lillian",
-    "name": "Hickman, Lillian",
     "Publication": [
       "life-henry-meyer"
-    ]
+    ],
+    "name": "Hickman, Lillian",
+    "id": "hickman-lillian"
   },
   {
-    "id": "blech-benjamin",
-    "name": "Blech, Benjamin",
-    "uri": "http://viaf.org/viaf/60710551",
     "Publication": [
       "174a10c9"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/60710551",
+    "name": "Blech, Benjamin",
+    "enabled": true,
+    "id": "blech-benjamin"
   },
   {
-    "id": "fritch-mckenzie",
-    "name": "Fritch, McKenzie",
     "Publication": [
       "c0fed7b9"
     ],
-    "enabled": true
+    "name": "Fritch, McKenzie",
+    "enabled": true,
+    "id": "fritch-mckenzie"
   },
   {
-    "id": "sela-tzur-bina",
-    "name": "Sela-Tzur, Bina",
     "Publication": [
       "5ab9c8f4"
     ],
-    "enabled": true
+    "name": "Sela-Tzur, Bina",
+    "enabled": true,
+    "id": "sela-tzur-bina"
   },
   {
-    "id": "rudof-joanne",
-    "name": "Rudof, Joanne",
-    "uri": "http://viaf.org/viaf/6729925",
     "Publication": [
       "fe6ea05a",
       "58ff7015",
@@ -1109,210 +1106,210 @@
       "756da694",
       "d172f1eb"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/6729925",
+    "name": "Rudof, Joanne",
+    "enabled": true,
+    "id": "rudof-joanne"
   },
   {
-    "id": "wiedeman-christine",
-    "name": "Wiedeman, Christine",
-    "uri": "https://www.worldcat.org/title/memory-after-belsen-the-future-of-holocaust-memory/oclc/949761816?referer=di&ht=edition#details-allauthors",
     "Publication": [
       "45c0aaad",
       "5a241772"
     ],
-    "enabled": true
+    "uri": "https://www.worldcat.org/title/memory-after-belsen-the-future-of-holocaust-memory/oclc/949761816?referer=di&ht=edition#details-allauthors",
+    "name": "Wiedeman, Christine",
+    "enabled": true,
+    "id": "wiedeman-christine"
   },
   {
-    "id": "kralova-katerina",
-    "name": "Králová, Kateřina",
-    "uri": "https://ims.fsv.cuni.cz/institut/katedra-ruskych-vychodoevropskych-studii/lide/phdr-katerina-kralova-ma-phd",
     "Publication": [
       "beyond-camps-kralova",
       "silenced-memories"
-    ]
+    ],
+    "uri": "https://ims.fsv.cuni.cz/institut/katedra-ruskych-vychodoevropskych-studii/lide/phdr-katerina-kralova-ma-phd",
+    "name": "Králová, Kateřina",
+    "id": "kralova-katerina"
   },
   {
-    "id": "berkowitz-peter",
-    "name": "Berkowitz, Peter",
     "Publication": [
       "bdf620f7"
     ],
-    "enabled": true
+    "name": "Berkowitz, Peter",
+    "enabled": true,
+    "id": "berkowitz-peter"
   },
   {
-    "id": "myers-david",
-    "name": "Myers, David",
-    "uri": "http://viaf.org/viaf/54210999",
     "Publication": [
       "a7874f8e"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/54210999",
+    "name": "Myers, David",
+    "enabled": true,
+    "id": "myers-david"
   },
   {
-    "id": "baer-ulrich",
-    "name": "Baer, Ulrich",
-    "uri": "http://viaf.org/viaf/261584072",
     "Publication": [
       "d7e4e53d"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/261584072",
+    "name": "Baer, Ulrich",
+    "enabled": true,
+    "id": "baer-ulrich"
   },
   {
-    "id": "knopp-sonja",
-    "name": "Knopp, Sonja",
-    "uri": "https://www.selma-stern-zentrum.de/mitglieder/assoziierte/Kollegium-Juedische-Studien-Berlin-Brandenburg/knopp-sonja/index.html",
     "Publication": [
       "974317d3"
     ],
-    "enabled": true
+    "uri": "https://www.selma-stern-zentrum.de/mitglieder/assoziierte/Kollegium-Juedische-Studien-Berlin-Brandenburg/knopp-sonja/index.html",
+    "name": "Knopp, Sonja",
+    "enabled": true,
+    "id": "knopp-sonja"
   },
   {
-    "id": "lutjens-jr-richard",
-    "name": "Lutjens, Jr., Richard",
-    "uri": "http://viaf.org/viaf/76153288290532650017",
     "Publication": [
       "ab98c5a6"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/76153288290532650017",
+    "name": "Lutjens, Jr., Richard",
+    "enabled": true,
+    "id": "lutjens-jr-richard"
   },
   {
-    "id": "rodenhurst-nigel",
-    "name": "Rodenhurst, Nigel",
-    "uri": "https://www.loc.gov/programs/john-w-kluge-center/scholars-in-residence/past-resident-scholars/p-r/",
     "Publication": [
       "8cde4732"
     ],
-    "enabled": true
+    "uri": "https://www.loc.gov/programs/john-w-kluge-center/scholars-in-residence/past-resident-scholars/p-r/",
+    "name": "Rodenhurst, Nigel",
+    "enabled": true,
+    "id": "rodenhurst-nigel"
   },
   {
-    "id": "plotkin-diane",
-    "name": "Plotkin, Diane",
-    "uri": "http://viaf.org/viaf/45167571",
     "Publication": [
       "d0b64f10"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/45167571",
+    "name": "Plotkin, Diane",
+    "enabled": true,
+    "id": "plotkin-diane"
   },
   {
-    "id": "bailey-tomecek-christy",
-    "name": "Bailey-Tomecek, Christy",
-    "uri": "https://orcid.org/0000-0002-6205-5002",
     "Publication": [
       "finding-mental-balance"
     ],
-    "enabled": true
+    "uri": "https://orcid.org/0000-0002-6205-5002",
+    "name": "Bailey-Tomecek, Christy",
+    "enabled": true,
+    "id": "bailey-tomecek-christy"
   },
   {
-    "id": "skitolsky-lissa",
-    "name": "Skitolsky, Lissa",
-    "uri": "https://www.dal.ca/faculty/arts/philosophy/FacultyandStaff/visiting-scholars-and-fellows.html",
     "Publication": [
       "36d352b9"
     ],
-    "enabled": true
+    "uri": "https://www.dal.ca/faculty/arts/philosophy/FacultyandStaff/visiting-scholars-and-fellows.html",
+    "name": "Skitolsky, Lissa",
+    "enabled": true,
+    "id": "skitolsky-lissa"
   },
   {
-    "id": "baranowski-daniel",
-    "name": "Baranowski, Daniel",
-    "uri": "http://viaf.org/viaf/81293669",
     "Publication": [
       "5591100c",
       "643a2f7c"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/81293669",
+    "name": "Baranowski, Daniel",
+    "enabled": true,
+    "id": "baranowski-daniel"
   },
   {
-    "id": "knezevic-jovana",
-    "name": "Knezevic, Jovana",
-    "uri": "https://creees.stanford.edu/people/jovana-kne-evi",
     "Publication": [
       "19b380b0"
     ],
-    "enabled": true
+    "uri": "https://creees.stanford.edu/people/jovana-kne-evi",
+    "name": "Knezevic, Jovana",
+    "enabled": true,
+    "id": "knezevic-jovana"
   },
   {
-    "id": "conathan-lisa",
-    "name": "Conathan, Lisa",
-    "uri": "https://scholar.google.com/citations?hl=en&user=Zl51uTYAAAAJ",
     "Publication": [
       "d6cf11a1"
     ],
-    "enabled": true
+    "uri": "https://scholar.google.com/citations?hl=en&user=Zl51uTYAAAAJ",
+    "name": "Conathan, Lisa",
+    "enabled": true,
+    "id": "conathan-lisa"
   },
   {
-    "id": "finkelstein-laura",
-    "name": "Finkelstein, Laura",
-    "uri": "https://guilfordjournals.com/doi/pdf/10.1521/jscp.2006.25.1.117",
     "Publication": [
       "0b2e2eaa"
     ],
-    "enabled": true
+    "uri": "https://guilfordjournals.com/doi/pdf/10.1521/jscp.2006.25.1.117",
+    "name": "Finkelstein, Laura",
+    "enabled": true,
+    "id": "finkelstein-laura"
   },
   {
-    "id": "hitchcock-william",
-    "name": "Hitchcock, William",
-    "uri": "http://viaf.org/viaf/14933302",
     "Publication": [
       "667a26bd"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/14933302",
+    "name": "Hitchcock, William",
+    "enabled": true,
+    "id": "hitchcock-william"
   },
   {
-    "id": "el-moaddem-nassira",
-    "name": "El Moaddem, Nassira",
     "Publication": [
       "parcours-de-combattants"
-    ]
+    ],
+    "name": "El Moaddem, Nassira",
+    "id": "el-moaddem-nassira"
   },
   {
-    "id": "holmes-claudia",
-    "name": "Holmes, Claudia",
-    "uri": "http://viaf.org/viaf/315602852",
     "Publication": [
       "0d961906"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/315602852",
+    "name": "Holmes, Claudia",
+    "enabled": true,
+    "id": "holmes-claudia"
   },
   {
-    "id": "egger-helen",
-    "name": "Egger, Helen",
     "Publication": [
       "3cc8d109"
     ],
-    "enabled": true
+    "name": "Egger, Helen",
+    "enabled": true,
+    "id": "egger-helen"
   },
   {
-    "id": "trezke-thomas",
-    "name": "Trezise, Thomas",
-    "uri": "https://fit.princeton.edu/people/thomas-trezise",
     "Publication": [
       "07e26c5e"
     ],
-    "enabled": true
+    "uri": "https://fit.princeton.edu/people/thomas-trezise",
+    "name": "Trezise, Thomas",
+    "enabled": true,
+    "id": "trezke-thomas"
   },
   {
-    "id": "durr-patricia",
-    "name": "Durr, Patricia",
-    "uri": "https://www.rit.edu/ntid/directory/paddhd-patricia-durr",
     "Publication": [
       "85f2c076",
       "deaf-people-during"
     ],
-    "enabled": true
+    "uri": "https://www.rit.edu/ntid/directory/paddhd-patricia-durr",
+    "name": "Durr, Patricia",
+    "enabled": true,
+    "id": "durr-patricia"
   },
   {
-    "id": "snyder-timothy",
-    "name": "Snyder, Timothy",
-    "uri": "http://viaf.org/viaf/120114569",
     "Publication": [
       "c5e6975e",
       "43af3408"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/120114569",
+    "name": "Snyder, Timothy",
+    "enabled": true,
+    "id": "snyder-timothy"
   },
   {
-    "id": "bodenstab-johanna",
-    "name": "Bodenstab, Johanna",
-    "uri": "http://viaf.org/viaf/3034653",
     "Publication": [
       "d3810a6d",
       "429a8872",
@@ -1322,26 +1319,29 @@
       "1a9c9533",
       "d8989ca7"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/3034653",
+    "name": "Bodenstab, Johanna",
+    "enabled": true,
+    "id": "bodenstab-johanna"
   },
   {
-    "id": "levine-allan",
-    "name": "Levine, Allan",
-    "uri": "http://viaf.org/viaf/15680413",
     "Publication": [
       "eee4516d"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/15680413",
+    "name": "Levine, Allan",
+    "enabled": true,
+    "id": "levine-allan"
   },
   {
-    "id": "finkel-evgeny",
-    "name": "Finkel, Evgeny",
-    "uri": "http://viaf.org/viaf/131771189",
     "Publication": [
       "d56ab6dd",
       "b2d76fc9",
       "a73f81fa"
     ],
-    "enabled": true
+    "uri": "http://viaf.org/viaf/131771189",
+    "name": "Finkel, Evgeny",
+    "enabled": true,
+    "id": "finkel-evgeny"
   }
 ]

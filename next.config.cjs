@@ -7,10 +7,10 @@ import path from "path";
 
 /** @type {import("next").NextConfig} */
 const config = {
+  output: "export",
   images: {
     unoptimized: true,
   },
-  output: "export",
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
