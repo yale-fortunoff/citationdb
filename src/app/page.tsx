@@ -8,8 +8,8 @@ import SearchArea from "~/components/SearchArea";
 import ResultList from "~/components/ResultList";
 import TopWrapper from "~/components/TopWrapper";
 
-import useLocalDataStore from "~/store/local";
 import ResultListWrapper from "~/components/ResultListWrapper";
+import { authors, publications, resources } from "~/utils/data";
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -29,8 +29,6 @@ export default function HomePage() {
     author: 0,
   });
 
-  const localData = useLocalDataStore();
-
   const toggleFactory = (label: "resource" | "publication" | "author") => {
     return () => {
       setToggles((prev) => ({ ...prev, [label]: !prev[label] }));
@@ -47,17 +45,17 @@ export default function HomePage() {
     let filteredResources = [];
     const trimmedSearchTerm = searchTerm.trim().toLowerCase();
     if (toggles.author) {
-      filteredAuthors = localData.authors.filter((a) =>
+      filteredAuthors = authors.filter((a) =>
         a.__header?.toLowerCase().includes(trimmedSearchTerm),
       );
     }
     if (toggles.publication) {
-      filteredPublications = localData.publications.filter((p) =>
+      filteredPublications = publications.filter((p) =>
         p.__header?.toLowerCase().includes(trimmedSearchTerm),
       );
     }
     if (toggles.resource) {
-      filteredResources = localData.resources.filter((r) =>
+      filteredResources = resources.filter((r) =>
         r.__header?.toLowerCase().includes(trimmedSearchTerm),
       );
     }

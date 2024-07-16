@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 
 import BigNumber from "~/components/BigNumber";
@@ -7,25 +5,43 @@ import PublicationHistogram from "~/components/PublicationHistogram";
 import ResultList from "~/components/ResultList";
 import ResultListWrapper from "~/components/ResultListWrapper";
 import TopWrapper from "~/components/TopWrapper";
-import useLocalDataStore from "~/store/local";
 import { getResourceLink } from "~/utils/data";
+import { footnotes, publications, resources } from "~/utils/data";
+
+export async function generateStaticParams() {
+  return resources.map((r) => ({
+    id: r.id,
+  }));
+}
+
+export async function generateMetadata({ params }: { params: { id: string } }) {
+  const resource = resources.find((r) => r.id === params.id);
+
+  if (!resource) {
+    return {
+      title: "Resource Not Found",
+    };
+  }
+
+  return {
+    title: resource.name,
+  };
+}
 
 export default function ResourcesPage(props: any) {
-  const localData = useLocalDataStore();
-
   const resourcesId = props.params.id;
 
-  const resource = localData.resources.find((r) => r.id === resourcesId);
+  const resource = resources.find((r) => r.id === resourcesId);
 
   if (!resource) {
     return;
   }
 
-  const footnotes = localData.footnotes.filter(
+  const filteredFootnotes = footnotes.filter(
     (f) => f["resource.id"] === resourcesId,
   );
-  const publications = localData.publications.filter((p) =>
-    footnotes.some((f) => f["publication.id"] === p.id),
+  const filteredPublications = publications.filter((p) =>
+    filteredFootnotes.some((f) => f["publication.id"] === p.id),
   );
 
   return (
@@ -49,36 +65,43 @@ export default function ResourcesPage(props: any) {
             <p>
               This testimony has been cited{" "}
               <span className="font-bold">
-                {footnotes.length} {footnotes.length === 1 ? "time" : "times"}
+                {filteredFootnotes.length}{" "}
+                {filteredFootnotes.length === 1 ? "time" : "times"}
               </span>{" "}
               in the{" "}
               <span className="font-bold">
-                {publications.length}{" "}
-                {publications.length === 1 ? "publication" : "publications"}
+                {filteredPublications.length}{" "}
+                {filteredPublications.length === 1
+                  ? "publication"
+                  : "publications"}
               </span>{" "}
               listed below.
             </p>
           </div>
         </div>
         <div className="md:max-w-[350px]">
-          <PublicationHistogram items={publications} />
+          <PublicationHistogram items={filteredPublications} />
           <div className="mt-2 flex justify-end">
             <BigNumber
               className="border-[#f48734]"
-              label={footnotes.length === 1 ? "citation" : "citations"}
-              value={footnotes.length}
+              label={filteredFootnotes.length === 1 ? "citation" : "citations"}
+              value={filteredFootnotes.length}
             />
             <BigNumber
               className="border-[#0d99aa]"
-              label={publications.length === 1 ? "publication" : "publications"}
-              value={publications.length}
+              label={
+                filteredPublications.length === 1
+                  ? "publication"
+                  : "publications"
+              }
+              value={filteredPublications.length}
             />
           </div>
         </div>
       </TopWrapper>
 
       <ResultListWrapper>
-        <ResultList items={publications} />
+        <ResultList items={filteredPublications} />
       </ResultListWrapper>
     </div>
   );

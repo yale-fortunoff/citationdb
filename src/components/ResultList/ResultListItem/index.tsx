@@ -6,8 +6,14 @@ import { twMerge } from "tailwind-merge";
 import Button from "~/components/Button";
 import SaveButton from "~/components/SaveButton";
 import wordsConfig from "~/configs/words";
-import useLocalDataStore from "~/store/local";
-import { getFootnoteURI, secondsToTimestamp } from "~/utils/data";
+import {
+  authors,
+  footnotes,
+  getFootnoteURI,
+  publications,
+  resources,
+  secondsToTimestamp,
+} from "~/utils/data";
 
 function PillTray(props: any) {
   return (
@@ -32,15 +38,11 @@ function PillTray(props: any) {
 }
 
 function HeaderLink(props: any) {
-  const localData = useLocalDataStore();
-
   const term = props.type + "s";
 
   if (props.type === "footnote") {
     const f = props.item;
-    const resource = localData.resources.find(
-      (r) => r.id === props.item["resource.id"],
-    );
+    const resource = resources.find((r) => r.id === props.item["resource.id"]);
     return (
       <div className="flex justify-around">
         <Link
@@ -97,28 +99,33 @@ function FootnoteFooter(props: any) {
 }
 
 function AuthorFooter(props: any) {
-  const localData = useLocalDataStore();
-  const publications = localData.publications.filter((p) =>
+  const filteredPublications = publications.filter((p) =>
     p["author.id"].some((a: any) => a === props.item.id),
   );
-  const footnotes = localData.footnotes.filter((f) =>
-    publications.some((p) => f["publication.id"] === p.id),
+  const filteredFootnotes = footnotes.filter((f) =>
+    filteredPublications.some((p) => f["publication.id"] === p.id),
   );
-  const resources = localData.resources.filter((r) =>
-    footnotes.some((f) => f["resource.id"] === r.id),
+  const filteredResources = resources.filter((r) =>
+    filteredFootnotes.some((f) => f["resource.id"] === r.id),
   );
 
   return (
     <div>
       <PillTray
-        title={publications.length === 1 ? "publication" : "publications"}
-        items={publications.map((x: any) => {
+        title={
+          filteredPublications.length === 1 ? "publication" : "publications"
+        }
+        items={filteredPublications.map((x: any) => {
           return { title: x.title, link: `/publications/${x.id}` };
         })}
       />
       <PillTray
-        title={resources.length === 1 ? "testimoniy" : "testimonies" + " cited"}
-        items={resources.map((x: any) => {
+        title={
+          filteredResources.length === 1
+            ? "testimoniy"
+            : "testimonies" + " cited"
+        }
+        items={filteredResources.map((x: any) => {
           return { title: x.title, link: `/resources/${x.id}` };
         })}
       />
@@ -127,12 +134,11 @@ function AuthorFooter(props: any) {
 }
 
 function ResourceFooter(props: any) {
-  const localData = useLocalDataStore();
-  const footnotes = localData.footnotes
+  const filteredFootnotes = footnotes
     .filter((f) => f["resource.id"] === props.item.id)
     .map((f) => f["publication.id"]);
-  const publications = localData.publications.filter((p) =>
-    footnotes.some((f) => f === p.id),
+  const filteredPublications = publications.filter((p) =>
+    filteredFootnotes.some((f) => f === p.id),
   );
 
   return (
@@ -142,8 +148,10 @@ function ResourceFooter(props: any) {
       </div>
       <div>
         <PillTray
-          title={publications.length === 1 ? "publication" : "publications"}
-          items={publications.map((x: any) => ({
+          title={
+            filteredPublications.length === 1 ? "publication" : "publications"
+          }
+          items={filteredPublications.map((x: any) => ({
             title: x.title,
             link: `/publications/${x.id}`,
           }))}
@@ -154,24 +162,22 @@ function ResourceFooter(props: any) {
 }
 
 function PublicationFooter(props: any) {
-  const localData = useLocalDataStore();
-
   const publication = props.item;
   const authorIDs = props.item["author.id"] || [];
-  const authors = localData.authors.filter((a) =>
+  const filteredAuthors = authors.filter((a) =>
     authorIDs.some((id: string) => id === a.id),
   );
-  const footnotes = localData.footnotes.filter(
+  const filteredFootnotes = footnotes.filter(
     (f) => f["publication.id"] === publication.id,
   );
-  const resources = localData.resources.filter((r) =>
-    footnotes.some((f) => f["resource.id"] === r.id),
+  const filteredResources = resources.filter((r) =>
+    filteredFootnotes.some((f) => f["resource.id"] === r.id),
   );
 
   return (
     <>
       <div>
-        {authors.map((author: any, i: number) => {
+        {filteredAuthors.map((author: any, i: number) => {
           return author.name ? (
             <Link
               key={i}
@@ -195,9 +201,11 @@ function PublicationFooter(props: any) {
       <div>
         <PillTray
           title={
-            resources.length === 1 ? "testimony" : "testimonies" + " cited"
+            filteredResources.length === 1
+              ? "testimony"
+              : "testimonies" + " cited"
           }
-          items={resources.map((x: any) => ({
+          items={filteredResources.map((x: any) => ({
             title: x.title,
             link: `/resources/${x.id}`,
           }))}

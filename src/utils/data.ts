@@ -1,5 +1,45 @@
 // @ts-nocheck
 
+import authorJSON from "../../public/data/author.json" assert { type: "json" };
+import footnoteJSON from "../../public/data/footnote.json" assert { type: "json" };
+import publicationJSON from "../../public/data/publication.json" assert { type: "json" };
+import resourceJSON from "../../public/data/resource.json" assert { type: "json" };
+
+export const authors = Object.entries(authorJSON).map(
+  ([key, value]: [string, any]) => ({
+    ...value,
+    id: key,
+    __header: value.name,
+    __type: "author",
+  }),
+);
+export const footnotes = Object.entries(footnoteJSON).map(
+  ([key, value]: [string, any]) => ({
+    ...value,
+    id: key,
+    __header: { id: value["publication.id"] },
+    __type: "footnote",
+  }),
+);
+
+export const publications = Object.entries(publicationJSON).map(
+  ([key, value]: [string, any]) => ({
+    ...value,
+    id: key,
+    __header: value.title,
+    __type: "publication",
+  }),
+);
+
+export const resources = Object.entries(resourceJSON).map(
+  ([key, value]: [string, any]) => ({
+    ...value,
+    id: key,
+    __header: value.title,
+    __type: "resource",
+  }),
+);
+
 export function getRecordingYear(record: any) {
   // returns only the first recording year
   return (record.recording_dates || [])

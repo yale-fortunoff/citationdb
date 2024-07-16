@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 
 import Histogram from "~/components/Viz/Histogram";
 import { yearCounts } from "~/utils/data";

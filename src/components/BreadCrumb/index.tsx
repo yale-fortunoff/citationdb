@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import SaveButton from "../SaveButton";
 import useLocalDataStore from "~/store/local";
+
+import SaveButton from "../SaveButton";
 
 function SavedItemCounter() {
   const [count, setCount] = useState<number>(0);

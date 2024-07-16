@@ -1,40 +1,59 @@
-"use client";
-
 import BigNumber from "~/components/BigNumber";
 import ResultList from "~/components/ResultList";
 import TopWrapper from "~/components/TopWrapper";
-
 import ResultListWrapper from "~/components/ResultListWrapper";
 import { uniqueArray } from "~/utils/array";
-import useLocalDataStore from "~/store/local";
+import { authors, publications, footnotes, resources } from "~/utils/data";
 
-export default function AuthorsPage(props: { params: { id: string } }) {
-  const localData = useLocalDataStore();
+export async function generateStaticParams() {
+  return authors.map((a) => ({
+    id: a.id,
+  }));
+}
 
-  const authorId = props.params.id;
-
-  const author = localData.authors.find((a) => a.id === authorId);
+export async function generateMetadata({ params }: { params: { id: string } }) {
+  const author = authors.find((a) => a.id === params.id);
 
   if (!author) {
-    return;
+    return {
+      title: "Author Not Found",
+    };
   }
 
-  const publications = localData.publications.filter((p) =>
+  return {
+    title: author.name,
+  };
+}
+
+export default async function AuthorsPage({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const authorId = params.id;
+
+  const author = authors.find((a: any) => a.id === authorId);
+
+  if (!author) {
+    return <div>Author not found</div>;
+  }
+
+  const filteredPublications = publications.filter((p: any) =>
     p["author.id"].some((id: string) => id === authorId),
   );
-  const footnotes = localData.footnotes.filter((f) =>
-    publications.some((p) => p.id === f["publication.id"]),
+  const filteredFootnotes = footnotes.filter((f: any) =>
+    filteredPublications.some((p: any) => p.id === f["publication.id"]),
   );
   const uniqueResources = uniqueArray(
-    localData.resources.filter((r) =>
-      footnotes.some((f) => f["resource.id"] === r.id),
+    resources.filter((r: any) =>
+      filteredFootnotes.some((f: any) => f["resource.id"] === r.id),
     ),
     "id",
   );
 
   return (
     <div className="PublicationPage">
-      <TopWrapper id={authorId} saveType="author">
+      <TopWrapper id={author.id} saveType="author">
         <div className="m-5 md:mx-2.5 md:my-0 md:flex-[2_1]">
           <div>
             <h1 className="font-yalenewroman text-2xl">{author.name}</h1>
@@ -50,8 +69,8 @@ export default function AuthorsPage(props: { params: { id: string } }) {
               <p>
                 This author has made{" "}
                 <span className="font-bold">
-                  {footnotes.length}{" "}
-                  {footnotes.length === 1 ? "citation" : "citations"}
+                  {filteredFootnotes.length}{" "}
+                  {filteredFootnotes.length === 1 ? "citation" : "citations"}
                 </span>{" "}
                 to{" "}
                 <span className="font-bold">
@@ -60,8 +79,10 @@ export default function AuthorsPage(props: { params: { id: string } }) {
                 </span>{" "}
                 in the{" "}
                 <span className="font-bold">
-                  {publications.length}{" "}
-                  {publications.length === 1 ? "publication" : "publications"}
+                  {filteredPublications.length}{" "}
+                  {filteredPublications.length === 1
+                    ? "publication"
+                    : "publications"}
                 </span>{" "}
                 listed below.
               </p>
@@ -72,13 +93,17 @@ export default function AuthorsPage(props: { params: { id: string } }) {
           <div className="flex justify-center md:justify-end">
             <BigNumber
               className="border-[#0d99aa]"
-              label={publications.length === 1 ? "publication" : "publications"}
-              value={publications.length}
+              label={
+                filteredPublications.length === 1
+                  ? "publication"
+                  : "publications"
+              }
+              value={filteredPublications.length}
             />
             <BigNumber
               className="border-[#f48734]"
-              label={footnotes.length === 1 ? "citation" : "citations"}
-              value={footnotes.length}
+              label={filteredFootnotes.length === 1 ? "citation" : "citations"}
+              value={filteredFootnotes.length}
             />
             <BigNumber
               className="border-[#f9be00]"
@@ -88,9 +113,8 @@ export default function AuthorsPage(props: { params: { id: string } }) {
           </div>
         </div>
       </TopWrapper>
-      ,
       <ResultListWrapper>
-        <ResultList items={publications} />
+        <ResultList items={filteredPublications} />
       </ResultListWrapper>
     </div>
   );

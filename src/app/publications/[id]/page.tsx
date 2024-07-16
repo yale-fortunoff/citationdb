@@ -1,34 +1,48 @@
-"use client";
-
 import Link from "next/link";
 
 import BigNumber from "~/components/BigNumber";
 import ResultList from "~/components/ResultList";
 import TopWrapper from "~/components/TopWrapper";
 import ResultListWrapper from "~/components/ResultListWrapper";
-import useLocalDataStore from "~/store/local";
 import { uniqueArray } from "~/utils/array";
+import { publications, authors, footnotes, resources } from "~/utils/data";
+
+export async function generateStaticParams() {
+  return publications.map((p) => ({
+    id: p.id,
+  }));
+}
+
+export async function generateMetadata({ params }: { params: { id: string } }) {
+  const publication = publications.find((p) => p.id === params.id);
+
+  if (!publication) {
+    return {
+      title: "Publication Not Found",
+    };
+  }
+
+  return {
+    title: publication.name,
+  };
+}
 
 export default function PublicationsPage(props: any) {
   const publicationsId = props.params.id;
 
-  const localData = useLocalDataStore();
+  const publication = publications.find((p) => p.id === publicationsId);
 
-  const publication = localData.publications.find(
-    (p) => p.id === publicationsId,
-  );
-
-  const authors = localData.authors.filter((a) =>
+  const filteredAuthors = authors.filter((a) =>
     publication["author.id"].some((aid: string) => aid === a.id),
   );
 
-  const footnotes = localData.footnotes.filter(
+  const filteredFootnotes = footnotes.filter(
     (f) => f["publication.id"] === publicationsId,
   );
 
   const uniqueResources = uniqueArray(
-    localData.resources.filter((r) =>
-      footnotes.some((f) => f["resource.id"] === r.id),
+    resources.filter((r) =>
+      filteredFootnotes.some((f) => f["resource.id"] === r.id),
     ),
     "id",
   );
@@ -39,7 +53,7 @@ export default function PublicationsPage(props: any) {
         <div className="m-5 md:mx-2.5 md:flex-[2_1]">
           <h1 className="font-yalenewroman text-2xl">{publication.title}</h1>
           <div>
-            {authors?.map((author: any, i: number) => (
+            {filteredAuthors?.map((author: any, i: number) => (
               <span key={i}>
                 <Link
                   className="font-bold text-[#222] underline hover:text-[#00356b]"
@@ -74,8 +88,8 @@ export default function PublicationsPage(props: any) {
               </span>{" "}
               in the{" "}
               <span className="font-bold">
-                {footnotes.length}{" "}
-                {footnotes.length === 1 ? "citation" : "citations"}
+                {filteredFootnotes.length}{" "}
+                {filteredFootnotes.length === 1 ? "citation" : "citations"}
               </span>{" "}
               listed below.
             </p>
@@ -86,7 +100,7 @@ export default function PublicationsPage(props: any) {
             <BigNumber
               className="border-[#f48734]"
               label="citations"
-              value={footnotes.length}
+              value={filteredFootnotes.length}
             />
             <BigNumber
               className="border-[#f9be00]"
@@ -97,7 +111,7 @@ export default function PublicationsPage(props: any) {
         </div>
       </TopWrapper>{" "}
       <ResultListWrapper>
-        <ResultList items={footnotes} />
+        <ResultList items={filteredFootnotes} />
       </ResultListWrapper>
     </>
   );
