@@ -6,7 +6,7 @@ import D3Component from "../D3Component";
 
 import "./styles.scss";
 
-export default class extends D3Component {
+export default class TreeMap extends D3Component {
   constructor(props) {
     super(props);
 

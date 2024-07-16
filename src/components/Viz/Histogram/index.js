@@ -3,9 +3,9 @@
 import D3Component from "../D3Component";
 import * as d3 from "d3";
 
-import "./styles.scss";
+import "./styles.css";
 
-export default class extends D3Component {
+export default class Histogram extends D3Component {
   constructor(props) {
     super(props);
 

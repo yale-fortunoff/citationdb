@@ -1,7 +1,6 @@
-import React from "react";
+import { twMerge } from "tailwind-merge";
 
 import Button from "../Button";
-import { twMerge } from "tailwind-merge";
 
 export default function ToggleButton(props: any) {
   return (

@@ -4,7 +4,7 @@ import { OrdinalFrame } from "semiotic";
 
 import preprocess from "../../../utils/preprocess";
 
-export default class extends React.Component {
+export default class DonutChart extends React.Component {
   render() {
     const data = preprocess(this.props.data, this.props.maxItems);
 

@@ -1,0 +1,10 @@
+svg circle.country {
+  fill: white;
+}
+svg circle.city {
+  fill: #f48734;
+  cursor: pointer;
+}
+svg circle.city:hover {
+  fill: #0d99aa;
+}
