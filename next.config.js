@@ -3,16 +3,12 @@
  * for Docker builds.
  */
 await import("./src/env.js");
-import path from "path";
 
 /** @type {import("next").NextConfig} */
 const config = {
   output: "export",
   images: {
     unoptimized: true,
-  },
-  sassOptions: {
-    includePaths: [path.join(__dirname, "styles")],
   },
 };
 
