@@ -41,3 +41,9 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# data files
+**/author.json
+**/footnote.json
+**/publication.json
+**/resource.json
