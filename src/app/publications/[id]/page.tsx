@@ -13,8 +13,13 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }) {
-  const publication = publications.find((p) => p.id === params.id);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const publication = publications.find((p) => p.id === id);
 
   if (!publication) {
     return {
@@ -27,8 +32,12 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
   };
 }
 
-export default function PublicationsPage(props: any) {
-  const publicationsId = props.params.id;
+export default async function PublicationsPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id: publicationsId } = await params;
 
   const publication = publications.find((p) => p.id === publicationsId);
 

@@ -14,8 +14,13 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }) {
-  const resource = resources.find((r) => r.id === params.id);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const resource = resources.find((r) => r.id === id);
 
   if (!resource) {
     return {
@@ -28,8 +33,12 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
   };
 }
 
-export default function ResourcesPage(props: any) {
-  const resourcesId = props.params.id;
+export default async function ResourcesPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id: resourcesId } = await params;
 
   const resource = resources.find((r) => r.id === resourcesId);
 

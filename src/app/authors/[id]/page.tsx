@@ -11,8 +11,13 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }) {
-  const author = authors.find((a) => a.id === params.id);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const author = authors.find((a) => a.id === id);
 
   if (!author) {
     return {
@@ -28,9 +33,9 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
 export default async function AuthorsPage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
-  const authorId = params.id;
+  const { id: authorId } = await params;
 
   const author = authors.find((a: any) => a.id === authorId);
 
