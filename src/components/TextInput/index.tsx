@@ -1,4 +1,5 @@
 import { twMerge } from "tailwind-merge";
+import { assetPath } from "~/utils/paths.ts";
 
 export default function TextInput(props: any /* TODO */) {
   return (
@@ -16,7 +17,7 @@ export default function TextInput(props: any /* TODO */) {
         type="text"
       />
       <div className="pointer-events-none absolute right-0 flex h-full items-center justify-center px-2">
-        <img src="/graphics/search-icon.svg" />
+        <img src={assetPath("/graphics/search-icon.svg")} />
       </div>
     </div>
   );
