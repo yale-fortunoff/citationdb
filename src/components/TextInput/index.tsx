@@ -1,5 +1,5 @@
 import { twMerge } from "tailwind-merge";
-import { assetPath } from "~/utils/paths.ts";
+import { assetPath } from "~/utils/paths";
 
 export default function TextInput(props: any /* TODO */) {
   return (
