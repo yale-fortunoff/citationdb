@@ -20,6 +20,13 @@ export default class Histogram extends D3Component {
     this.xAxisG = svg.append("g").classed("axis", true).classed("x", true);
     this.yAxisG = svg.append("g").classed("axis", true).classed("y", true);
     this.barG = svg.append("g");
+    this.noDataText = svg.append("text")
+      .classed("no-data-text", true)
+      .attr("text-anchor", "middle")
+      .style("font-size", "20px")
+      .style("fill", "#999")
+      .style("opacity", 0)
+      .text("No Data");
   }
 
   updateChart(data) {
@@ -28,8 +35,8 @@ export default class Histogram extends D3Component {
 
     // get width and height
     const width = svg.node()?.getBoundingClientRect()?.width ?? 0;
-    const height =
-      this.props.height || svg.node().getBoundingClientRect().height;
+    const height = this.props.height ||
+      svg.node().getBoundingClientRect().height;
 
     const yearRange = [this.props.minYear, this.props.maxYear];
     const countRange = [0, d3.max(data?.map((x) => x.count)) ?? 1];
@@ -98,7 +105,7 @@ export default class Histogram extends D3Component {
                 .transition(null)
                 .attr("y", (d) => yScale(d.count || 0))
                 .attr("height", (d) => yScale(0) - yScale(d.count || 0))
-                .attr("width", xScale.bandwidth),
+                .attr("width", xScale.bandwidth)
             ),
         (update) =>
           update
@@ -110,7 +117,7 @@ export default class Histogram extends D3Component {
               update
                 .transition(t(1000))
                 .attr("y", (d) => yScale(d.count || 0))
-                .attr("height", (d) => yScale(0) - yScale(d.count || 0)),
+                .attr("height", (d) => yScale(0) - yScale(d.count || 0))
             ),
         (exit) =>
           exit
@@ -120,9 +127,16 @@ export default class Histogram extends D3Component {
               exit
                 .transition(t(100))
                 .attr("height", 0)
-                .attr("y", () => yScale(0)),
+                .attr("y", () => yScale(0))
             ),
       );
+
+    // show/hide "No Data" text based on whether data is present
+    const hasData = data && data.length > 0;
+    this.noDataText
+      .attr("x", width / 2)
+      .attr("y", (height - margin.bottom + margin.top) / 2)
+      .style("opacity", hasData ? 0 : 1);
 
     d3.select(window).on("resize.histogram", this.redrawChart.bind(this));
   }

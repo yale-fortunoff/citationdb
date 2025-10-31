@@ -8,10 +8,6 @@ export default function PublicationsHistogram(props: any) {
     props.items.filter((item: any) => item.__type === "publication"),
   ) as any[];
 
-  if (publicationData.length < 1) {
-    return;
-  }
-
   return (
     <div className="relative flex h-full max-h-[150px] w-full flex-col">
       <Histogram
