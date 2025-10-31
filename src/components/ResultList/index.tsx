@@ -11,6 +11,10 @@ export default function ResultsList(props: any) {
   });
 
   useEffect(() => {
+    setOptions((prev) => ({ ...prev, itemCount: 25 }));
+  }, [props.items]);
+
+  useEffect(() => {
     const trackScrolling = () => {
       const scrollBottom = window.scrollY + window.innerHeight;
       const distanceFromBottom =
