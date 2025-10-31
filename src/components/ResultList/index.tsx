@@ -23,7 +23,7 @@ export default function ResultsList(props: any) {
     return () => {
       document.removeEventListener("scroll", trackScrolling);
     };
-  }, []);
+  }, [options.itemCount, props.items.length]);
 
   const loadMore = () => {
     const itemCount = options.itemCount + options.step;
