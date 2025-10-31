@@ -5,8 +5,8 @@ import SiteBanner from "~/components/SiteBanner";
 import "~/styles/globals.scss";
 
 export const metadata = {
-  title: "Metadash - Fortunoff Video Archive for Holocaust Testimonies",
-  description: "Metadash - Fortunoff Video Archive for Holocaust Testimonies",
+  title: "CitationDB - Fortunoff Video Archive for Holocaust Testimonies",
+  description: "A database for video testimony citations",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
