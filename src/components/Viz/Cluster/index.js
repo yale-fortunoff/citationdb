@@ -17,7 +17,7 @@ export default class extends D3Component {
   initializeChart() {
     const svg = d3.select(this.svg).html("");
     const height =
-      this.props.height || svg.node().getBoundingClientRect().height;
+      this.props.height ?? svg.node().getBoundingClientRect().height;
     svg.attr("height", height + "px");
   }
 
@@ -31,7 +31,7 @@ export default class extends D3Component {
     const width = svg.node().getBoundingClientRect().width,
       height = Math.min(
         width,
-        this.props.height || svg.node().getBoundingClientRect().height,
+        this.props.height ?? svg.node().getBoundingClientRect().height,
       );
 
     svg.attr("height", height + "px");
@@ -52,7 +52,7 @@ export default class extends D3Component {
       return true;
     }
 
-    if (allItemsMatch((prevProps || { items: [] }).items, this.props.items)) {
+    if (allItemsMatch((prevProps ?? { items: [] }).items, this.props.items)) {
       return;
     }
 
@@ -63,7 +63,7 @@ export default class extends D3Component {
 
     var packLayout = d3.pack().padding(0.725).size([width, height]);
 
-    root.sum((d) => Number(d.count ? d.count : 0));
+    root.sum((d) => Number(d.count ?? 0));
 
     const data = root
       .descendants()
@@ -75,9 +75,9 @@ export default class extends D3Component {
 
     this.allowInteraction = data.length;
 
-    const r = (d) => d.r || 0;
-    const x = (d) => d.x || 0;
-    const y = (d) => d.y || 0;
+    const r = (d) => d.r ?? 0;
+    const x = (d) => d.x ?? 0;
+    const y = (d) => d.y ?? 0;
 
     svg
       .selectAll("circle.city")

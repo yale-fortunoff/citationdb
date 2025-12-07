@@ -60,7 +60,7 @@ export default function BreadCrumb(props: any) {
   };
 
   const id = props.id;
-  const saveType = props.saveType || "invalid";
+  const saveType = props.saveType ?? "invalid";
 
   return (
     <nav className="flex min-h-8 justify-between text-sm text-[#6e6e6e]">

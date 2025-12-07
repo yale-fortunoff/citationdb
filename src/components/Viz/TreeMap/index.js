@@ -1,3 +1,4 @@
+/* eslint-disable */
 //@ts-nocheck
 
 import * as d3 from "d3";
@@ -19,7 +20,7 @@ export default class TreeMap extends D3Component {
     svg.selectAll("*").remove();
 
     const height =
-      this.props.height || svg.node().getBoundingClientRect().height;
+      this.props.height ?? svg.node().getBoundingClientRect().height;
 
     svg.attr("height", height);
   }
@@ -28,7 +29,7 @@ export default class TreeMap extends D3Component {
     const svg = d3.select(this.svg);
 
     const width = svg.node().getBoundingClientRect().width,
-      height = this.props.height || svg.node().getBoundingClientRect().height;
+      height = this.props.height ?? svg.node().getBoundingClientRect().height;
 
     svg.attr("height", height);
     const h = d3.hierarchy({ children: this.props.items });

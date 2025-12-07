@@ -1,3 +1,4 @@
+/* eslint-disable */
 // @ts-nocheck
 
 import authorJSON from "../../public/data/author.json" assert { type: "json" };

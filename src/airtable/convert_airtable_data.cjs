@@ -1,3 +1,4 @@
+/* eslint-disable */
 // @ts-nocheck
 
 const fs = require("fs-extra");

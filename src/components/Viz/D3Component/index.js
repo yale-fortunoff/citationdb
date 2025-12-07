@@ -15,7 +15,7 @@ export default class D3Component extends PureComponent {
 
     this.state = {
       currentWidth: -1,
-      margin: props.margin || {
+      margin: props.margin ?? {
         top: 0,
         left: 0,
         right: 0,
@@ -23,7 +23,7 @@ export default class D3Component extends PureComponent {
       },
     };
 
-    this.margin = props.margin || {
+    this.margin = props.margin ?? {
       top: 0,
       left: 0,
       right: 0,

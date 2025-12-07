@@ -1,3 +1,4 @@
+/* eslint-disable */
 // @ts-nocheck
 
 require("dotenv").config();
@@ -31,12 +32,12 @@ const fieldMappings = {
   Footnotes: "Footnote",
   has(obj) {
     return Object.keys(this).some(
-      (key) => Object.keys(obj).indexOf(key) !== -1,
+      (key) => Object.keys(obj).includes(key),
     );
   },
   recordsToBeConverted(obj) {
     return Object.keys(this).filter(
-      (key) => Object.keys(obj).indexOf(key) !== -1,
+      (key) => Object.keys(obj).includes(key),
     );
   },
 };

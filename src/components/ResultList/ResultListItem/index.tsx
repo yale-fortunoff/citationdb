@@ -163,7 +163,7 @@ function ResourceFooter(props: any) {
 
 function PublicationFooter(props: any) {
   const publication = props.item;
-  const authorIDs = props.item["author.id"] || [];
+  const authorIDs = props.item["author.id"] ?? [];
   const filteredAuthors = authors.filter((a) =>
     authorIDs.some((id: string) => id === a.id),
   );

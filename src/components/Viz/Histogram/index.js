@@ -35,7 +35,7 @@ export default class Histogram extends D3Component {
 
     // get width and height
     const width = svg.node()?.getBoundingClientRect()?.width ?? 0;
-    const height = this.props.height ||
+    const height = this.props.height ??
       svg.node().getBoundingClientRect().height;
 
     const yearRange = [this.props.minYear, this.props.maxYear];
@@ -103,8 +103,8 @@ export default class Histogram extends D3Component {
             .call((enter) =>
               enter
                 .transition(null)
-                .attr("y", (d) => yScale(d.count || 0))
-                .attr("height", (d) => yScale(0) - yScale(d.count || 0))
+                .attr("y", (d) => yScale(d.count ?? 0))
+                .attr("height", (d) => yScale(0) - yScale(d.count ?? 0))
                 .attr("width", xScale.bandwidth)
             ),
         (update) =>
@@ -116,8 +116,8 @@ export default class Histogram extends D3Component {
             .call((update) =>
               update
                 .transition(t(1000))
-                .attr("y", (d) => yScale(d.count || 0))
-                .attr("height", (d) => yScale(0) - yScale(d.count || 0))
+                .attr("y", (d) => yScale(d.count ?? 0))
+                .attr("height", (d) => yScale(0) - yScale(d.count ?? 0))
             ),
         (exit) =>
           exit

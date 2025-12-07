@@ -21,5 +21,5 @@ export default function (obj, maxItems, valueField) {
       var k = arr[i];
       return { ...obj[k] };
     })
-    .slice(0, maxItems || 5);
+    .slice(0, maxItems ?? 5);
 }
