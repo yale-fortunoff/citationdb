@@ -18,7 +18,8 @@ export async function generateMetadata({
 }: {
   params: Promise<{ id: string }>;
 }) {
-  const { id } = await params;
+  const { id: rawId } = await params;
+  const id = rawId.normalize("NFC");
   const publication = publications.find((p) => p.id === id);
 
   if (!publication) {
@@ -37,9 +38,15 @@ export default async function PublicationsPage({
 }: {
   params: Promise<{ id: string }>;
 }) {
-  const { id: publicationsId } = await params;
+  const { id: rawId } = await params;
+  const publicationsId = rawId.normalize("NFC");
 
   const publication = publications.find((p) => p.id === publicationsId);
+
+  if (!publication) {
+    const { notFound } = await import("next/navigation");
+    notFound();
+  }
 
   const filteredAuthors = authors.filter((a) =>
     publication["author.id"].some((aid: string) => aid === a.id),
